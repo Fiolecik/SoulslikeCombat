@@ -4053,3 +4053,493 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2026.01.15-15.42.08:881][410]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.07% of total time (compiled  118 times, average 6.66 sec, max 30.82 sec, min 2.46 sec)
 [2026.01.15-15.42.08:881][410]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.00% of total time (compiled  116 times, average 6.68 sec, max 38.13 sec, min 1.72 sec)
 [2026.01.15-15.42.08:881][410]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.42.40:960][ 72]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 87.836s, TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=17.920s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=11.584s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=11.296s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=9.513s], TBasePassVSFNoLightMapPolicy [WorkerTime=8.022s], FHitProxyVS [WorkerTime=7.801s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=4.516s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=3.835s], TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight [WorkerTime=3.077s], DepthNoColorOutputPipeline
+[2026.01.15-15.43.08:619][719]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 89.972s, TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight [WorkerTime=12.689s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=12.663s], TBasePassVSFNoLightMapPolicy [WorkerTime=11.824s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=10.789s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=9.915s], TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight [WorkerTime=9.446s], TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=7.539s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=5.716s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=4.652s], TBasePassVSFNoLightMapPolicy [WorkerTime=4.255s]
+[2026.01.15-15.43.24:684][110]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 75.809s, TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=14.307s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=12.855s], TBasePassVSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=9.778s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=8.123s], TBasePassPSFCachedVolumeIndirectLightingPolicy [WorkerTime=6.806s], FDebugViewModePS [WorkerTime=6.004s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_Standard> [WorkerTime=5.102s], TBasePassVSFSelfShadowedTranslucencyPolicy [WorkerTime=4.615s], TBasePassPSFSelfShadowedTranslucencyPolicy [WorkerTime=4.251s], FDistortionMeshVS [WorkerTime=3.624s]
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: Total job queries 2997, among them cache hits 0 (0.00%)
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: Tracking 2375 distinct input hashes that result in 1302 distinct outputs (54.82%)
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: RAM used: 3.36 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.41%
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: Shaders Compiled: 2997
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: Jobs assigned 2405, completed 2375 (98.75%)
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: Average time worker was idle: 2.93 s
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: Time job spent in pending queue: average 2665.24 s, longest 5269.61 s
+[2026.01.15-15.45.15:353][445]LogShaderCompilers: Display: Job execution time: average 68.74 s, max 208.76 s
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display: Job life time (pending + execution): average 2701.26 s, max 5269.61
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5470.68 s
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display: Jobs were issued in 246 batches (only local compilation was used), average 9.78 jobs/batch
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display: Average processing rate: 0.43 jobs/sec
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display: Effective parallelization: 2.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 14.42 sec, max 40.74 sec, min 3.78 sec)
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    6 times, average 12.75 sec, max 36.24 sec, min 3.94 sec)
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    6 times, average 10.31 sec, max 16.41 sec, min 4.06 sec)
+[2026.01.15-15.45.15:355][445]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled   54 times, average 9.72 sec, max 29.87 sec, min 3.13 sec)
+[2026.01.15-15.45.15:356][445]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled   14 times, average 9.69 sec, max 30.49 sec, min 2.76 sec)
+[2026.01.15-15.45.15:356][445]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.01.15-15.45.15:356][445]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.44% of total time (compiled  128 times, average 9.34 sec, max 66.06 sec, min 2.68 sec)
+[2026.01.15-15.45.15:356][445]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.53% of total time (compiled  122 times, average 8.60 sec, max 46.05 sec, min 2.14 sec)
+[2026.01.15-15.45.15:356][445]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.61% of total time (compiled  121 times, average 7.45 sec, max 73.67 sec, min 2.73 sec)
+[2026.01.15-15.45.15:356][445]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.99% of total time (compiled  122 times, average 6.57 sec, max 30.82 sec, min 2.46 sec)
+[2026.01.15-15.45.15:356][445]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.94% of total time (compiled  121 times, average 6.56 sec, max 38.13 sec, min 1.72 sec)
+[2026.01.15-15.45.15:356][445]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.48.53:665][419]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 100.242s, TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=21.514s], TLightMapDensityPSFNoLightMapPolicy [WorkerTime=11.520s], TShadowDepthVSVertexShadowDepth_OnePassPointLight [WorkerTime=11.394s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=10.421s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=9.565s], TBasePassPSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=7.739s], TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect [WorkerTime=5.705s], FDebugViewModeVS [WorkerTime=4.164s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_Standard> [WorkerTime=2.026s], DepthNoColorOutputPipeline
+[2026.01.15-15.48.53:687][419]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Total job queries 2997, among them cache hits 0 (0.00%)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Tracking 2475 distinct input hashes that result in 1369 distinct outputs (55.31%)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: RAM used: 3.51 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.43%
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Shaders Compiled: 2997
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Jobs assigned 2505, completed 2475 (98.80%)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Average time worker was idle: 2.82 s
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Time job spent in pending queue: average 2772.97 s, longest 5488.57 s
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Job execution time: average 68.06 s, max 208.76 s
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Job life time (pending + execution): average 2808.83 s, max 5488.57
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5689.65 s
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Jobs were issued in 256 batches (only local compilation was used), average 9.79 jobs/batch
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Average processing rate: 0.44 jobs/sec
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Effective parallelization: 2.90 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 14.42 sec, max 40.74 sec, min 3.78 sec)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    6 times, average 12.75 sec, max 36.24 sec, min 3.94 sec)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    6 times, average 10.31 sec, max 16.41 sec, min 4.06 sec)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled   55 times, average 9.69 sec, max 29.87 sec, min 3.13 sec)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 9.35 sec, max 16.46 sec, min 4.09 sec)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.23% of total time (compiled  128 times, average 9.34 sec, max 66.06 sec, min 2.68 sec)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.48% of total time (compiled  125 times, average 8.57 sec, max 46.05 sec, min 2.14 sec)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.62% of total time (compiled  125 times, average 7.43 sec, max 73.67 sec, min 2.73 sec)
+[2026.01.15-15.48.53:688][419]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.95% of total time (compiled  127 times, average 6.44 sec, max 38.13 sec, min 1.72 sec)
+[2026.01.15-15.48.53:690][419]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.93% of total time (compiled  125 times, average 6.52 sec, max 30.82 sec, min 2.46 sec)
+[2026.01.15-15.48.53:690][419]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.49.00:420][581]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 100.091s, TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=23.880s], TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=12.311s], TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=12.210s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=10.045s], TBasePassPSFCachedVolumeIndirectLightingPolicy [WorkerTime=9.250s], TBasePassVSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=8.416s], FLumenCardVS [WorkerTime=7.688s], TShadowDepthPSPixelShadowDepth_PerspectiveCorrect [WorkerTime=6.025s], FHitProxyPS [WorkerTime=5.557s], FLumenCardVS [WorkerTime=4.020s]
+[2026.01.15-15.49.26:904][241]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 100.095s, TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=32.050s], TBasePassVSFNoLightMapPolicy [WorkerTime=14.597s], FDebugViewModeVS [WorkerTime=9.283s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_Standard> [WorkerTime=9.260s], TBasePassPSFNoLightMapPolicy [WorkerTime=8.240s], TLightMapDensityVSFNoLightMapPolicy [WorkerTime=6.291s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=5.793s], FHitProxyVS [WorkerTime=5.411s], FLumenCardPS<false> [WorkerTime=4.588s], FLumenCardPS<false> [WorkerTime=4.182s]
+[2026.01.15-15.52.22:361][184]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 68.206s, TTranslucencyShadowDepthVS<TranslucencyShadowDepth_Standard> [WorkerTime=15.143s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=8.699s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=6.924s], TBasePassPSFNoLightMapPolicy [WorkerTime=6.555s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=6.072s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=5.588s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=5.560s], FDebugViewModeVS [WorkerTime=4.696s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=4.631s], TBasePassVSFNoLightMapPolicy [WorkerTime=3.962s]
+[2026.01.15-15.52.22:411][184]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.52.22:411][184]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-15.52.22:411][184]LogShaderCompilers: Display: Total job queries 2997, among them cache hits 0 (0.00%)
+[2026.01.15-15.52.22:411][184]LogShaderCompilers: Display: Tracking 2605 distinct input hashes that result in 1410 distinct outputs (54.13%)
+[2026.01.15-15.52.22:411][184]LogShaderCompilers: Display: RAM used: 3.60 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.44%
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Shaders Compiled: 2997
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Jobs assigned 2635, completed 2605 (98.86%)
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Average time worker was idle: 2.68 s
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Time job spent in pending queue: average 2911.78 s, longest 5696.60 s
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Job execution time: average 67.32 s, max 208.76 s
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Job life time (pending + execution): average 2947.43 s, max 5696.60
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5898.36 s
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Jobs were issued in 269 batches (only local compilation was used), average 9.80 jobs/batch
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Average processing rate: 0.44 jobs/sec
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Effective parallelization: 2.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 14.42 sec, max 40.74 sec, min 3.78 sec)
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    6 times, average 12.75 sec, max 36.24 sec, min 3.94 sec)
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    6 times, average 10.31 sec, max 16.41 sec, min 4.06 sec)
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled   57 times, average 10.01 sec, max 32.05 sec, min 3.13 sec)
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 9.35 sec, max 16.46 sec, min 4.09 sec)
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.15% of total time (compiled  133 times, average 9.25 sec, max 66.06 sec, min 2.68 sec)
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.59% of total time (compiled  134 times, average 8.46 sec, max 46.05 sec, min 2.14 sec)
+[2026.01.15-15.52.22:412][184]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.54% of total time (compiled  130 times, average 7.33 sec, max 73.67 sec, min 2.73 sec)
+[2026.01.15-15.52.22:413][184]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.93% of total time (compiled  133 times, average 6.37 sec, max 38.13 sec, min 1.72 sec)
+[2026.01.15-15.52.22:413][184]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.92% of total time (compiled  132 times, average 6.42 sec, max 30.82 sec, min 2.46 sec)
+[2026.01.15-15.52.22:413][184]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Total job queries 2997, among them cache hits 0 (0.00%)
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Tracking 2735 distinct input hashes that result in 1415 distinct outputs (51.74%)
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: RAM used: 3.61 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.44%
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Shaders Compiled: 2997
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Jobs assigned 2765, completed 2735 (98.92%)
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Average time worker was idle: 2.55 s
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Time job spent in pending queue: average 3046.82 s, longest 5878.81 s
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Job execution time: average 66.22 s, max 208.76 s
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Job life time (pending + execution): average 3082.25 s, max 5878.81
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6080.58 s
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Jobs were issued in 282 batches (only local compilation was used), average 9.80 jobs/batch
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Average processing rate: 0.45 jobs/sec
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Effective parallelization: 2.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2026.01.15-15.55.24:635][608]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 14.42 sec, max 40.74 sec, min 3.78 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    6 times, average 12.75 sec, max 36.24 sec, min 3.94 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    6 times, average 10.31 sec, max 16.41 sec, min 4.06 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled   60 times, average 9.75 sec, max 32.05 sec, min 3.13 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 9.35 sec, max 16.46 sec, min 4.09 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.12% of total time (compiled  139 times, average 9.11 sec, max 66.06 sec, min 2.68 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.53% of total time (compiled  139 times, average 8.36 sec, max 46.05 sec, min 2.14 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.53% of total time (compiled  136 times, average 7.23 sec, max 73.67 sec, min 2.73 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.00% of total time (compiled  140 times, average 6.36 sec, max 30.82 sec, min 2.46 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.90% of total time (compiled  139 times, average 6.27 sec, max 38.13 sec, min 1.72 sec)
+[2026.01.15-15.55.24:637][608]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.58.51:723][182]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 76.764s, TBasePassVSFSelfShadowedTranslucencyPolicy [WorkerTime=17.926s], TBasePassVSFNoLightMapPolicy [WorkerTime=10.194s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=7.700s], TBasePassPSFSelfShadowedTranslucencyPolicy [WorkerTime=6.917s], TBasePassVSFNoLightMapPolicy [WorkerTime=6.794s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=6.785s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=6.653s], TBasePassPSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=5.429s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=5.067s], FLumenCardPS<false> [WorkerTime=2.872s]
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Total job queries 2997, among them cache hits 0 (0.00%)
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Tracking 2865 distinct input hashes that result in 1437 distinct outputs (50.16%)
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: RAM used: 3.65 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.45%
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Shaders Compiled: 2997
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Jobs assigned 2895, completed 2865 (98.96%)
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Average time worker was idle: 2.44 s
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Time job spent in pending queue: average 3178.24 s, longest 6085.94 s
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Job execution time: average 65.30 s, max 208.76 s
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Job life time (pending + execution): average 3213.42 s, max 6085.94
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6287.70 s
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Jobs were issued in 295 batches (only local compilation was used), average 9.81 jobs/batch
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Effective parallelization: 2.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 14.42 sec, max 40.74 sec, min 3.78 sec)
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    6 times, average 12.75 sec, max 36.24 sec, min 3.94 sec)
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    6 times, average 10.31 sec, max 16.41 sec, min 4.06 sec)
+[2026.01.15-15.58.51:749][182]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled   64 times, average 9.53 sec, max 32.05 sec, min 3.13 sec)
+[2026.01.15-15.58.51:750][182]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 9.35 sec, max 16.46 sec, min 4.09 sec)
+[2026.01.15-15.58.51:750][182]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.01.15-15.58.51:750][182]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.11% of total time (compiled  146 times, average 8.95 sec, max 66.06 sec, min 2.68 sec)
+[2026.01.15-15.58.51:750][182]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.67% of total time (compiled  148 times, average 8.28 sec, max 46.05 sec, min 2.14 sec)
+[2026.01.15-15.58.51:750][182]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.59% of total time (compiled  145 times, average 7.09 sec, max 73.67 sec, min 2.61 sec)
+[2026.01.15-15.58.51:750][182]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.98% of total time (compiled  146 times, average 6.27 sec, max 30.82 sec, min 2.46 sec)
+[2026.01.15-15.58.51:750][182]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.87% of total time (compiled  146 times, average 6.13 sec, max 38.13 sec, min 1.72 sec)
+[2026.01.15-15.58.51:750][182]LogShaderCompilers: Display: ================================================
+[2026.01.15-15.58.59:847][274]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 61.451s, TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=18.094s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=10.018s], TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight [WorkerTime=8.785s], FDebugViewModePS [WorkerTime=8.228s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=3.942s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=3.849s], FDebugViewModeVS [WorkerTime=3.016s], FLumenCardVS [WorkerTime=2.315s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=1.473s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_Standard> [WorkerTime=1.388s]
+[2026.01.15-15.59.18:880][360]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 64.321s, TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight [WorkerTime=14.046s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=8.655s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=8.223s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=7.028s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=6.604s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=5.185s], TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=4.338s], TBasePassVSFSelfShadowedTranslucencyPolicy [WorkerTime=3.958s], FLumenCardPS<false> [WorkerTime=3.287s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_Standard> [WorkerTime=2.375s]
+[2026.01.15-16.01.14:592][457]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 74.324s, TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=15.412s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=11.989s], TBasePassVSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=8.988s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=7.183s], FDebugViewModePS [WorkerTime=6.683s], TBasePassVSFCachedPointIndirectLightingPolicy [WorkerTime=5.692s], TBasePassPSFCachedPointIndirectLightingPolicySkylight [WorkerTime=5.526s], FLumenCardVS [WorkerTime=4.629s], TBasePassVSFCachedVolumeIndirectLightingPolicy [WorkerTime=4.346s], TBasePassVSFNoLightMapPolicy [WorkerTime=3.017s]
+[2026.01.15-16.01.46:075][610]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.323 seconds, threshold is 0.300 s), will parallelize next time.
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 107.308s, FDebugViewModeVS [WorkerTime=22.482s], TBasePassVSFNoLightMapPolicy [WorkerTime=18.306s], TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight [WorkerTime=14.307s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=13.773s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=13.620s], TBasePassVSFSelfShadowedTranslucencyPolicy [WorkerTime=6.418s], TBasePassPSFNoLightMapPolicy [WorkerTime=5.958s], TBasePassPSFNoLightMapPolicy [WorkerTime=4.175s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_Standard> [WorkerTime=2.874s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_Standard> [WorkerTime=2.609s]
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: ================================================
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: Total job queries 2997, among them cache hits 0 (0.00%)
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: Tracking 2965 distinct input hashes that result in 1474 distinct outputs (49.71%)
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: RAM used: 3.76 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.46%
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: Shaders Compiled: 2997
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: Jobs assigned 2988, completed 2965 (99.23%)
+[2026.01.15-16.02.24:288][873]LogShaderCompilers: Display: Average time worker was idle: 2.36 s
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Time job spent in pending queue: average 3271.12 s, longest 6298.49 s
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Job execution time: average 65.02 s, max 208.76 s
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Job life time (pending + execution): average 3313.14 s, max 6298.49
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6500.25 s
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Jobs were issued in 305 batches (only local compilation was used), average 9.80 jobs/batch
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Average processing rate: 0.46 jobs/sec
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Effective parallelization: 2.91 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 14.42 sec, max 40.74 sec, min 3.78 sec)
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    6 times, average 12.75 sec, max 36.24 sec, min 3.94 sec)
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    6 times, average 10.31 sec, max 16.41 sec, min 4.06 sec)
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display:          TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    6 times, average 9.35 sec, max 16.46 sec, min 4.09 sec)
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled   67 times, average 9.29 sec, max 32.05 sec, min 3.13 sec)
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.01.15-16.02.24:289][873]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.06% of total time (compiled  151 times, average 8.85 sec, max 66.06 sec, min 2.68 sec)
+[2026.01.15-16.02.24:290][873]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.64% of total time (compiled  152 times, average 8.27 sec, max 46.05 sec, min 2.14 sec)
+[2026.01.15-16.02.24:290][873]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.65% of total time (compiled  151 times, average 7.09 sec, max 73.67 sec, min 2.61 sec)
+[2026.01.15-16.02.24:290][873]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.97% of total time (compiled  151 times, average 6.24 sec, max 30.82 sec, min 2.46 sec)
+[2026.01.15-16.02.24:290][873]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.95% of total time (compiled  153 times, average 6.13 sec, max 38.13 sec, min 1.72 sec)
+[2026.01.15-16.02.24:290][873]LogShaderCompilers: Display: ================================================
+[2026.01.15-16.03.09:311][551]LogShaderCompilers: Display: Worker (2/3) finished batch of 8 jobs in 114.686s, TBasePassVSFNoLightMapPolicy [WorkerTime=22.733s], TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=19.090s], TBasePassPSFNoLightMapPolicy [WorkerTime=18.961s], FDebugViewModePS [WorkerTime=16.731s], FLumenCardVS [WorkerTime=13.566s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_Standard> [WorkerTime=8.748s], FLumenCardPS<false> [WorkerTime=8.448s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_Standard> [WorkerTime=5.806s]
+[2026.01.15-16.03.26:259][844]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 149.861s, TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=25.376s], TBasePassPSFNoLightMapPolicySkylight [WorkerTime=21.708s], TBasePassPSFCachedPointIndirectLightingPolicy [WorkerTime=21.436s], FLumenCardVS [WorkerTime=19.144s], TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=18.023s], TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=17.378s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=9.275s], FLumenCardPS<false> [WorkerTime=8.618s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_Standard> [WorkerTime=5.111s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=3.468s]
+[2026.01.15-16.03.30:701][925]LogShaderCompilers: Display: Worker (3/3) finished batch of 5 jobs in 66.401s, TBasePassPSFSelfShadowedVolumetricLightmapPolicy [WorkerTime=25.018s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=16.237s], TBasePassPSFNoLightMapPolicy [WorkerTime=14.659s], FLumenCardVS [WorkerTime=5.442s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=3.873s]
+[2026.01.15-16.10.14:596][534]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2026.01.15-16.10.14:652][534]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-16.10.14:652][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-16.14.42:020][589]LogDerivedDataCache: C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.597 and deleted 0 file(s) with total size 0 MiB.
+[2026.01.15-16.21.18:997][996]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2026.01.15-16.21.19:023][996]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2026.01.15-16.21.19:061][997]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2026.01.15-16.21.28:749][406]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_CharacterState
+[2026.01.15-16.21.28:754][406]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2026.01.15-16.21.29:876][453]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_CharacterState.E_CharacterState
+[2026.01.15-16.26.27:451][296]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_CharacterState
+[2026.01.15-16.26.27:451][296]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/E_CharacterStateA5C0ED514FF9EC9C7FF9B481FEF4E298.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Enums/E_CharacterState.uasset'
+[2026.01.15-16.26.27:510][296]AssetCheck: New page: Asset Save: E_CharacterState
+[2026.01.15-16.26.27:510][296]LogContentValidation: Display: Validating UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_CharacterState.E_CharacterState
+[2026.01.15-16.26.28:310][328]LogSlate: Window 'E_CharacterState' being destroyed
+[2026.01.15-16.26.36:739][673]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.15-16.26.37:998][673]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.01.15-16.26.38:021][673]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.01.15-16.26.38:038][673]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.01.15-16.26.38:063][674]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.01.15-16.26.48:255][198]LogContentBrowser: Attempting asset rename: NewBlueprint -> StateManagerComponent
+[2026.01.15-16.26.48:275][198]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.01.15-16.26.49:252][248]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/StateManagerComponent.StateManagerComponent
+[2026.01.15-16.26.49:253][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-16.27.49:376][260]BlueprintLog: New page: Compile StateManagerComponent
+[2026.01.15-16.27.49:516][260]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2026.01.15-16.29.03:817][953]BlueprintLog: New page: Compile StateManagerComponent
+[2026.01.15-16.29.03:950][953]LogUObjectHash: Compacting FUObjectHashTables data took   6.33ms
+[2026.01.15-16.29.05:884][  9]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StateManagerComponent
+[2026.01.15-16.29.05:884][  9]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StateManagerComponent41108D4D4950E89FCAE987B8719809E2.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StateManagerComponent.uasset'
+[2026.01.15-16.29.05:989][  9]AssetCheck: New page: Asset Save: StateManagerComponent
+[2026.01.15-16.29.05:990][  9]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StateManagerComponent.StateManagerComponent
+[2026.01.15-16.30.07:203][961]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2026.01.15-16.30.07:215][961]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.125
+[2026.01.15-16.30.07:218][961]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Components/StateManagerComponent] ([2] browsable assets)...
+[2026.01.15-16.30.07:218][961]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Components/StateManagerComponent]
+[2026.01.15-16.30.07:251][961]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Components/StateManagerComponent_Auto5
+[2026.01.15-16.30.07:251][961]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StateManagerComponent_Auto5045003D64E44ECF828EF2C840A9FF3B0.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/Components/StateManagerComponent_Auto5.uasset'
+[2026.01.15-16.30.07:277][961]LogFileHelpers: Auto-saving content packages took 0.059
+[2026.01.15-16.38.03:036][689]BlueprintLog: New page: Compile StateManagerComponent
+[2026.01.15-16.38.03:185][689]LogUObjectHash: Compacting FUObjectHashTables data took   7.37ms
+[2026.01.15-16.38.04:031][707]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StateManagerComponent
+[2026.01.15-16.38.04:052][707]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StateManagerComponent8B6115B248957F10B992D79BDD721F2C.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StateManagerComponent.uasset'
+[2026.01.15-16.38.04:129][707]AssetCheck: New page: Asset Save: StateManagerComponent
+[2026.01.15-16.38.04:129][707]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StateManagerComponent.StateManagerComponent
+[2026.01.15-16.38.20:552][936]BlueprintLog: New page: Compile StateManagerComponent
+[2026.01.15-16.38.20:678][936]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2026.01.15-16.38.21:602][961]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StateManagerComponent
+[2026.01.15-16.38.21:626][961]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StateManagerComponent2E05C7004692382ABF41639480C8615A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StateManagerComponent.uasset'
+[2026.01.15-16.38.21:713][961]AssetCheck: New page: Asset Save: StateManagerComponent
+[2026.01.15-16.38.21:714][961]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StateManagerComponent.StateManagerComponent
+[2026.01.15-16.38.52:186][292]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-16.38.52:186][292]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-16.38.56:372][361]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-16.38.56:373][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-16.40.09:207][393]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2026.01.15-16.40.09:236][393]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto6
+[2026.01.15-16.40.09:236][393]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto6F23B5AC24F378CBB4D4A8DA7FACE954E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto6.uasset'
+[2026.01.15-16.40.09:259][393]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.201
+[2026.01.15-16.40.09:259][393]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.201
+[2026.01.15-16.40.09:262][393]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2026.01.15-16.40.09:319][393]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2026.01.15-16.40.09:319][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2026.01.15-16.40.09:628][393]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto6
+[2026.01.15-16.40.09:629][393]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter_Auto6C2DA6F47462397F6A8A12B9F66CF6688.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto6.uasset'
+[2026.01.15-16.40.09:651][393]LogFileHelpers: Auto-saving content packages took 0.390
+[2026.01.15-16.49.01:597][582]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-16.49.02:220][582]LogUObjectHash: Compacting FUObjectHashTables data took   9.76ms
+[2026.01.15-16.49.04:635][591]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-16.49.04:649][591]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter2C82ECE0466AAE098932D9AE12004C43.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-16.49.04:960][591]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-16.49.04:960][591]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-16.50.10:487][791]LogUObjectHash: Compacting FUObjectHashTables data took   6.76ms
+[2026.01.15-16.50.10:506][791]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto7
+[2026.01.15-16.50.10:506][791]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto776C2EADB45858BC9292D49A9FFBDDFED.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto7.uasset'
+[2026.01.15-16.50.10:528][791]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.158
+[2026.01.15-16.50.10:528][791]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.158
+[2026.01.15-16.50.30:589][999]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/CombatComponent.CombatComponent
+[2026.01.15-16.50.30:591][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-16.51.04:871][532]LogSlate: Window 'Delete Variable' being destroyed
+[2026.01.15-16.51.21:966][707]BlueprintLog: New page: Compile CombatComponent
+[2026.01.15-16.51.22:231][707]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2026.01.15-16.51.23:033][727]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/CombatComponent
+[2026.01.15-16.51.23:055][727]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CombatComponent5FB77FA94F75418E32F57D9ED6545363.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/CombatComponent.uasset'
+[2026.01.15-16.51.23:131][727]AssetCheck: New page: Asset Save: CombatComponent
+[2026.01.15-16.51.23:131][727]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/CombatComponent.CombatComponent
+[2026.01.15-16.51.24:263][766]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-16.51.24:263][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-16.52.37:994][723]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-16.52.38:032][723]LogBlueprint: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\BP_CombatCharacter.uasset: [Compiler] Could not find a variable named "bIsAttacking?" in 'CombatComponent_C'.
+Make sure 'CombatComponent_C' has been compiled for  Set bIsAttacking?
+[2026.01.15-16.52.38:045][723]LogBlueprint: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\BP_CombatCharacter.uasset: [Compiler] Could not find a variable named "bIsAttacking?" in 'CombatComponent_C'.
+Make sure 'CombatComponent_C' has been compiled for  Set bIsAttacking?
+[2026.01.15-16.52.38:074][723]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\BP_CombatCharacter.uasset: [Compiler] The property associated with  Is Attacking?  could not be found in '/Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C'
+[2026.01.15-16.52.38:078][723]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\BP_CombatCharacter.uasset: [Compiler] The property associated with  Is Attacking?  could not be found in '/Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C'
+[2026.01.15-16.52.38:315][723]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2026.01.15-16.52.40:110][752]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-16.52.40:131][752]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterED06595F4663E43A1217BAB4192A6FC7.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-16.52.40:218][752]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-16.52.40:218][752]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-16.57.02:307][369]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-16.57.02:368][369]LogBlueprint: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\BP_CombatCharacter.uasset: [Compiler] Could not find a variable named "bIsAttacking?" in 'CombatComponent_C'.
+Make sure 'CombatComponent_C' has been compiled for  Set bIsAttacking?
+[2026.01.15-16.57.02:402][369]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\BP_CombatCharacter.uasset: [Compiler] The property associated with  Is Attacking?  could not be found in '/Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C'
+[2026.01.15-16.57.02:641][369]LogUObjectHash: Compacting FUObjectHashTables data took   6.81ms
+[2026.01.15-16.57.04:470][391]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-16.57.04:493][391]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter0931332946C49210D963C199C3E6387A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-16.57.04:575][391]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-16.57.04:575][391]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-16.58.53:168][955]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-16.58.53:501][955]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2026.01.15-16.58.54:897][985]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-16.58.54:927][985]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterA1CA1446499BF5734F0A1D94DAE57A86.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-16.58.55:002][985]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-16.58.55:002][985]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-16.59.59:331][129]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-16.59.59:673][129]LogUObjectHash: Compacting FUObjectHashTables data took   7.34ms
+[2026.01.15-17.00.00:672][147]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.00.00:696][147]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter0E7C05D34A9016DBCBE8A9A72386E3BE.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.00.00:785][147]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.00.00:785][147]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.00.26:478][345]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2026.01.15-17.00.26:497][345]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto8
+[2026.01.15-17.00.26:497][345]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto8989FCC4C40F1F750EA5E2E9ADD02ED3D.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto8.uasset'
+[2026.01.15-17.00.26:519][345]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.141
+[2026.01.15-17.00.26:519][345]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.141
+[2026.01.15-17.01.58:028][229]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-17.01.58:402][229]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
+[2026.01.15-17.02.04:579][234]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.02.04:595][234]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter52FA5EF54B769B2F79F83695368ADBC1.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.02.04:685][234]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.02.04:685][234]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.03.55:829][ 39]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-17.03.56:164][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2026.01.15-17.03.57:740][ 55]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.03.57:769][ 55]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter1DD1A4AA44347A80C330D1BA429039B1.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.03.57:844][ 55]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.03.57:844][ 55]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.07.03:431][251]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-17.07.03:769][251]LogUObjectHash: Compacting FUObjectHashTables data took   6.96ms
+[2026.01.15-17.07.05:269][272]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.07.05:298][272]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterC8E9C0A64FB39564ABE72CA5B894DB1C.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.07.05:402][272]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.07.05:402][272]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.08.15:027][739]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-17.08.15:364][739]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
+[2026.01.15-17.08.16:654][758]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.08.16:692][758]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter27A6D0FE4E719F3F2C8048801797B63F.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.08.16:769][758]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.08.16:769][758]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.09.36:494][382]LogSlate: Window 'Delete Variable' being destroyed
+[2026.01.15-17.09.47:744][633]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-17.09.48:085][633]LogUObjectHash: Compacting FUObjectHashTables data took   6.54ms
+[2026.01.15-17.09.50:069][664]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.09.50:098][664]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterFB2896B7474C597AC5253D906E955F0B.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.09.50:180][664]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.09.50:180][664]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.10.27:819][829]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2026.01.15-17.10.27:841][829]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto9
+[2026.01.15-17.10.27:841][829]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto9896A724F4E30AB380ECB3C9D87B67EAC.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto9.uasset'
+[2026.01.15-17.10.27:865][829]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.161
+[2026.01.15-17.10.27:865][829]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.161
+[2026.01.15-17.12.22:930][475]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-17.12.23:266][475]LogUObjectHash: Compacting FUObjectHashTables data took   7.56ms
+[2026.01.15-17.12.25:121][520]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.12.25:145][520]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter558902964CE343E395F620BB7419EAFA.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.12.25:220][520]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.12.25:220][520]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.12.42:891][131]LogEditorTransaction: Undo Resize Node
+[2026.01.15-17.14.11:894][184]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-17.14.12:255][184]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2026.01.15-17.14.13:320][204]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.14.13:336][204]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterAEFC0EA044ED77363824D684932A49A0.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.14.13:411][204]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.14.13:411][204]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.14.42:355][684]LogDerivedDataCache: C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.910 and deleted 0 file(s) with total size 0 MiB.
+[2026.01.15-17.15.56:285][262]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-17.15.56:629][262]LogUObjectHash: Compacting FUObjectHashTables data took   7.28ms
+[2026.01.15-17.15.58:113][273]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-17.15.58:135][273]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter423DAB39479BC0AFFE0E3C8826BF83C8.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-17.15.58:240][273]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-17.15.58:241][273]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.16.24:093][411]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2026.01.15-17.16.24:159][411]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-17.16.24:159][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-17.16.26:121][461]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.15-17.16.26:167][461]LogWorldPartition: Display: GenerateStreaming started...
+[2026.01.15-17.16.26:167][461]LogWorldPartition: Display: GetPartitionedActors started...
+[2026.01.15-17.16.26:167][461]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2026.01.15-17.16.26:167][461]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2026.01.15-17.16.26:167][461]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2026.01.15-17.16.26:167][461]LogWorldPartition: Display: GetPartitionedActors took 130 us
+[2026.01.15-17.16.26:169][461]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2026.01.15-17.16.26:170][461]BlueprintLog: New page: Pre-Play auto-recompile
+[2026.01.15-17.16.26:171][461]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2026.01.15-17.16.26:295][461]LogUObjectHash: Compacting FUObjectHashTables data took   7.13ms
+[2026.01.15-17.16.26:325][461]LogPlayLevel: PlayLevel: Blueprint regeneration took 155 ms (1 blueprints)
+[2026.01.15-17.16.26:325][461]PIE: New page: PIE session: ThirdPersonMap (15 sty 2026, 21:16:26)
+[2026.01.15-17.16.26:325][461]LogPlayLevel: Creating play world package: /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap
+[2026.01.15-17.16.26:342][461]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2026.01.15-17.16.26:342][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016156s)
+[2026.01.15-17.16.26:342][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap to /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.016276s)
+[2026.01.15-17.16.26:342][461]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-17.16.26:344][461]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2026.01.15-17.16.26:345][461]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-17.16.26:345][461]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2026.01.15-17.16.26:349][461]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2026.01.15-17.16.26:349][461]LogPlayLevel: PIE: World Init took: (0.006451s)
+[2026.01.15-17.16.26:445][461]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2026.01.15-17.16.26:449][461]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.01.15-17.16.26:450][461]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.15-17.16.26:450][461]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.15-17.16.26:450][461]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.15-17.16.26:450][461]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.15-17.16.26:450][461]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.01.15-17.16.26:450][461]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.01.15-17.16.26:450][461]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.01.15-17.16.26:450][461]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.15-17.16.26:451][461]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.15-17.16.26:451][461]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.15-17.16.26:451][461]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.15-17.16.26:457][461]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.15-17.16.26:541][461]LogAudioMixer: Display: Using Audio Hardware Device 6 - SyncMaster (AMD High Definition Audio Device)
+[2026.01.15-17.16.26:542][461]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.15-17.16.26:542][461]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.15-17.16.26:542][461]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.15-17.16.26:544][461]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.01.15-17.16.26:544][461]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.01.15-17.16.26:550][461]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.01.15-17.16.26:550][461]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.01.15-17.16.26:550][461]LogInit: FAudioDevice initialized.
+[2026.01.15-17.16.26:550][461]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2026.01.15-17.16.26:581][461]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.15-17.16.26:589][461]LogWorld: Bringing World /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.01.15-19.16.26
+[2026.01.15-17.16.26:590][461]LogWorld: Bringing up level for play took: 0.009157
+[2026.01.15-17.16.26:597][461]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2026.01.15-17.16.26:604][461]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2026.01.15-17.16.26:604][461]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2026.01.15-17.16.26:605][461]PIE: Server logged in
+[2026.01.15-17.16.26:607][461]PIE: Play in editor total start time 0,442 seconds.
+[2026.01.15-17.16.27:643][499]LogScript: Warning: Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1
+	BP_CombatCharacter_C /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:PerformAttack:006C
+[2026.01.15-17.16.27:643][499]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1". Node:  Set L_AttackMontage Graph:  PerformAttack Function:  Perform Attack Blueprint:  BP_CombatCharacter
+[2026.01.15-17.16.27:645][499]LogScript: Warning: Accessed None
+	BP_CombatCharacter_C /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:PerformAttack:004D
+[2026.01.15-17.16.27:645][499]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set L_AttackMontage Graph:  PerformAttack Function:  Perform Attack Blueprint:  BP_CombatCharacter
+[2026.01.15-17.16.27:645][499]LogScript: Warning: Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1
+	BP_CombatCharacter_C /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:PerformAttack:00BD
+[2026.01.15-17.16.27:645][499]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1". Node:  Set L_AttackMontage Graph:  PerformAttack Function:  Perform Attack Blueprint:  BP_CombatCharacter
+[2026.01.15-17.16.27:645][499]LogScript: Warning: Accessed None
+	BP_CombatCharacter_C /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:PerformAttack:009E
+[2026.01.15-17.16.27:645][499]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set L_AttackMontage Graph:  PerformAttack Function:  Perform Attack Blueprint:  BP_CombatCharacter
+[2026.01.15-17.16.27:645][499]LogBlueprintUserMessages: [BP_CombatCharacter_C_0] Montage NOT valid
+[2026.01.15-17.16.37:607][998]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383] 20.0 points of damage was applied Damage Cause: BP_ToughSword Instigator BP_CombatCharacter
+[2026.01.15-17.16.38:431][ 19]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383] 20.0 points of damage was applied Damage Cause: BP_ToughSword Instigator BP_CombatCharacter
+[2026.01.15-17.16.39:492][ 70]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383] 20.0 points of damage was applied Damage Cause: BP_ToughSword Instigator BP_CombatCharacter
+[2026.01.15-17.16.40:250][106]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383] 20.0 points of damage was applied Damage Cause: BP_ToughSword Instigator BP_CombatCharacter
+[2026.01.15-17.16.41:114][145]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383] 20.0 points of damage was applied Damage Cause: BP_ToughSword Instigator BP_CombatCharacter
+[2026.01.15-17.16.44:085][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-17.16.44:085][283]LogWorld: BeginTearingDown for /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap
+[2026.01.15-17.16.44:085][283]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-17.16.44:087][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-17.16.44:129][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.15-17.16.44:144][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-17.16.44:249][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-17.16.44:250][283]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2026.01.15-17.16.44:255][283]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2026.01.15-17.16.44:275][283]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2026.01.15-17.16.44:622][284]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2026.01.15-17.16.47:549][378]LogSlate: Window 'Message Log' being destroyed
+[2026.01.15-17.16.47:590][378]LogSlate: Window 'Message Log' being destroyed
+[2026.01.15-17.16.51:557][505]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-17.16.51:558][505]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-17.17.13:163][865]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2026.01.15-17.17.13:262][865]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-17.17.13:262][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-17.17.17:992][992]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2026.01.15-17.17.17:992][992]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-17.17.26:745][159]BlueprintLog: New page: Compile BP_BaseWeapon
+[2026.01.15-17.17.27:015][159]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2026.01.15-17.17.27:761][164]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon
+[2026.01.15-17.17.27:779][164]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_BaseWeapon8F9715874D73046C0C2CB2ADEFC813C4.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset'
+[2026.01.15-17.17.27:877][164]AssetCheck: New page: Asset Save: BP_BaseWeapon
+[2026.01.15-17.17.27:877][164]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2026.01.15-17.17.33:872][225]LogSlate: Window 'BP_BaseWeapon' being destroyed
+[2026.01.15-17.17.33:938][225]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-17.17.33:938][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-17.17.45:233][383]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2026.01.15-17.17.47:056][383]LogSlate: Window 'Save Content' being destroyed
+[2026.01.15-17.17.47:170][383]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11
+[2026.01.15-17.17.47:193][383]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH1114E1B5604389A54F8C7F048626E099AB.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11.uasset'
+[2026.01.15-17.17.47:246][383]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_ToughSword
+[2026.01.15-17.17.47:276][383]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_ToughSword805993C34338B69C77157CACB94D52CC.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Actors/BP_ToughSword.uasset'
+[2026.01.15-17.17.47:357][383]AssetCheck: New page: Asset Save: multiple assets
+[2026.01.15-17.17.47:357][383]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Actors/BP_ToughSword.BP_ToughSword
+[2026.01.15-17.17.47:357][383]LogContentValidation: Display: Validating BP_CombatCharacter_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383
