@@ -1,0 +1,850 @@
+﻿Log file open, 01/16/26 00:09:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=5428)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SoulslikeCombat
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject"""
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.7623] "
+LogCsvProfiler: Warning: Metadata value sanitized due to invalid characters: cpu="AuthenticAMD|AMD A8-7600 Radeon R7, 10 Compute Cores 4C+6G"
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD A8-7600 Radeon R7&#44; 10 Compute Cores 4C+6G"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="b7e5a8374f3cd13f9e0e09b8b210d84d"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 1.529691
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-68D819154D6419BE76AABA845DCD6EC6
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading Android ini files took 0.07 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.08 seconds
+LogConfig: Display: Loading IOS ini files took 0.06 seconds
+LogConfig: Display: Loading Linux ini files took 0.11 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.11 seconds
+LogConfig: Display: Loading Mac ini files took 0.07 seconds
+LogConfig: Display: Loading TVOS ini files took 0.10 seconds
+LogConfig: Display: Loading Unix ini files took 0.10 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogConfig: Display: Loading VulkanPC ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogConfig: Display: Loading Windows ini files took 0.10 seconds
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin GLTFImporter
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin MDLImporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin USDImporter
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin FabLauncher
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin AnalyticsBlueprintLibrary
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/MDLImporter/Content/' mounted to '/MDLImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Importers/USDImporter/Content/' mounted to '/USDImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Marketplace/FabLauncher/Content/' mounted to '/FabLauncher/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 11 (24H2) [10.0.26100.7623] (), CPU: AMD A8-7600 Radeon R7, 10 Compute Cores 4C+6G  , GPU: AMD Radeon RX 580 2048SP
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogLinker: AddRedirectList(C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Config/WindowsEditor/MDLImporter.ini) has substring redirect /DatasmithContent/Materials/MDL/, these are very slow and should be resolved as soon as possible!
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.01.15-22.09.22:803][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.01.15-22.09.22:803][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.01.15-22.09.22:803][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.01.15-22.09.22:803][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.01.15-22.09.22:804][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.01.15-22.09.22:804][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2026.01.15-22.09.22:804][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2026.01.15-22.09.22:805][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2026.01.15-22.09.22:810][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.01.15-22.09.22:810][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.01.15-22.09.22:810][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.01.15-22.09.22:810][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.01.15-22.09.22:811][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.01.15-22.09.22:811][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.01.15-22.09.22:811][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.01.15-22.09.22:811][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.01.15-22.09.22:811][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.01.15-22.09.22:811][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.01.15-22.09.22:811][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2026.01.15-22.09.22:854][  0]LogD3D12RHI: Aftermath initialized
+[2026.01.15-22.09.22:854][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2026.01.15-22.09.24:907][  0]LogD3D12RHI: Found D3D12 adapter 0: AMD Radeon RX 580 2048SP (Max supported Feature Level 12_0, shader model 6.6)
+[2026.01.15-22.09.24:907][  0]LogD3D12RHI: Adapter has 8170MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2026.01.15-22.09.24:962][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.6)
+[2026.01.15-22.09.24:962][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 0 output[s]
+[2026.01.15-22.09.24:962][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2026.01.15-22.09.24:963][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.01.15-22.09.24:963][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2026.01.15-22.09.24:963][  0]LogHAL: Display: Platform has ~ 16 GB [17131569152 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.01.15-22.09.24:963][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2026.01.15-22.09.24:963][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.01.15-22.09.24:963][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.01.15-22.09.24:964][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.01.15-22.09.24:964][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Config/WindowsEditor/Editor.ini]
+[2026.01.15-22.09.24:965][  0]LogInit: Computer: DESKTOP-HC2H4LI
+[2026.01.15-22.09.24:965][  0]LogInit: User: dawid
+[2026.01.15-22.09.24:965][  0]LogInit: CPU Page size=4096, Cores=2
+[2026.01.15-22.09.24:965][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.01.15-22.09.24:965][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2026.01.15-22.09.24:965][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2026.01.15-22.09.24:965][  0]LogMemory: Process Physical Memory: 257.30 MB used, 315.46 MB peak
+[2026.01.15-22.09.24:965][  0]LogMemory: Process Virtual Memory: 178.97 MB used, 203.43 MB peak
+[2026.01.15-22.09.24:965][  0]LogMemory: Physical Memory: 7759.51 MB used,  8578.43 MB free, 16337.94 MB total
+[2026.01.15-22.09.24:965][  0]LogMemory: Virtual Memory: 15133.52 MB used,  9984.59 MB free, 25118.12 MB total
+[2026.01.15-22.09.24:965][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.01.15-22.09.24:986][  0]LogWindows: WindowsPlatformFeatures enabled
+[2026.01.15-22.09.25:045][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.01.15-22.09.25:052][  0]LogInit: Using OS detected language (pl-PL).
+[2026.01.15-22.09.25:052][  0]LogInit: Using OS detected locale (pl-PL).
+[2026.01.15-22.09.25:077][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so 'pl' will be used for the language.
+[2026.01.15-22.09.25:078][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2026.01.15-22.09.25:079][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2026.01.15-22.09.25:079][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2026.01.15-22.09.25:079][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2026.01.15-22.09.25:080][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2026.01.15-22.09.25:080][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2026.01.15-22.09.25:080][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2026.01.15-22.09.25:083][  0]LogInit: Setting process to per monitor DPI aware
+[2026.01.15-22.09.25:122][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2026.01.15-22.09.25:122][  0]LogWindowsTextInputMethodSystem:   - Polski (Polska) - (Keyboard).
+[2026.01.15-22.09.25:123][  0]LogWindowsTextInputMethodSystem: Activated input method: Polski (Polska) - (Keyboard).
+[2026.01.15-22.09.25:208][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2026.01.15-22.09.25:208][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.01.15-22.09.25:884][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2026.01.15-22.09.25:884][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2026.01.15-22.09.26:172][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2026.01.15-22.09.26:218][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2026.01.15-22.09.26:220][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2026.01.15-22.09.26:226][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2026.01.15-22.09.26:240][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2026.01.15-22.09.26:240][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2026.01.15-22.09.26:429][  0]LogD3D12RHI:     GPU DeviceId: 0x6fdf (for the marketing name, search the web for "GPU Device Id")
+[2026.01.15-22.09.26:430][  0]LogWindows: Attached monitors:
+[2026.01.15-22.09.26:430][  0]LogWindows:     resolution: 1600x900, work area: (0, 0) -> (1600, 852), device: '\\.\DISPLAY1' [PRIMARY]
+[2026.01.15-22.09.26:430][  0]LogWindows: Found 1 attached monitors.
+[2026.01.15-22.09.26:430][  0]LogWindows: EnumDisplayDevices:
+[2026.01.15-22.09.26:430][  0]LogWindows:    0. 'AMD Radeon RX 580 2048SP' (P:1 D:1), name: '\\.\DISPLAY1'
+[2026.01.15-22.09.26:432][  0]LogWindows:    1. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY2'
+[2026.01.15-22.09.26:434][  0]LogWindows:    2. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY3'
+[2026.01.15-22.09.26:435][  0]LogWindows:    3. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY4'
+[2026.01.15-22.09.26:436][  0]LogWindows:    4. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY5'
+[2026.01.15-22.09.26:437][  0]LogWindows:    5. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY6'
+[2026.01.15-22.09.26:439][  0]LogWindows:    6. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY7'
+[2026.01.15-22.09.26:439][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2026.01.15-22.09.26:439][  0]LogD3D12RHI:     Adapter Name: AMD Radeon RX 580 2048SP
+[2026.01.15-22.09.26:440][  0]LogD3D12RHI:   Driver Version: AMD Software: Adrenalin Edition 25.8.1 (internal:31.0.21923.11000, unified:31.0.21923.11000)
+[2026.01.15-22.09.26:440][  0]LogD3D12RHI:      Driver Date: 7-1-2025
+[2026.01.15-22.09.26:440][  0]LogRHI: Texture pool is 4663 MB (70% of 6662 MB)
+[2026.01.15-22.09.26:440][  0]LogD3D12RHI: Async texture creation enabled
+[2026.01.15-22.09.26:440][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2026.01.15-22.09.26:498][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/TurnkeyReport_0.log" -log="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/TurnkeyLog_0.log" -project="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject"  -platform=all'
+[2026.01.15-22.09.26:498][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/TurnkeyReport_0.log" -log="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/TurnkeyLog_0.log" -project="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject"  -platform=all" ]
+[2026.01.15-22.09.26:605][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2026.01.15-22.09.26:634][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2026.01.15-22.09.26:634][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2026.01.15-22.09.26:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2026.01.15-22.09.26:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2026.01.15-22.09.26:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2026.01.15-22.09.26:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2026.01.15-22.09.26:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2026.01.15-22.09.26:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2026.01.15-22.09.26:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2026.01.15-22.09.26:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2026.01.15-22.09.26:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2026.01.15-22.09.26:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2026.01.15-22.09.26:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2026.01.15-22.09.26:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2026.01.15-22.09.26:754][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.01.15-22.09.26:754][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.01.15-22.09.26:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2026.01.15-22.09.26:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2026.01.15-22.09.26:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2026.01.15-22.09.26:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2026.01.15-22.09.26:779][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2026.01.15-22.09.26:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2026.01.15-22.09.26:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2026.01.15-22.09.26:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.01.15-22.09.26:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.01.15-22.09.26:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.01.15-22.09.26:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.01.15-22.09.26:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.01.15-22.09.26:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.01.15-22.09.26:815][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.01.15-22.09.26:844][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.01.15-22.09.26:855][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2026.01.15-22.09.26:855][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2026.01.15-22.09.26:855][  0]LogTargetPlatformManager:   ADPCM
+[2026.01.15-22.09.26:855][  0]LogTargetPlatformManager:   PCM
+[2026.01.15-22.09.26:867][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2026.01.15-22.09.26:867][  0]LogTargetPlatformManager:   BINKA
+[2026.01.15-22.09.26:867][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2026.01.15-22.09.26:867][  0]LogTargetPlatformManager:   OGG
+[2026.01.15-22.09.26:868][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2026.01.15-22.09.26:868][  0]LogTargetPlatformManager:   OPUS
+[2026.01.15-22.09.27:024][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2026.01.15-22.09.27:024][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2026.01.15-22.09.27:046][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   SF_METAL
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2026.01.15-22.09.27:047][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2026.01.15-22.09.27:058][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2026.01.15-22.09.27:058][  0]LogTargetPlatformManager:   VVM_1_0
+[2026.01.15-22.09.27:058][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2026.01.15-22.09.27:058][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2026.01.15-22.09.27:058][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2026.01.15-22.09.27:058][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2026.01.15-22.09.27:058][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2026.01.15-22.09.27:058][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2026.01.15-22.09.27:059][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.01.15-22.09.27:060][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.01.15-22.09.27:060][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2026.01.15-22.09.27:060][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.01.15-22.09.27:070][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.01.15-22.09.27:070][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2026.01.15-22.09.27:070][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.01.15-22.09.27:070][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2026.01.15-22.09.27:121][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2026.01.15-22.09.27:121][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.01.15-22.09.27:121][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2026.01.15-22.09.27:152][  0]LogDerivedDataCache: Speed tests for C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
+[2026.01.15-22.09.27:152][  0]LogDerivedDataCache: Display: Performance to C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.16ms. RandomReadSpeed=192.09MBs, RandomWriteSpeed=40.07MBs. Assigned SpeedClass 'Local'
+[2026.01.15-22.09.27:154][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2026.01.15-22.09.27:155][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2026.01.15-22.09.27:155][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2026.01.15-22.09.27:175][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2026.01.15-22.09.27:175][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.01.15-22.09.27:176][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/Shaders/WorkingDirectory/9688/).
+[2026.01.15-22.09.27:177][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dawid/AppData/Local/Temp/UnrealShaderWorkingDir/F50D48FD4A590C74C8C088B0CC4CF002/'.
+[2026.01.15-22.09.27:177][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2026.01.15-22.09.27:177][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 3 workers.
+[2026.01.15-22.09.32:452][  0]LogSlate: Using FreeType 2.10.0
+[2026.01.15-22.09.32:453][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.01.15-22.09.32:583][  0]LogAssetRegistry: FAssetRegistry took 0.0452 seconds to start up
+[2026.01.15-22.09.32:608][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.01.15-22.09.33:270][  0]LogSerialization: UsePackageTrailer: 'false'
+[2026.01.15-22.09.33:273][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2026.01.15-22.09.34:416][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.01.15-22.09.34:416][  0]LogDeviceProfileManager: Active device profile: [000008FF49FD2680][000008FF3F730000 50] WindowsEditor
+[2026.01.15-22.09.34:416][  0]LogDeviceProfileManager: Profiles: [000008FF49FD2140][000008FF3F735000 50] Windows, [000008FF49FD2680][000008FF3F730000 50] WindowsEditor, [000008FF49FD1F80][000008FF3F6A7800 50] WindowsServer, [000008FF49FD1DC0][000008FF3F65C800 50] WindowsClient, [000008FF49FD1C00][000008FF3F732800 50] IOS, [000008FF49FD1A40][000008FF3658A000 50] iPadAir2, [000008FF49FD4EC0][000008FF49FE2800 50] IPadPro, [000008FF49FD5240][000008FF49FE0000 50] iPadAir3, [000008FF49FD4600][000008FF49FE7800 50] iPadAir4, [000008FF49FD0E00][000008FF49FEA000 50] iPadMini4, [000008FF49FD2D80][000008FF49FEC800 50] iPadMini5, [000008FF49FD2A00][000008FF42FBC800 50] iPadMini6, [000008FF49FD7FC0][000008FF4B015000 50] iPhone6S, [000008FF49FD8340][000008FF4B012800 50] iPhone7, [000008FF49FD86C0][000008FF4B010000 50] iPodTouch7, [000008FF49FD2BC0][000008FF4B01A000 50] iPhone6SPlus, [000008FF49FD78C0][000008FF4B01C800 50] iPhone7Plus, [000008FF49FD2840][000008FF49FE5000 50] iPhoneSE, [000008FF49FD0000][000008FF4B020000 50] iPhone8, [000008FF49FD7700][000008FF4B025000 50] iPhone8Plus, [000008FF49FD1180][000008FF4B027800 50] iPhoneX, [000008FF49FD32C0][000008FF4B02A000 50] iPhoneXS, [000008FF49FD3640][000008FF4B02C800 50] iPhoneXSMax, [000008FF49FD1340][000008FF4B017800 50] iPhoneXR, [000008FF49FD7E00][000008FF49F90000 50] iPhone11, [000008FF49FD47C0][000008FF49F95000 50] iPhone11Pro, [000008FF49FD7380][000008FF49F97800 50] iPhone11ProMax, [000008FF49FD4B40][000008FF49F9A000 50] iPhoneSE2, [000008FF49FD6040][000008FF49F9C800 50] iPhone12Mini, [000008FF49FD3F00][000008FF4B022800 50] iPhone12, [000008FF49FD71C0][000008FF49FA0000 50] iPhone12Pro, [000008FF49FD8A40][000008FF49FA5000 50] iPhone12ProMax, [000008FF49FD0380][000008FF49FA7800 50] iPhone13Mini, [000008FF49FD08C0][000008FF49FAA000 50] iPhone13, [000008FF49FD01C0][000008FF49FAC800 50] iPhone13Pro, [000008FF49FD7540][000008FF49F92800 50] iPhone13ProMax, [000008FF49FD4980][000008FF49FB0000 50] iPadPro105, [000008FF49FD6200][000008FF49FB5000 50] iPadPro129, [000008FF49FD0540][000008FF49FB7800 50] iPadPro97, [000008FF49FD8500][000008FF49FBA000 50] iPadPro2_129, [000008FF49FD7000][000008FF49FBC800 50] iPad5, [000008FF49FD16C0][000008FF49FA2800 50] iPad6, [000008FF49FD1500][000008FF49FC0000 50] iPad7, [000008FF49FD5940][000008FF49FC5000 50] iPad8, [000008FF49FD6900][000008FF49FC7800 50] iPad9, [000008FF49FD4D00][000008FF49FCA000 50] iPadPro11, [000008FF49FD2F40][000008FF49FCC800 50] iPadPro2_11, [000008FF49FD6580][000008FF49FB2800 50] iPadPro3_11, [000008FF49FD0700][000008FF4B050000 50] iPadPro3_129, [000008FF49FD5780][000008FF4B055000 50] iPadPro4_129, [000008FF49FD3800][000008FF4B057800 50] iPadPro5_129, [000008FF49FD40C0][000008FF4B05A000 50] AppleTV, [000008FF49FD5B00][000008FF4B05C800 50] AppleTV4K, [000008FF49FD0A80][000008FF49FC2800 50] TVOS, [000008FF49FDA9C0][000008FF4B062800 50] Mac, [000008FF49FDA800][000008FF4B060000 50] MacEditor, [000008FF49FD3480][000008FF4B067800 50] MacClient, [000008FF49FD9F40][000008FF4B06A000 50] MacServer, [000008FF49FDB0C0][000008FF4B052800 50] Linux, [000008FF49FDB440][000008FF4B06C800 50] LinuxEditor, [000008FF49FD6C80][000008FF4B080000 50] LinuxArm64Editor, [000008FF49FD9680][000008FF4B085000 50] LinuxArm64, [000008FF49FD39C0][000008FF4B087800 50] LinuxClient, [000008FF49FD9140][000008FF4B08A000 50] LinuxArm64Client, [000008FF49FDB600][000008FF4B08C800 50] LinuxServer, [000008FF49FDA480][000008FF4B065000 50] LinuxArm64Server, [000008FF49FD7A80][000008FF4B090000 50] Android, [000008FF49FDA2C0][000008FF4B095000 50] Android_Preview_OpenGL, [000008FF49FD9BC0][000008FF4B097800 50] Android_Preview_Vulkan, [000008FF49FDB7C0][000008FF4B09A000 50] Android_Low, [000008FF49FDAF00][000008FF4B09C800 50] Android_Mid, [000008FF49FDA640][000008FF4B082800 50] Android_High, [000008FF49FD4280][000008FF4B0A0000 50] Android_Default, [000008FF49FD8DC0][000008FF4B0A5000 50] Android_Adreno4xx, [000008FF49FD55C0][000008FF4B0A7800 50] Android_Adreno5xx_Low, [000008FF49FD9A00][000008FF4B0AA000 50] Android_Adreno5xx, [000008FF49FDA100][000008FF4B0AC800 50] Android_Adreno6xx, [000008FF49FD63C0][000008FF4B092800 50] Android_Adreno6xx_Vulkan, [000008FF49FD3D40][000008FF4B0B0000 50] Android_Adreno7xx, [000008FF49FD8180][000008FF4B0B5000 50] Android_Adreno7xx_Vulkan, [000008FF49FDB280][000008FF4B0B7800 50] Android_Mali_T6xx, [000008FF49FD8F80][000008FF4B0BA000 50] Android_Mali_T7xx, [000008FF49FDB980][000008FF4B0BC800 50] Android_Mali_T8xx, [000008FF49FD9D80][000008FF4B0A2800 50] Android_Mali_G71, [000008FF49FD8C00][000008FF4B0C0000 50] Android_Mali_G72, [000008FF49FDBD00][000008FF4B0C5000 50] Android_Mali_G72_Vulkan, [000008FF49FDC080][000008FF4B0C7800 50] Android_Mali_G76, [000008FF49FDBEC0][000008FF4B0CA000 50] Android_Mali_G76_Vulkan, [000008FF49FD3B80][000008FF4B0CC800 50] Android_Mali_G77, [000008FF49FD5CC0][000008FF4B0B2800 50] Android_Mali_G77_Vulkan, [000008FF49FD6AC0][000008FF4B0D0000 50] Android_Mali_G78, [000008FF49FD6740][000008FF4B0D5000 50] Android_Mali_G78_Vulkan, [000008FF49FDC240][000008FF4B0D7800 50] Android_Mali_G710, [000008FF49FDC400][000008FF4B0DA000 50] Android_Mali_G710_Vulkan, [000008FF49FDCCC0][000008FF4B0DC800 50] Android_Xclipse_920, [000008FF49FDD040][000008FF4B0C2800 50] Android_Xclipse_920_Vulkan, [000008FF49FDCE80][000008FF4B0E0000 50] Android_Vulkan_SM5, [000008FF49FD9300][000008FF4B0E5000 50] Android_PowerVR_G6xxx, [000008FF49FD5E80][000008FF4B0E7800 50] Android_PowerVR_GT7xxx, [000008FF49FD1880][000008FF4B0EA000 50] Android_PowerVR_GE8xxx, [000008FF49FD3100][000008FF4B0EC800 50] Android_PowerVR_GM9xxx, [000008FF49FD5400][000008FF4B0D2800 50] Android_PowerVR_GM9xxx_Vulkan, [000008FF49FDDC80][000008FF4B0F0000 50] Android_TegraK1, [000008FF49FDE000][000008FF4B0F5000 50] Android_Unknown_Vulkan, [000008FF49FDDE40][000008FF4B0F7800 50] Oculus_Quest, [000008FF49FDBB40][000008FF4B0FA000 50] Oculus_Quest2, [000008FF49FDC5C0][000008FF4B0FC800 50] HoloLens, 
+[2026.01.15-22.09.34:417][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.01.15-22.09.34:708][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.01.15-22.09.35:306][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.01.15-22.09.35:306][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2026.01.15-22.09.35:306][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.01.15-22.09.35:306][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2026.01.15-22.09.35:306][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.01.15-22.09.35:350][  0]LogNetVersion: SoulslikeCombat 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 2242499598)
+[2026.01.15-22.09.35:752][  0]LogSlate: Border
+[2026.01.15-22.09.35:753][  0]LogSlate: BreadcrumbButton
+[2026.01.15-22.09.35:753][  0]LogSlate: Default
+[2026.01.15-22.09.35:753][  0]LogSlate: Icons.Save
+[2026.01.15-22.09.35:753][  0]LogSlate: Icons.Toolbar.Settings
+[2026.01.15-22.09.35:753][  0]LogSlate: ListView
+[2026.01.15-22.09.35:753][  0]LogSlate: SoftwareCursor_CardinalCross
+[2026.01.15-22.09.35:753][  0]LogSlate: SoftwareCursor_Grab
+[2026.01.15-22.09.35:753][  0]LogSlate: TableView.DarkRow
+[2026.01.15-22.09.35:753][  0]LogSlate: TableView.Row
+[2026.01.15-22.09.35:753][  0]LogSlate: TreeView
+[2026.01.15-22.09.36:354][  0]SourceControl: Source control is disabled
+[2026.01.15-22.09.36:437][  0]SourceControl: Source control is disabled
+[2026.01.15-22.09.36:437][  0]SourceControl: Source control is disabled
+[2026.01.15-22.09.36:778][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2026.01.15-22.09.36:778][  0]LogUObjectAllocator: 5584264 out of 0 bytes used by permanent object pool.
+[2026.01.15-22.09.36:778][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.01.15-22.09.37:992][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 0980A6DF48DF01A9B8E403BFE24F2633 | Instance: BEAB0C334A8E1C8D5680659365303336 (DESKTOP-HC2H4LI-9688).
+[2026.01.15-22.09.38:407][  0]LogPython: Using Python 3.9.7
+[2026.01.15-22.09.40:556][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.01.15-22.09.40:571][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.01.15-22.09.40:881][  0]SourceControl: Source control is disabled
+[2026.01.15-22.09.40:892][  0]SourceControl: Source control is disabled
+[2026.01.15-22.09.40:930][  0]SourceControl: Source control is disabled
+[2026.01.15-22.09.40:962][  0]LogUProjectInfo: Found projects:
+[2026.01.15-22.09.42:091][  0]LogOpenImageDenoise: OIDN starting up
+[2026.01.15-22.09.42:316][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ar/resources/plugInfo.json'
+[2026.01.15-22.09.42:317][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ndr/resources/plugInfo.json'
+[2026.01.15-22.09.42:319][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdf/resources/plugInfo.json'
+[2026.01.15-22.09.42:322][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/plugInfo.json'
+[2026.01.15-22.09.42:325][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdGeom/resources/plugInfo.json'
+[2026.01.15-22.09.42:328][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdLux/resources/plugInfo.json'
+[2026.01.15-22.09.42:330][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdHydra/resources/plugInfo.json'
+[2026.01.15-22.09.42:332][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMedia/resources/plugInfo.json'
+[2026.01.15-22.09.42:335][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdPhysics/resources/plugInfo.json'
+[2026.01.15-22.09.42:337][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRender/resources/plugInfo.json'
+[2026.01.15-22.09.42:339][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRi/resources/plugInfo.json'
+[2026.01.15-22.09.42:342][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShade/resources/plugInfo.json'
+[2026.01.15-22.09.42:344][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkel/resources/plugInfo.json'
+[2026.01.15-22.09.42:346][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVol/resources/plugInfo.json'
+[2026.01.15-22.09.42:347][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdUI/resources/plugInfo.json'
+[2026.01.15-22.09.42:352][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/codegenTemplates/plugInfo.json'
+[2026.01.15-22.09.43:066][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.01.15-22.09.43:145][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.01.15-22.09.43:145][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.01.15-22.09.43:467][  0]LogCollectionManager: Loaded 0 collections in 0.005916 seconds
+[2026.01.15-22.09.43:765][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Collections/' took 0.00s
+[2026.01.15-22.09.43:765][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/Developers/dawid/Collections/' took 0.00s
+[2026.01.15-22.09.43:765][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/Collections/' took 0.01s
+[2026.01.15-22.09.44:721][  0]LogFabLauncher: Display: FabLauncher (version 0.4.2) active
+[2026.01.15-22.09.45:044][  0]LogEngine: Initializing Engine...
+[2026.01.15-22.09.45:099][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2026.01.15-22.09.45:102][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2026.01.15-22.09.45:887][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.01.15-22.09.45:888][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2026.01.15-22.09.45:921][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-22.09.46:020][  0]LogAIModule: Creating AISystem for world Untitled
+[2026.01.15-22.09.46:022][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.01.15-22.09.46:097][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.01.15-22.09.46:099][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.01.15-22.09.46:099][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.01.15-22.09.46:100][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.01.15-22.09.46:100][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.01.15-22.09.46:100][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.15-22.09.46:100][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.15-22.09.46:100][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.15-22.09.46:100][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.15-22.09.46:100][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.01.15-22.09.46:100][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.01.15-22.09.46:100][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.01.15-22.09.46:100][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.15-22.09.46:101][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.15-22.09.46:101][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.15-22.09.46:101][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.15-22.09.46:122][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.15-22.09.46:251][  0]LogAudioMixer: Display: Using Audio Hardware Device 6 - SyncMaster (AMD High Definition Audio Device)
+[2026.01.15-22.09.46:251][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.15-22.09.46:259][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.15-22.09.46:259][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.15-22.09.46:261][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.15-22.09.46:261][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.15-22.09.46:266][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.15-22.09.46:266][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2026.01.15-22.09.46:266][  0]LogInit: FAudioDevice initialized.
+[2026.01.15-22.09.46:267][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.01.15-22.09.46:267][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.01.15-22.09.46:267][  0]LogInit: Texture streaming: Enabled
+[2026.01.15-22.09.46:380][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2026.01.15-22.09.46:413][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2026.01.15-22.09.46:413][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={6D359CDB-4B24-0FC4-88D4-4CBD41F86A8D}
+[2026.01.15-22.09.46:534][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.01.15-22.09.46:558][  0]LogLiveCoding: Display: Starting LiveCoding
+[2026.01.15-22.09.46:559][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2026.01.15-22.09.55:940][  0]LogLiveCoding: Display: First instance in process group "UE_SoulslikeCombat_0xa42007a3", spawning console
+[2026.01.15-22.09.55:940][  0]LogLiveCoding: Display: Waiting for server
+[2026.01.15-22.09.55:940][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.01.15-22.09.59:978][  0]LogInit: Transaction tracking system initialized
+[2026.01.15-22.10.00:252][  0]BlueprintLog: New page: Editor Load
+[2026.01.15-22.10.01:016][  0]LocalizationService: Localization service is disabled
+[2026.01.15-22.10.01:225][  0]TimingProfiler: Initialize
+[2026.01.15-22.10.01:226][  0]TimingProfiler: OnSessionChanged
+[2026.01.15-22.10.01:226][  0]LoadingProfiler: Initialize
+[2026.01.15-22.10.01:226][  0]LoadingProfiler: OnSessionChanged
+[2026.01.15-22.10.01:226][  0]NetworkingProfiler: Initialize
+[2026.01.15-22.10.01:226][  0]NetworkingProfiler: OnSessionChanged
+[2026.01.15-22.10.01:226][  0]MemoryProfiler: Initialize
+[2026.01.15-22.10.01:226][  0]MemoryProfiler: OnSessionChanged
+[2026.01.15-22.10.03:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/' took 0.10s
+[2026.01.15-22.10.03:553][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.01.15-22.10.03:817][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.01.15-22.10.03:822][  0]SourceControl: Source control is disabled
+[2026.01.15-22.10.04:248][  0]LogSlate: Took 0.001136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.01.15-22.10.14:796][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2026.01.15-22.10.14:797][  0]LogWindowsTextInputMethodSystem: Activated input method: Polski (Polska) - (Keyboard).
+[2026.01.15-22.10.14:847][  0]LogWindowsTextInputMethodSystem: Activated input method: Polski (Polska) - (Keyboard).
+[2026.01.15-22.10.17:811][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2026.01.15-22.10.17:812][  0]LogWindowsTextInputMethodSystem: Activated input method: Polski (Polska) - (Keyboard).
+[2026.01.15-22.10.17:819][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11
+[2026.01.15-22.10.17:853][  0]LogWindowsTextInputMethodSystem: Activated input method: Polski (Polska) - (Keyboard).
+[2026.01.15-22.10.17:854][  0]LogUnrealEdMisc: Loading editor; pre map load, took 69.354
+[2026.01.15-22.10.17:855][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2026.01.15-22.10.17:856][  0]LightingResults: New page: Lighting Build
+[2026.01.15-22.10.17:886][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-22.10.17:886][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-22.10.17:887][  0]MapCheck: New page: Map Check
+[2026.01.15-22.10.17:887][  0]LightingResults: New page: Lighting Build
+[2026.01.15-22.10.17:909][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.15-22.10.17:917][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.01.15-22.10.18:514][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast': Can't find file.
+[2026.01.15-22.10.18:514][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast'
+[2026.01.15-22.10.18:515][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment': Can't find file.
+[2026.01.15-22.10.18:515][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment'
+[2026.01.15-22.10.18:516][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2026.01.15-22.10.18:516][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime'
+[2026.01.15-22.10.18:517][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_SolidValues': Can't find file.
+[2026.01.15-22.10.18:517][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_SolidValues'
+[2026.01.15-22.10.18:518][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2026.01.15-22.10.18:518][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard'
+[2026.01.15-22.10.18:519][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2026.01.15-22.10.18:519][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_BrightnessAdjust'
+[2026.01.15-22.10.18:519][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2026.01.15-22.10.18:519][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_CharacterEffects'
+[2026.01.15-22.10.18:521][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2026.01.15-22.10.18:522][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_DeathFade'
+[2026.01.15-22.10.18:522][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_Fuzz_Layer': Can't find file.
+[2026.01.15-22.10.18:522][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_Fuzz_Layer'
+[2026.01.15-22.10.18:525][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_HitFlash': Can't find file.
+[2026.01.15-22.10.18:525][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_HitFlash'
+[2026.01.15-22.10.18:526][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_MatLayerBlend_TenLayerBlend': Can't find file.
+[2026.01.15-22.10.18:526][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_MatLayerBlend_TenLayerBlend'
+[2026.01.15-22.10.18:527][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_OrionCharacterAO': Can't find file.
+[2026.01.15-22.10.18:528][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_OrionCharacterAO'
+[2026.01.15-22.10.18:528][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2026.01.15-22.10.18:529][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_OrionRimlight'
+[2026.01.15-22.10.18:529][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Fabric/MF_ClothShading': Can't find file.
+[2026.01.15-22.10.18:529][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Fabric/MF_ClothShading'
+[2026.01.15-22.10.18:530][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Fabric/ML_Fabric_Dirty': Can't find file.
+[2026.01.15-22.10.18:530][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Fabric/ML_Fabric_Dirty'
+[2026.01.15-22.10.18:530][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Leather/ML_Dark_Leather02_Brown_3': Can't find file.
+[2026.01.15-22.10.18:530][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Leather/ML_Dark_Leather02_Brown_3'
+[2026.01.15-22.10.18:532][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_BladeMetal': Can't find file.
+[2026.01.15-22.10.18:532][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_BladeMetal'
+[2026.01.15-22.10.18:533][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2026.01.15-22.10.18:533][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_blue_Metal'
+[2026.01.15-22.10.18:533][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_LowContrastHardMetal': Can't find file.
+[2026.01.15-22.10.18:533][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_LowContrastHardMetal'
+[2026.01.15-22.10.18:534][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_WarmGold_desaturated': Can't find file.
+[2026.01.15-22.10.18:534][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_WarmGold_desaturated'
+[2026.01.15-22.10.18:535][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2026.01.15-22.10.18:535][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/ML__Blank'
+[2026.01.15-22.10.18:536][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/ML_FlatBlack': Can't find file.
+[2026.01.15-22.10.18:536][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/ML_FlatBlack'
+[2026.01.15-22.10.18:537][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/MF_Amber': Can't find file.
+[2026.01.15-22.10.18:537][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/MF_Amber'
+[2026.01.15-22.10.18:544][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Materials\MF_GreystoneEffects.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/T_HadriansWall_RockFaceTiling_N': Can't find file.
+[2026.01.15-22.10.18:544][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/T_HadriansWall_RockFaceTiling_N'
+[2026.01.15-22.10.18:545][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Materials\MF_GreystoneEffects.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/T_TilingRock_A_D': Can't find file.
+[2026.01.15-22.10.18:545][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/T_TilingRock_A_D'
+[2026.01.15-22.10.18:559][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2026.01.15-22.10.18:559][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/ParameterCollections/OrionGlobalGameplayCollection'
+[2026.01.15-22.10.18:569][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/T_gold_01': Can't find file.
+[2026.01.15-22.10.18:569][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/T_gold_01'
+[2026.01.15-22.10.22:319][  0]LogMaterial: Display: Missing cached shadermap for M_Greystone_ToughSword in PCD3D_SM5, Default, SM5 (DDC key hash: 1C953EF3109C0E0D2272E2CA69F5ED7CACC429A6), compiling. 
+[2026.01.15-22.10.22:321][  0]LogMaterial: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+
+[2026.01.15-22.10.22:733][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2026.01.15-22.10.22:761][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-22.10.22:761][  0]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2026.01.15-22.10.22:764][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-22.10.22:764][  0]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2026.01.15-22.10.22:878][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast': Can't find file.
+[2026.01.15-22.10.22:878][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast'
+[2026.01.15-22.10.22:879][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment': Can't find file.
+[2026.01.15-22.10.22:879][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment'
+[2026.01.15-22.10.22:879][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2026.01.15-22.10.22:879][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime'
+[2026.01.15-22.10.22:880][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_SolidValues': Can't find file.
+[2026.01.15-22.10.22:880][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_SolidValues'
+[2026.01.15-22.10.22:880][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2026.01.15-22.10.22:880][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard'
+[2026.01.15-22.10.22:882][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2026.01.15-22.10.22:882][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_BrightnessAdjust'
+[2026.01.15-22.10.22:882][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2026.01.15-22.10.22:882][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_CharacterEffects'
+[2026.01.15-22.10.22:883][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2026.01.15-22.10.22:883][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_DeathFade'
+[2026.01.15-22.10.22:883][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_HitFlash': Can't find file.
+[2026.01.15-22.10.22:883][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_HitFlash'
+[2026.01.15-22.10.22:885][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_OrionCharacterAO': Can't find file.
+[2026.01.15-22.10.22:885][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_OrionCharacterAO'
+[2026.01.15-22.10.22:885][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2026.01.15-22.10.22:886][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_OrionRimlight'
+[2026.01.15-22.10.22:886][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Leather/ML_Light_Leather01_Stained': Can't find file.
+[2026.01.15-22.10.22:886][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Leather/ML_Light_Leather01_Stained'
+[2026.01.15-22.10.22:887][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_BladeMetal': Can't find file.
+[2026.01.15-22.10.22:887][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_BladeMetal'
+[2026.01.15-22.10.22:887][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2026.01.15-22.10.22:887][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_blue_Metal'
+[2026.01.15-22.10.22:888][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_Dark_Metal_03': Can't find file.
+[2026.01.15-22.10.22:888][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_Dark_Metal_03'
+[2026.01.15-22.10.22:889][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_SoftMetal01': Can't find file.
+[2026.01.15-22.10.22:889][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_SoftMetal01'
+[2026.01.15-22.10.22:889][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2026.01.15-22.10.22:889][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/ML__Blank'
+[2026.01.15-22.10.22:890][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/ML_FlatBlack': Can't find file.
+[2026.01.15-22.10.22:890][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/ML_FlatBlack'
+[2026.01.15-22.10.22:891][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Rock/ML_Gem_Translucent': Can't find file.
+[2026.01.15-22.10.22:891][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Rock/ML_Gem_Translucent'
+[2026.01.15-22.10.22:892][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon_FX.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/FX/Textures/Tile/Noise/T_Voronoi_Cells_02': Can't find file.
+[2026.01.15-22.10.22:892][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/FX/Textures/Tile/Noise/T_Voronoi_Cells_02'
+[2026.01.15-22.10.22:894][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon_FX.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/FX/Textures/Tile/Organic/T_Tiling_Dust': Can't find file.
+[2026.01.15-22.10.22:894][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/FX/Textures/Tile/Organic/T_Tiling_Dust'
+[2026.01.15-22.10.22:902][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2026.01.15-22.10.22:902][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection'
+[2026.01.15-22.10.23:017][  0]LogMaterial: Display: Missing cached shadermap for M_Kwang_Weapon in PCD3D_SM5, Default, SM5 (DDC key hash: 7E64586539CDF9F37C5614884D0AC2153BE37EF6), compiling. 
+[2026.01.15-22.10.23:019][  0]LogMaterial: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+
+[2026.01.15-22.10.23:162][  0]LogWorldPartition: Display: WorldPartition initialize took 399 ms
+[2026.01.15-22.10.23:179][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.01.15-22.10.23:213][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2026.01.15-22.10.23:214][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.01.15-22.10.23:215][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,645ms to complete.
+[2026.01.15-22.10.23:215][  0]LogFileHelpers: Loading map 'ThirdPersonMap' took 5.360
+[2026.01.15-22.10.23:259][  0]LogUnrealEdMisc: Total Editor Startup Time, took 74.759
+[2026.01.15-22.10.23:259][  0]LogShaderCompilers: Display: ================================================
+[2026.01.15-22.10.23:259][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.15-22.10.23:259][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2026.01.15-22.10.23:259][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2026.01.15-22.10.23:259][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2026.01.15-22.10.23:259][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.15-22.10.23:261][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2026.01.15-22.10.23:261][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2026.01.15-22.10.23:261][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2026.01.15-22.10.23:261][  0]LogShaderCompilers: Display: ================================================
+[2026.01.15-22.10.23:300][  0]LogSlate: The tab "HomeScreen" attempted to spawn in layout 'UnrealEd_Layout_v1.5' but failed for some reason. It will not be displayed.
+[2026.01.15-22.10.23:412][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-22.10.23:427][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-22.10.23:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-22.10.23:459][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-22.10.23:603][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:604][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:606][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:606][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:608][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:609][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:610][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:610][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:614][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:614][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:616][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:616][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:618][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:618][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:620][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:620][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:622][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:622][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:624][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2026.01.15-22.10.23:624][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.15-22.10.23:624][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2026.01.15-22.10.24:862][  0]LogSlate: Took 0.000714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.01.15-22.10.24:865][  0]LogSlate: Took 0.000600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.01.15-22.10.24:981][  0]LogViewport: Scene viewport resized to 1270x714, mode Windowed.
+[2026.01.15-22.10.27:220][  0]LogStall: Startup...
+[2026.01.15-22.10.27:225][  0]LogStall: Startup complete.
+[2026.01.15-22.10.27:658][  0]LogLoad: (Engine Initialization) Total time: 79.16 seconds
+[2026.01.15-22.10.27:658][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2026.01.15-22.10.27:755][  0]LogAssetRegistry: Asset discovery search completed in 55.1763 seconds
+[2026.01.15-22.10.27:772][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2026.01.15-22.10.27:782][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.01.15-22.10.27:864][  0]LogSlate: Took 0.000523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.01.15-22.10.31:464][ 87]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2026.01.15-22.10.31:464][ 87]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-22.10.31:465][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
