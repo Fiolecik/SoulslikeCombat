@@ -5908,3 +5908,211 @@ Make sure 'CombatComponent_C' has been compiled for  Set bIsAttacking?
 [2026.01.15-20.53.12:515][134]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2026.01.15-20.53.12:515][134]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
 [2026.01.15-20.53.12:515][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-21.01.41:467][905]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.15-21.01.42:873][905]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.01.15-21.01.42:901][905]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.01.15-21.01.42:920][905]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.01.15-21.01.42:947][906]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.01.15-21.01.49:687][253]LogContentBrowser: Attempting asset rename: NewBlueprint -> StatsComponent
+[2026.01.15-21.01.49:705][253]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.01.15-21.01.50:455][294]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.01.50:456][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-21.01.55:793][507]LogSlate: Window 'StatsComponent' being destroyed
+[2026.01.15-21.02.36:953][136]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2026.01.15-21.02.36:974][136]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2026.01.15-21.02.36:996][137]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2026.01.15-21.02.41:763][475]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_Stats
+[2026.01.15-21.02.41:766][475]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2026.01.15-21.02.42:413][521]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_Stats.E_Stats
+[2026.01.15-21.03.31:695][657]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_Stats
+[2026.01.15-21.03.31:695][657]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/E_Stats51D8A6264F581AA756536483F670D8F6.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Enums/E_Stats.uasset'
+[2026.01.15-21.03.31:757][657]AssetCheck: New page: Asset Save: E_Stats
+[2026.01.15-21.03.31:757][657]LogContentValidation: Display: Validating UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_Stats.E_Stats
+[2026.01.15-21.04.38:701][514]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.01.15-21.04.38:734][514]LogContentBrowser: Creating deferred item: NewFolder
+[2026.01.15-21.04.38:757][515]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.01.15-21.04.41:959][737]LogContentBrowser: Attempting asset rename: NewFolder -> Structs
+[2026.01.15-21.04.41:961][737]LogContentBrowser: End creating deferred item NewFolder
+[2026.01.15-21.05.05:763][238]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2026.01.15-21.05.05:782][238]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2026.01.15-21.05.05:849][240]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2026.01.15-21.05.12:551][734]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> F_BaseStat
+[2026.01.15-21.05.12:659][734]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2026.01.15-21.05.37:874][975]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/CombatSystem/Blueprints/Structs/F_BaseStat.F_BaseStat
+[2026.01.15-21.05.38:515][988]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2026.01.15-21.05.38:536][988]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.151
+[2026.01.15-21.05.38:542][988]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Structs/F_BaseStat] ([1] browsable assets)...
+[2026.01.15-21.05.38:543][988]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Structs/F_BaseStat]
+[2026.01.15-21.05.38:546][988]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Structs/F_BaseStat_Auto0
+[2026.01.15-21.05.38:546][988]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/F_BaseStat_Auto0A256578D48DBDC5C31AF609081D467D9.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/Structs/F_BaseStat_Auto0.uasset'
+[2026.01.15-21.05.38:568][988]LogFileHelpers: Auto-saving content packages took 0.028
+[2026.01.15-21.05.58:221][172]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Structs/F_BaseStat
+[2026.01.15-21.05.58:222][172]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/F_BaseStat352B0421463E006EED80BEA72218D23F.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Structs/F_BaseStat.uasset'
+[2026.01.15-21.05.58:284][172]AssetCheck: New page: Asset Save: F_BaseStat
+[2026.01.15-21.05.58:284][172]LogContentValidation: Display: Validating UserDefinedStruct /Game/CombatSystem/Blueprints/Structs/F_BaseStat.F_BaseStat
+[2026.01.15-21.07.49:451][871]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.07.49:577][871]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2026.01.15-21.07.50:862][945]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.07.50:862][945]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent2AF1994E43BDAFDC41C3B3A433E1080A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.07.50:918][945]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.07.50:918][945]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.08.05:835][357]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.08.05:946][357]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2026.01.15-21.08.07:665][462]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.08.07:689][462]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponentC3F65CE5473B2F23F2C3749047842493.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.08.07:763][462]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.08.07:764][462]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.10.15:525][773]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.10.15:649][773]LogUObjectHash: Compacting FUObjectHashTables data took   6.17ms
+[2026.01.15-21.10.17:275][862]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.10.17:291][862]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent960519D144081AF64E407395002D9969.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.10.17:373][862]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.10.17:373][862]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.10.51:782][451]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.10.51:889][451]LogUObjectHash: Compacting FUObjectHashTables data took   5.69ms
+[2026.01.15-21.10.52:578][481]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.10.52:610][481]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent4FA2314E4E3E0B857DC5E8BB39C40621.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.10.52:691][481]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.10.52:691][481]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.13.02:787][ 99]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.13.02:912][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2026.01.15-21.13.03:907][148]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.13.03:931][148]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent6C282AD6413427A82B23D4B1136B8B19.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.13.04:005][148]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.13.04:005][148]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.13.09:190][401]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.13.09:304][401]LogUObjectHash: Compacting FUObjectHashTables data took   5.80ms
+[2026.01.15-21.13.10:593][475]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.13.10:614][475]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent9D7C825E4E72C07E72573D87D9D779AE.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.13.10:712][475]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.13.10:712][475]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.13.51:198][ 43]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-21.13.51:198][ 43]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-21.14.30:625][679]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-21.14.31:049][679]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2026.01.15-21.14.33:001][681]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-21.14.33:020][681]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterD137FB904E32F378E3D227910040134D.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-21.14.33:138][681]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-21.14.33:138][681]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-21.14.41:721][206]LogDerivedDataCache: C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.242 and deleted 0 file(s) with total size 0 MiB.
+[2026.01.15-21.14.43:609][315]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.14.44:726][315]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2026.01.15-21.14.45:398][345]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.14.45:420][345]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponentB63FF3964CFAE362129704A17947AAB6.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.14.45:495][345]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.14.45:495][345]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.14.47:424][416]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-21.14.47:818][416]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2026.01.15-21.15.37:502][321]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-21.15.37:922][321]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2026.01.15-21.15.40:286][342]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-21.15.40:301][342]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterC1E3EAD649F17651A9AEBABD002777AF.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-21.15.40:388][342]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-21.15.40:388][342]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-21.16.08:345][939]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-21.16.08:785][939]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2026.01.15-21.16.11:417][962]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-21.16.11:484][962]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterB7D97F8F4F5B69FAC626F3B9C7B93BE7.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-21.16.11:579][962]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-21.16.11:581][962]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-21.16.36:991][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
+[2026.01.15-21.16.37:011][ 91]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto1
+[2026.01.15-21.16.37:033][ 91]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto19B2D709D4F8B20E7AB7CA8A5AF1A25C7.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto1.uasset'
+[2026.01.15-21.16.37:077][ 91]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.218
+[2026.01.15-21.16.37:077][ 91]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.218
+[2026.01.15-21.20.55:483][808]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.20.56:504][808]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
+[2026.01.15-21.20.57:227][838]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.20.57:249][838]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponentC25F416844DC252D3BEB72A31E4140C6.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.20.57:340][838]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.20.57:340][838]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.21.33:006][453]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.21.33:277][453]LogUObjectHash: Compacting FUObjectHashTables data took   6.93ms
+[2026.01.15-21.21.33:996][474]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.21.34:013][474]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponentAF5319F543BAC4D3500C2285FA246AB2.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.21.34:087][474]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.21.34:089][474]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.22.31:673][389]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.15-21.24.42:856][685]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-21.24.42:962][685]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\BP_CombatCharacter.uasset: [Compiler] This blueprint (self) is not a BP_BaseEquippable_C, therefore ' Target ' must have a connection.
+[2026.01.15-21.24.43:248][685]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2026.01.15-21.24.45:662][715]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-21.24.45:680][715]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter2A79E9304A858FC8F000A183AA3F7849.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-21.24.45:796][715]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-21.24.45:796][715]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-21.25.03:344][547]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-21.25.03:785][547]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2026.01.15-21.25.49:055][716]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-21.25.49:069][716]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter51200C724C085D60AA16D68CB7E09D1B.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-21.25.49:164][716]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-21.25.49:164][716]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-21.26.09:238][591]LogSlate: Window 'Color Picker' being destroyed
+[2026.01.15-21.26.37:766][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2026.01.15-21.26.37:788][ 85]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto2
+[2026.01.15-21.26.37:801][ 85]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto21A1047B9402BA26FBC1D2EB5A95F8A9C.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto2.uasset'
+[2026.01.15-21.26.37:835][ 85]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.192
+[2026.01.15-21.26.37:836][ 85]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.192
+[2026.01.15-21.26.37:838][ 85]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2026.01.15-21.26.37:858][ 85]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2026.01.15-21.26.37:858][ 85]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2026.01.15-21.26.38:199][ 85]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto2
+[2026.01.15-21.26.38:225][ 85]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter_Auto2311CCE334A2AD4425F249B9E41DBF09B.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto2.uasset'
+[2026.01.15-21.26.38:263][ 85]LogFileHelpers: Auto-saving content packages took 0.426
+[2026.01.15-21.26.46:297][435]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-21.26.46:703][435]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2026.01.15-21.26.49:107][458]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-21.26.49:133][458]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter8C00E937402AAB2CE75E29A00D1383E0.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-21.26.49:234][458]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-21.26.49:234][458]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-21.33.48:899][421]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.33.50:117][421]LogUObjectHash: Compacting FUObjectHashTables data took   6.53ms
+[2026.01.15-21.33.51:105][454]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.33.51:132][454]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponentBA425F2E40951E5100538495CC16CB57.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.33.51:206][454]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.33.51:206][454]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.35.59:144][657]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.35.59:442][657]LogUObjectHash: Compacting FUObjectHashTables data took   6.44ms
+[2026.01.15-21.36.00:286][684]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.36.00:309][684]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponentA5FE22254617C504A66F6CA0D155E24B.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.36.00:396][684]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.36.00:396][684]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.37.30:318][679]LogUObjectHash: Compacting FUObjectHashTables data took   7.41ms
+[2026.01.15-21.37.30:344][679]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto3
+[2026.01.15-21.37.30:380][679]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto321D8E98645EF95FD8FAD4BABA6FB4D1E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto3.uasset'
+[2026.01.15-21.37.30:446][679]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.266
+[2026.01.15-21.37.30:446][679]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.266
+[2026.01.15-21.37.30:447][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Components/StatsComponent] ([2] browsable assets)...
+[2026.01.15-21.37.30:448][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Components/StatsComponent]
+[2026.01.15-21.37.30:473][679]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Components/StatsComponent_Auto3
+[2026.01.15-21.37.30:473][679]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent_Auto33A956BD7422E67EA4F70F39EC10E1DBF.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/Components/StatsComponent_Auto3.uasset'
+[2026.01.15-21.37.30:496][679]LogFileHelpers: Auto-saving content packages took 0.051
+[2026.01.15-21.37.42:760][422]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.37.43:035][422]LogUObjectHash: Compacting FUObjectHashTables data took   6.83ms
+[2026.01.15-21.37.44:682][498]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.37.44:704][498]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent3E0AD7B24B6CCD6897A2658907D06235.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.37.44:791][498]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.37.44:791][498]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.38.11:453][ 89]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.38.11:751][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2026.01.15-21.38.11:889][ 89]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.38.12:193][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2026.01.15-21.38.35:316][126]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.38.35:335][126]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent0935148E469AEA6B0DED7E9D5845B179.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.38.35:449][126]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.38.35:449][126]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.39.05:491][968]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.39.05:762][968]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2026.01.15-21.39.06:552][995]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.39.06:573][995]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent451185F04F5BEC9709B67C8AC53313BF.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.39.06:650][995]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.39.06:650][995]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.41.35:610][802]BlueprintLog: New page: Compile StatsComponent
+[2026.01.15-21.41.35:923][802]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2026.01.15-21.41.36:947][824]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/StatsComponent
+[2026.01.15-21.41.36:965][824]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/StatsComponent719AE45A4557052826ADECA7497CC591.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/StatsComponent.uasset'
+[2026.01.15-21.41.37:061][824]AssetCheck: New page: Asset Save: StatsComponent
+[2026.01.15-21.41.37:061][824]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/StatsComponent.StatsComponent
+[2026.01.15-21.41.38:857][901]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-21.41.38:857][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-21.41.40:007][931]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-21.41.40:007][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
