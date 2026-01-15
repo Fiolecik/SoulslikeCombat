@@ -4844,3 +4844,220 @@ Make sure 'CombatComponent_C' has been compiled for  Set bIsAttacking?
 [2026.01.15-18.08.43:134][805]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11248D71D54DE74BE46917FB8A49E4ED8E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11.uasset'
 [2026.01.15-18.08.43:259][805]AssetCheck: New page: Asset Save: BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383
 [2026.01.15-18.08.43:259][805]LogContentValidation: Display: Validating BP_CombatCharacter_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383
+[2026.01.15-18.10.58:452][608]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2026.01.15-18.10.58:476][608]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2026.01.15-18.10.58:511][609]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2026.01.15-18.11.09:201][163]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_MovementSpeedMode
+[2026.01.15-18.11.09:207][163]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2026.01.15-18.11.10:344][221]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_MovementSpeedMode.E_MovementSpeedMode
+[2026.01.15-18.12.06:693][329]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_MovementSpeedMode
+[2026.01.15-18.12.06:693][329]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/E_MovementSpeedMode254512CD4758A1785310F4A3F7DF05EA.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Enums/E_MovementSpeedMode.uasset'
+[2026.01.15-18.12.06:760][329]AssetCheck: New page: Asset Save: E_MovementSpeedMode
+[2026.01.15-18.12.06:760][329]LogContentValidation: Display: Validating UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_MovementSpeedMode.E_MovementSpeedMode
+[2026.01.15-18.12.08:310][382]LogSlate: Window 'E_MovementSpeedMode' being destroyed
+[2026.01.15-18.12.47:638][669]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2026.01.15-18.12.48:036][669]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2026.01.15-18.14.02:706][382]LogSlate: Window 'Project Settings' being destroyed
+[2026.01.15-18.14.02:717][382]LogSlate: Window 'Project Settings' being destroyed
+[2026.01.15-18.14.24:289][673]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.14.24:289][673]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-18.14.42:053][ 14]LogDerivedDataCache: C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.626 and deleted 0 file(s) with total size 0 MiB.
+[2026.01.15-18.15.40:634][ 54]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.15.41:253][ 54]LogUObjectHash: Compacting FUObjectHashTables data took  10.23ms
+[2026.01.15-18.15.43:884][ 99]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.15.43:906][ 99]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter09D75A86490867281C32F4A733EDC0EF.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.15.44:004][ 99]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.15.44:004][ 99]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.16.07:152][334]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.16.07:742][334]LogUObjectHash: Compacting FUObjectHashTables data took   8.58ms
+[2026.01.15-18.16.09:483][344]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.16.09:504][344]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter08DE3F3642CFD5167781AC8F69CC8DAD.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.16.09:596][344]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.16.09:596][344]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.17.42:002][185]LogUObjectHash: Compacting FUObjectHashTables data took   6.45ms
+[2026.01.15-18.17.42:050][185]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto5
+[2026.01.15-18.17.42:050][185]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto56E94AFA54EEE51B9DCBD24B2C02126AE.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto5.uasset'
+[2026.01.15-18.17.42:072][185]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.208
+[2026.01.15-18.17.42:072][185]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.208
+[2026.01.15-18.17.42:073][185]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2026.01.15-18.17.42:119][185]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2026.01.15-18.17.42:119][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2026.01.15-18.17.42:590][185]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto5
+[2026.01.15-18.17.42:646][185]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter_Auto5D5597B3B4027C95664018FB3C79EE4EB.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto5.uasset'
+[2026.01.15-18.17.42:688][185]LogFileHelpers: Auto-saving content packages took 0.616
+[2026.01.15-18.18.51:319][704]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.18.51:677][704]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2026.01.15-18.18.52:715][721]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.18.52:731][721]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter3E9F32654CCC7B859F7CE4A57B04FC51.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.18.52:804][721]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.18.52:804][721]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.20.23:612][606]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.20.23:994][606]LogUObjectHash: Compacting FUObjectHashTables data took   6.67ms
+[2026.01.15-18.20.25:008][623]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.20.25:026][623]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterAC0B582E4C91D7141E3981876E706A69.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.20.25:098][623]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.20.25:098][623]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.23.11:397][515]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.23.11:764][515]LogUObjectHash: Compacting FUObjectHashTables data took   6.41ms
+[2026.01.15-18.23.12:825][533]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.23.12:844][533]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterA5347EB445805E14DC6505999CD1336D.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.23.12:936][533]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.23.12:936][533]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.24.51:345][ 90]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.24.51:912][ 90]LogUObjectHash: Compacting FUObjectHashTables data took  10.32ms
+[2026.01.15-18.24.54:064][ 99]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.24.54:087][ 99]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterCB825C594F053CC1F6D96A80106EE559.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.24.54:212][ 99]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.24.54:212][ 99]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.26.24:040][302]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.26.24:443][302]LogUObjectHash: Compacting FUObjectHashTables data took   8.48ms
+[2026.01.15-18.26.26:032][333]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.26.26:055][333]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter912FF2754DA7BBD10815B3B3959A2670.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.26.26:231][333]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.26.26:231][333]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.28.10:350][209]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.28.10:761][209]LogUObjectHash: Compacting FUObjectHashTables data took   6.66ms
+[2026.01.15-18.28.12:640][226]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.28.12:653][226]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter50DF10DD4284D497BDA9F0979A2347D9.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.28.12:725][226]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.28.12:725][226]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.28.13:103][227]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2026.01.15-18.28.13:132][227]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto6
+[2026.01.15-18.28.13:155][227]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto601D1CC50447F62283A76808158116060.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto6.uasset'
+[2026.01.15-18.28.13:203][227]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.208
+[2026.01.15-18.28.13:203][227]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.208
+[2026.01.15-18.29.28:777][571]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.29.29:215][571]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2026.01.15-18.29.30:920][586]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.29.30:939][586]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterE48FB83F47C04151221197B393E19919.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.29.31:008][586]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.29.31:008][586]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.30.05:185][ 77]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.30.05:624][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   8.00ms
+[2026.01.15-18.30.07:502][ 92]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.30.07:520][ 92]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter0D632DC24F05A984D0879FB10360E8D8.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.30.07:600][ 92]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.30.07:601][ 92]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.30.49:583][385]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.30.49:962][385]LogUObjectHash: Compacting FUObjectHashTables data took   7.31ms
+[2026.01.15-18.30.51:435][389]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.30.51:446][389]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterA5E83DFE4D4AB9795C8AE5A167143AC0.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.30.51:533][389]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.30.51:533][389]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.31.13:109][740]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/CombatSystem/CombatSystemFiles/Animations/LightSword/Locomotion/LightSword_BS.LightSword_BS
+[2026.01.15-18.31.13:116][740]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-18.31.13:163][740]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.01.15-18.31.13:684][740]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-18.31.14:821][740]LogViewport: Scene viewport resized to 949x140, mode Windowed.
+[2026.01.15-18.31.15:026][741]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2026.01.15-18.35.16:488][110]LogSavePackage: Moving output files for package: /Game/CombatSystem/CombatSystemFiles/Animations/LightSword/Locomotion/LightSword_BS
+[2026.01.15-18.35.16:512][110]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/LightSword_BS34CE99A949BB0DFD35CA6782FC7F5322.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/CombatSystemFiles/Animations/LightSword/Locomotion/LightSword_BS.uasset'
+[2026.01.15-18.35.16:598][110]AssetCheck: New page: Asset Save: LightSword_BS
+[2026.01.15-18.35.16:598][110]LogContentValidation: Display: Validating BlendSpace1D /Game/CombatSystem/CombatSystemFiles/Animations/LightSword/Locomotion/LightSword_BS.LightSword_BS
+[2026.01.15-18.35.38:759][264]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-18.35.38:759][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-18.35.39:579][264]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-18.35.39:579][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-18.35.40:779][295]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2026.01.15-18.35.40:858][295]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-18.35.40:859][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-18.35.43:444][354]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
+[2026.01.15-18.35.45:183][354]LogSlate: Window 'Save Content' being destroyed
+[2026.01.15-18.35.45:297][354]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11
+[2026.01.15-18.35.45:318][354]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH1168BC5910441A365051FED693163717BA.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11.uasset'
+[2026.01.15-18.35.45:403][354]AssetCheck: New page: Asset Save: BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383
+[2026.01.15-18.35.45:403][354]LogContentValidation: Display: Validating BP_CombatCharacter_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383
+[2026.01.15-18.35.48:597][502]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.15-18.35.48:659][502]LogWorldPartition: Display: GenerateStreaming started...
+[2026.01.15-18.35.48:659][502]LogWorldPartition: Display: GetPartitionedActors started...
+[2026.01.15-18.35.48:659][502]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2026.01.15-18.35.48:659][502]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2026.01.15-18.35.48:659][502]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2026.01.15-18.35.48:659][502]LogWorldPartition: Display: GetPartitionedActors took 116 us
+[2026.01.15-18.35.48:659][502]LogWorldPartition: Display: GenerateStreaming took 849 us
+[2026.01.15-18.35.48:659][502]BlueprintLog: New page: Pre-Play auto-recompile
+[2026.01.15-18.35.48:660][502]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2026.01.15-18.35.48:783][502]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2026.01.15-18.35.48:790][502]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2026.01.15-18.35.48:792][502]PIE: New page: PIE session: ThirdPersonMap (15 sty 2026, 22:35:48)
+[2026.01.15-18.35.48:792][502]LogPlayLevel: Creating play world package: /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap
+[2026.01.15-18.35.48:806][502]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2026.01.15-18.35.48:806][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014304s)
+[2026.01.15-18.35.48:806][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap to /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.014413s)
+[2026.01.15-18.35.48:806][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-18.35.48:807][502]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2026.01.15-18.35.48:807][502]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.15-18.35.48:807][502]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2026.01.15-18.35.48:812][502]LogWorldPartition: Display: WorldPartition initialize took 4 ms
+[2026.01.15-18.35.48:812][502]LogPlayLevel: PIE: World Init took: (0.006422s)
+[2026.01.15-18.35.48:897][502]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2026.01.15-18.35.48:902][502]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.01.15-18.35.48:902][502]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.15-18.35.48:902][502]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.15-18.35.48:902][502]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.15-18.35.48:902][502]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.15-18.35.48:902][502]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.01.15-18.35.48:902][502]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.01.15-18.35.48:902][502]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.01.15-18.35.48:902][502]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.15-18.35.48:903][502]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.15-18.35.48:903][502]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.15-18.35.48:903][502]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.15-18.35.48:909][502]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.15-18.35.48:983][502]LogAudioMixer: Display: Using Audio Hardware Device 6 - SyncMaster (AMD High Definition Audio Device)
+[2026.01.15-18.35.48:984][502]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.15-18.35.48:984][502]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.15-18.35.48:984][502]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.15-18.35.48:985][502]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.01.15-18.35.48:985][502]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.01.15-18.35.48:991][502]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.01.15-18.35.48:991][502]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.01.15-18.35.48:993][502]LogInit: FAudioDevice initialized.
+[2026.01.15-18.35.48:993][502]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2026.01.15-18.35.49:025][502]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.15-18.35.49:031][502]LogWorld: Bringing World /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.01.15-20.35.49
+[2026.01.15-18.35.49:032][502]LogWorld: Bringing up level for play took: 0.006919
+[2026.01.15-18.35.49:037][502]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2026.01.15-18.35.49:043][502]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2026.01.15-18.35.49:043][502]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2026.01.15-18.35.49:043][502]PIE: Server logged in
+[2026.01.15-18.35.49:045][502]PIE: Play in editor total start time 0,39 seconds.
+[2026.01.15-18.36.06:770][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-18.36.06:770][463]LogWorld: BeginTearingDown for /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap
+[2026.01.15-18.36.06:770][463]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-18.36.06:772][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-18.36.06:803][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.15-18.36.06:818][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-18.36.06:922][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.15-18.36.06:923][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.01.15-18.36.06:928][463]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.01.15-18.36.06:950][463]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2026.01.15-18.36.07:105][464]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2026.01.15-18.36.55:243][919]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.36.55:244][919]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.15-18.37.55:019][ 81]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.37.55:381][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   6.99ms
+[2026.01.15-18.37.57:309][ 98]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.37.57:340][ 98]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter9C83C192436D2D34ED931EB319D91755.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.37.57:435][ 98]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.37.57:435][ 98]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.38.32:442][220]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2026.01.15-18.38.32:474][220]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto7
+[2026.01.15-18.38.32:503][220]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11_Auto7EF9A2CE34F2E04E167736E93E9D20FEF.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11_Auto7.uasset'
+[2026.01.15-18.38.32:595][220]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.274
+[2026.01.15-18.38.32:595][220]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.274
+[2026.01.15-18.38.58:272][368]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.15-18.38.58:722][368]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2026.01.15-18.39.01:007][383]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.15-18.39.01:035][383]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter47CE5A3F450E1EA17251438E5F53001A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.15-18.39.01:166][383]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.15-18.39.01:166][383]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.15-18.39.02:171][406]LogSlate: Window 'BP_CombatCharacter' being destroyed
+[2026.01.15-18.39.02:261][406]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2026.01.15-18.39.02:261][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.15-18.39.04:748][447]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2026.01.15-18.39.06:326][447]LogSlate: Window 'Save Content' being destroyed
+[2026.01.15-18.39.06:458][447]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11
+[2026.01.15-18.39.06:501][447]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CLJIWWZ683O7QHG9TFYH11A77D627C45EB47FCFD6010B86F4FEF27.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/D/0O/CLJIWWZ683O7QHG9TFYH11.uasset'
+[2026.01.15-18.39.06:599][447]AssetCheck: New page: Asset Save: BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383
+[2026.01.15-18.39.06:599][447]LogContentValidation: Display: Validating BP_CombatCharacter_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_UAID_7085C255BA7298B502_1229054383
