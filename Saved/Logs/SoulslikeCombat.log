@@ -1232,3 +1232,496 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2026.01.18-21.48.40:483][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2026.01.18-21.48.40:514][635]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
 [2026.01.18-21.48.48:711][636]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2026.01.18-21.50.41:205][120]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-21.50.41:547][121]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-21.50.41:879][122]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-21.50.42:211][123]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-21.50.49:167][137]LogRendererCore: Warning: Query 'Unaccounted' not ready.
+[2026.01.18-21.51.56:937][632]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2026.01.18-21.51.56:952][632]LogContentBrowser: Creating deferred item: NewInterface
+[2026.01.18-21.51.56:980][633]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2026.01.18-21.52.02:990][949]LogContentBrowser: Attempting asset rename: NewInterface -> TargetingBPI
+[2026.01.18-21.52.02:994][949]LogContentBrowser: End creating deferred item NewInterface
+[2026.01.18-21.52.03:488][975]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Interfaces/TargetingBPI.TargetingBPI
+[2026.01.18-21.52.03:490][975]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-21.52.07:356][108]LogSlate: Window 'TargetingBPI' being destroyed
+[2026.01.18-21.53.24:646][764]BlueprintLog: New page: Compile TargetingBPI
+[2026.01.18-21.53.24:755][764]LogUObjectHash: Compacting FUObjectHashTables data took   5.91ms
+[2026.01.18-21.53.25:672][837]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Interfaces/TargetingBPI
+[2026.01.18-21.53.25:672][837]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/TargetingBPI3095339840386AC8654442901B2F6552.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Interfaces/TargetingBPI.uasset'
+[2026.01.18-21.53.25:728][837]AssetCheck: New page: Asset Save: TargetingBPI
+[2026.01.18-21.53.25:728][837]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Interfaces/TargetingBPI.TargetingBPI
+[2026.01.18-21.53.43:102][404]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_TestDummyCharacter.BP_TestDummyCharacter
+[2026.01.18-21.53.43:102][404]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-21.54.02:193][756]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-21.55.38:496][876]BlueprintLog: New page: Compile BP_TestDummyCharacter
+[2026.01.18-21.55.38:790][876]LogUObjectHash: Compacting FUObjectHashTables data took   8.18ms
+[2026.01.18-21.55.39:679][908]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_TestDummyCharacter
+[2026.01.18-21.55.39:710][908]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TestDummyCharacter698DA6BC4634C7FA8554F9A4F83CAD87.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_TestDummyCharacter.uasset'
+[2026.01.18-21.55.39:826][908]AssetCheck: New page: Asset Save: BP_TestDummyCharacter
+[2026.01.18-21.55.39:826][908]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_TestDummyCharacter.BP_TestDummyCharacter
+[2026.01.18-21.56.00:710][430]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-21.56.00:712][430]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-21.58.18:807][715]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-21.58.19:079][715]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2026.01.18-21.58.19:964][744]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-21.58.19:981][744]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponentEFB4A79643E82802E00758A6063C225A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-21.58.20:054][744]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-21.58.20:054][744]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-21.59.59:028][954]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-21.59.59:358][954]LogUObjectHash: Compacting FUObjectHashTables data took   6.89ms
+[2026.01.18-22.00.00:194][978]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.00.00:214][978]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent0EAA3839408422DA72144ABC381823B2.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.00.00:296][978]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.00.00:296][978]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.01.36:700][170]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.02.03:783][220]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.02.04:060][220]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2026.01.18-22.02.04:932][251]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.02.04:962][251]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent01E1DD7D49BD74EEF4A27FAC4748DDE3.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.02.05:048][251]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.02.05:048][251]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.02.32:670][470]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2026.01.18-22.02.32:686][470]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto6
+[2026.01.18-22.02.32:709][470]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/9QRN1EQZUYWQ4DJW44FI1X_Auto6C7C8A7E74571C32AE3C445BA7CC6B71E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto6.uasset'
+[2026.01.18-22.02.32:759][470]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.212
+[2026.01.18-22.02.32:759][470]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.212
+[2026.01.18-22.03.04:277][403]BlueprintLog: New page: Collapse to Function
+[2026.01.18-22.08.23:872][522]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.08.23:890][522]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] Can't connect pins  In Target Actor  and  Return Value : Actor Object Reference is not compatible with Boolean.
+[2026.01.18-22.08.23:891][522]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] In use pin  Self 2  no longer exists on node  Can Target Actor? . Please refresh node or break links to remove pin.
+[2026.01.18-22.08.23:892][522]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] Can't connect pins  Return Value  and  In Target Actor : Boolean is not compatible with Actor Object Reference.
+[2026.01.18-22.08.24:227][522]LogUObjectHash: Compacting FUObjectHashTables data took   6.98ms
+[2026.01.18-22.08.25:022][548]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.08.25:075][548]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent4FCE2DF4419C422C897A6DAF154CEFED.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.08.25:153][548]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.08.25:153][548]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.08.52:759][789]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.08.52:779][789]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] Can't connect pins  In Target Actor  and  Return Value : Actor Object Reference is not compatible with Boolean.
+[2026.01.18-22.08.52:780][789]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] In use pin  Self 2  no longer exists on node  Can Target Actor? . Please refresh node or break links to remove pin.
+[2026.01.18-22.08.52:781][789]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] Can't connect pins  Return Value  and  In Target Actor : Boolean is not compatible with Actor Object Reference.
+[2026.01.18-22.08.53:091][789]LogUObjectHash: Compacting FUObjectHashTables data took   7.06ms
+[2026.01.18-22.08.54:061][827]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.08.54:088][827]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent2FEBBF96460B8DF1987BDEB1611CD811.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.08.54:181][827]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.08.54:182][827]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.09.18:291][663]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.09.18:306][663]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] Can't connect pins  In Target Actor  and  Return Value : Actor Object Reference is not compatible with Boolean.
+[2026.01.18-22.09.18:307][663]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] In use pin  Self 2  no longer exists on node  Can Target Actor? . Please refresh node or break links to remove pin.
+[2026.01.18-22.09.18:307][663]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] Can't connect pins  Return Value  and  In Target Actor : Boolean is not compatible with Actor Object Reference.
+[2026.01.18-22.09.18:568][663]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2026.01.18-22.09.19:151][685]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.09.19:169][685]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent24AE7C1647979F3EB08A488CC6B6A2D1.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.09.19:238][685]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.09.19:238][685]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.09.58:808][899]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.09.58:823][899]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] Can't connect pins  In Target Actor  and  Return Value : Actor Object Reference is not compatible with Boolean.
+[2026.01.18-22.09.58:823][899]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\BP_TargettingComponent.uasset: [Compiler] Can't connect pins  Return Value  and  In Target Actor : Boolean is not compatible with Actor Object Reference.
+[2026.01.18-22.09.59:083][899]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2026.01.18-22.10.26:502][173]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.10.26:803][173]LogUObjectHash: Compacting FUObjectHashTables data took   6.86ms
+[2026.01.18-22.10.28:533][256]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.10.28:555][256]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent3F1F1E23400F9E04302B3586EFC16E7F.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.10.28:620][256]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.10.28:620][256]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.11.02:947][344]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.11.03:231][344]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2026.01.18-22.11.04:054][374]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.11.04:078][374]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent1C76C0984777161E40C08EAA762FFC9B.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.11.04:151][374]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.11.04:151][374]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.12.39:866][874]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2026.01.18-22.12.39:881][874]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto7
+[2026.01.18-22.12.39:903][874]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/9QRN1EQZUYWQ4DJW44FI1X_Auto79B153CB74BF6AC2A7F48418629D5C601.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto7.uasset'
+[2026.01.18-22.12.39:953][874]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.200
+[2026.01.18-22.12.39:953][874]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.200
+[2026.01.18-22.12.39:954][874]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Components/BP_TargettingComponent] ([2] browsable assets)...
+[2026.01.18-22.12.39:954][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Components/BP_TargettingComponent]
+[2026.01.18-22.12.40:044][874]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Components/BP_TargettingComponent_Auto7
+[2026.01.18-22.12.40:061][874]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent_Auto7FFB4C0094897FA40E4C055891CFD1589.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/Components/BP_TargettingComponent_Auto7.uasset'
+[2026.01.18-22.12.40:099][874]LogFileHelpers: Auto-saving content packages took 0.145
+[2026.01.18-22.13.35:407][642]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.13.35:702][642]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2026.01.18-22.13.36:620][670]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.13.36:648][670]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponentDD5627FA4F1A1B40DC63D3A8A9B91F2E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.13.36:751][670]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.13.36:751][670]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.13.39:006][777]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.13.39:006][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.13.40:698][872]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.13.40:698][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.14.20:589][289]BlueprintLog: New page: Compile TargetingBPI
+[2026.01.18-22.14.20:725][289]LogUObjectHash: Compacting FUObjectHashTables data took   7.00ms
+[2026.01.18-22.14.21:345][325]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Interfaces/TargetingBPI
+[2026.01.18-22.14.21:369][325]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/TargetingBPIB26BEF1744CB4C7AC1A0C1BA5FA4DF0C.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Interfaces/TargetingBPI.uasset'
+[2026.01.18-22.14.21:443][325]AssetCheck: New page: Asset Save: TargetingBPI
+[2026.01.18-22.14.21:443][325]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Interfaces/TargetingBPI.TargetingBPI
+[2026.01.18-22.14.40:159][119]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.14.40:159][119]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.16.15:651][495]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.16.15:913][495]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2026.01.18-22.16.16:601][517]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.16.16:627][517]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent3BF6EFBD44626E0F72B3C4A585891077.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.16.16:737][517]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.16.16:737][517]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.16.51:241][429]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.16.51:241][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.16.52:949][576]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.16.52:950][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.17.01:597][965]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_TestDummyCharacter.BP_TestDummyCharacter
+[2026.01.18-22.17.01:598][965]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.19.51:863][585]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.19.51:866][585]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_407 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.19.51:866][585]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_409 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.19.51:866][585]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_411 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.20.14:393][585]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2026.01.18-22.20.14:419][585]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2026.01.18-22.20.14:441][585]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2026.01.18-22.20.14:519][586]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2026.01.18-22.20.21:133][903]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WB_LockOn
+[2026.01.18-22.20.21:148][903]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2026.01.18-22.20.23:134][980]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/CombatSystem/UI/WB_LockOn.WB_LockOn
+[2026.01.18-22.20.23:134][980]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.20.23:166][980]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.20.23:192][980]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2026.01.18-22.20.24:585][980]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2026.01.18-22.20.24:587][980]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2026.01.18-22.20.29:462][ 81]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2026.01.18-22.20.30:035][124]LogSlate: Window 'WB_LockOn' being destroyed
+[2026.01.18-22.22.05:963][870]BlueprintLog: New page: Compile WB_LockOn
+[2026.01.18-22.22.06:318][870]LogUObjectHash: Compacting FUObjectHashTables data took  11.81ms
+[2026.01.18-22.22.07:163][887]LogSavePackage: Moving output files for package: /Game/CombatSystem/UI/WB_LockOn
+[2026.01.18-22.22.07:163][887]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/WB_LockOn086995E144538A11E80801B6630A56E9.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/UI/WB_LockOn.uasset'
+[2026.01.18-22.22.07:218][887]AssetCheck: New page: Asset Save: WB_LockOn
+[2026.01.18-22.22.07:218][887]LogContentValidation: Display: Validating WidgetBlueprint /Game/CombatSystem/UI/WB_LockOn.WB_LockOn
+[2026.01.18-22.22.24:897][222]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.22.24:897][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.22.24:964][222]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.22.24:964][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.22.29:325][413]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.22.29:327][413]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_411 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.22.29:329][413]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_409 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.22.29:329][413]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_407 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.23.25:448][760]BlueprintLog: New page: Compile BP_TestDummyCharacter
+[2026.01.18-22.23.25:892][760]LogUObjectHash: Compacting FUObjectHashTables data took   9.98ms
+[2026.01.18-22.23.26:823][772]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_TestDummyCharacter
+[2026.01.18-22.23.26:845][772]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TestDummyCharacterF1BD0DD04BDF46AF5748EC9D88DA5E11.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_TestDummyCharacter.uasset'
+[2026.01.18-22.23.26:927][772]AssetCheck: New page: Asset Save: BP_TestDummyCharacter
+[2026.01.18-22.23.26:927][772]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_TestDummyCharacter.BP_TestDummyCharacter
+[2026.01.18-22.23.28:314][835]LogViewport: Scene viewport resized to 844x501, mode Windowed.
+[2026.01.18-22.24.28:830][250]LogUObjectHash: Compacting FUObjectHashTables data took   8.87ms
+[2026.01.18-22.24.28:862][250]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto8
+[2026.01.18-22.24.28:887][250]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/9QRN1EQZUYWQ4DJW44FI1X_Auto8856FBD134752A54A6F1CD296F439EE86.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto8.uasset'
+[2026.01.18-22.24.28:926][250]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.255
+[2026.01.18-22.24.28:926][250]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.255
+[2026.01.18-22.24.28:927][250]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_TestDummyCharacter] ([2] browsable assets)...
+[2026.01.18-22.24.28:986][250]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_TestDummyCharacter.BP_TestDummyCharacter]
+[2026.01.18-22.24.28:986][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_TestDummyCharacter]
+[2026.01.18-22.24.29:070][250]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_TestDummyCharacter_Auto8
+[2026.01.18-22.24.29:106][250]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TestDummyCharacter_Auto83DA3A8664CD38C6ED60D33A96B7785C8.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_TestDummyCharacter_Auto8.uasset'
+[2026.01.18-22.24.29:154][250]LogFileHelpers: Auto-saving content packages took 0.227
+[2026.01.18-22.25.03:353][869]BlueprintLog: New page: Compile BP_TestDummyCharacter
+[2026.01.18-22.25.03:702][869]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2026.01.18-22.25.04:640][886]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_TestDummyCharacter
+[2026.01.18-22.25.04:659][886]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TestDummyCharacter57F554C14E286A50A1BF129C446D4FA3.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_TestDummyCharacter.uasset'
+[2026.01.18-22.25.04:756][886]AssetCheck: New page: Asset Save: BP_TestDummyCharacter
+[2026.01.18-22.25.04:757][886]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_TestDummyCharacter.BP_TestDummyCharacter
+[2026.01.18-22.25.09:828][113]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.18-22.25.09:891][113]LogWorldPartition: Display: GenerateStreaming started...
+[2026.01.18-22.25.09:891][113]LogWorldPartition: Display: GetPartitionedActors started...
+[2026.01.18-22.25.09:891][113]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2026.01.18-22.25.09:891][113]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2026.01.18-22.25.09:891][113]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2026.01.18-22.25.09:891][113]LogWorldPartition: Display: GetPartitionedActors took 126 us
+[2026.01.18-22.25.09:893][113]LogWorldPartition: Display: GenerateStreaming took 764 us
+[2026.01.18-22.25.09:893][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.18-22.25.09:893][113]PIE: New page: PIE session: ThirdPersonMap (19 sty 2026, 02:25:09)
+[2026.01.18-22.25.09:894][113]LogPlayLevel: Creating play world package: /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap
+[2026.01.18-22.25.09:904][113]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2026.01.18-22.25.09:905][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011141s)
+[2026.01.18-22.25.09:905][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap to /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.011251s)
+[2026.01.18-22.25.09:905][113]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.25.09:906][113]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2026.01.18-22.25.09:907][113]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.18-22.25.09:907][113]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2026.01.18-22.25.09:909][113]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2026.01.18-22.25.09:910][113]LogPlayLevel: PIE: World Init took: (0.005316s)
+[2026.01.18-22.25.10:040][113]LogUObjectHash: Compacting FUObjectHashTables data took   8.60ms
+[2026.01.18-22.25.10:053][113]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.01.18-22.25.10:053][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.18-22.25.10:053][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.18-22.25.10:053][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.18-22.25.10:053][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.18-22.25.10:053][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.01.18-22.25.10:053][113]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.01.18-22.25.10:053][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.01.18-22.25.10:053][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.18-22.25.10:055][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.18-22.25.10:055][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.18-22.25.10:055][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.18-22.25.10:061][113]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.18-22.25.10:145][113]LogAudioMixer: Display: Using Audio Hardware Device 6 - SyncMaster (AMD High Definition Audio Device)
+[2026.01.18-22.25.10:146][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.18-22.25.10:146][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.18-22.25.10:146][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.18-22.25.10:148][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.01.18-22.25.10:148][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.01.18-22.25.10:153][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.01.18-22.25.10:153][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.01.18-22.25.10:153][113]LogInit: FAudioDevice initialized.
+[2026.01.18-22.25.10:153][113]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2026.01.18-22.25.10:183][113]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.18-22.25.10:188][113]LogWorld: Bringing World /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.01.19-00.25.10
+[2026.01.18-22.25.10:190][113]LogWorld: Bringing up level for play took: 0.006414
+[2026.01.18-22.25.10:195][113]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.01.18-22.25.10:200][113]LogWorldPartition: New Streaming Source: BP_PlayerController_C_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2026.01.18-22.25.10:200][113]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2026.01.18-22.25.10:205][113]LogBlueprintUserMessages: [BP_TestDummyCharacter_C_UAID_7085C255BA7252B602_1897155120] 8.0
+[2026.01.18-22.25.10:210][113]PIE: Server logged in
+[2026.01.18-22.25.10:213][113]PIE: Play in editor total start time 0,324 seconds.
+[2026.01.18-22.25.36:460][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.18-22.25.36:462][365]LogWorld: BeginTearingDown for /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap
+[2026.01.18-22.25.36:462][365]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.25.36:463][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.25.36:503][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.18-22.25.36:521][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.25.36:653][365]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.18-22.25.36:654][365]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.01.18-22.25.36:660][365]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.01.18-22.25.36:670][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.18-22.25.36:682][365]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2026.01.18-22.25.36:771][366]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.01.18-22.26.04:650][234]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/CombatSystem/UI/WB_LockOn.WB_LockOn
+[2026.01.18-22.26.04:651][234]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.26.04:683][234]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.26.06:131][234]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2026.01.18-22.26.06:131][234]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2026.01.18-22.26.11:970][829]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.26.11:970][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.26.12:037][829]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.26.12:038][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.26.13:397][902]BlueprintLog: New page: Compile BP_TestDummyCharacter
+[2026.01.18-22.26.13:765][902]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2026.01.18-22.26.14:570][920]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_TestDummyCharacter
+[2026.01.18-22.26.14:588][920]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TestDummyCharacter9FC8769D47FDC5D3275E1AA3976DE86A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_TestDummyCharacter.uasset'
+[2026.01.18-22.26.14:679][920]AssetCheck: New page: Asset Save: BP_TestDummyCharacter
+[2026.01.18-22.26.14:679][920]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_TestDummyCharacter.BP_TestDummyCharacter
+[2026.01.18-22.27.01:895][467]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.18-22.27.01:896][467]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.28.31:218][389]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.18-22.28.31:846][389]LogUObjectHash: Compacting FUObjectHashTables data took   9.64ms
+[2026.01.18-22.28.33:350][390]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.18-22.28.33:368][390]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterFE6911794F4F39D025EEB9BAC09CE497.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.18-22.28.33:451][390]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.18-22.28.33:452][390]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.18-22.28.35:114][456]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.18-22.28.35:134][456]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterFF38E3DE4CBFF8D930ED5AB2F986819E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.18-22.28.35:208][456]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.18-22.28.35:208][456]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.18-22.29.28:244][788]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.29.28:245][788]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.30.36:396][207]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.30.36:399][207]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_411 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.30.36:399][207]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_409 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.30.36:399][207]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_407 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.31.31:006][769]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.31.31:729][769]LogUObjectHash: Compacting FUObjectHashTables data took   7.67ms
+[2026.01.18-22.31.32:570][800]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.31.32:594][800]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent390C41364ACA73A6196ECEADA856BAEC.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.31.32:707][800]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.31.32:707][800]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.33.28:378][ 47]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Interfaces/CombatBPI.CombatBPI
+[2026.01.18-22.33.28:380][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.33.34:448][297]LogSlate: Window 'CombatBPI' being destroyed
+[2026.01.18-22.34.58:434][744]BlueprintLog: New page: Compile CombatBPI
+[2026.01.18-22.34.59:023][744]LogUObjectHash: Compacting FUObjectHashTables data took   8.40ms
+[2026.01.18-22.34.59:982][803]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Interfaces/CombatBPI
+[2026.01.18-22.34.59:997][803]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CombatBPIBCDAA999436939215039E3A9EF0E46CE.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Interfaces/CombatBPI.uasset'
+[2026.01.18-22.35.00:062][803]AssetCheck: New page: Asset Save: CombatBPI
+[2026.01.18-22.35.00:062][803]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Interfaces/CombatBPI.CombatBPI
+[2026.01.18-22.35.37:419][228]LogUObjectHash: Compacting FUObjectHashTables data took   7.49ms
+[2026.01.18-22.35.37:436][228]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto9
+[2026.01.18-22.35.37:437][228]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/9QRN1EQZUYWQ4DJW44FI1X_Auto947A872BD4DEFD2C23C5A01A195925C4A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto9.uasset'
+[2026.01.18-22.35.37:459][228]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.200
+[2026.01.18-22.35.37:459][228]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.200
+[2026.01.18-22.35.37:461][228]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2026.01.18-22.35.37:510][228]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2026.01.18-22.35.37:510][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2026.01.18-22.35.37:889][228]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto9
+[2026.01.18-22.35.37:909][228]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter_Auto96A9A68E848956D664B4777BAAA91D73D.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto9.uasset'
+[2026.01.18-22.35.37:942][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Components/BP_TargettingComponent] ([2] browsable assets)...
+[2026.01.18-22.35.37:942][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Components/BP_TargettingComponent]
+[2026.01.18-22.35.38:044][228]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Components/BP_TargettingComponent_Auto9
+[2026.01.18-22.35.38:044][228]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent_Auto97EDDC666417F2D1C6DE576AD5DE55349.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/Components/BP_TargettingComponent_Auto9.uasset'
+[2026.01.18-22.35.38:067][228]LogFileHelpers: Auto-saving content packages took 0.608
+[2026.01.18-22.35.57:539][ 21]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.18-22.35.58:083][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   7.08ms
+[2026.01.18-22.35.59:659][ 58]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.18-22.35.59:716][ 58]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter4D22A1F94874F6DE0319E19A10200A6A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.18-22.35.59:820][ 58]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.18-22.35.59:820][ 58]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.18-22.41.58:707][147]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.41.59:085][147]LogUObjectHash: Compacting FUObjectHashTables data took   7.70ms
+[2026.01.18-22.41.59:935][175]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.41.59:961][175]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent07B8BF1F4C80D897E0D6E0B14344B9F3.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.42.00:060][175]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.42.00:060][175]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.42.35:782][183]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.42.36:224][183]LogUObjectHash: Compacting FUObjectHashTables data took   9.85ms
+[2026.01.18-22.42.37:197][213]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.42.37:216][213]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent8354502B46CD6C1011487D84EFCFB2A9.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.42.37:289][213]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.42.37:289][213]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.43.51:866][445]BlueprintLog: New page: Compile BP_TargettingComponent
+[2026.01.18-22.43.52:314][445]LogUObjectHash: Compacting FUObjectHashTables data took   9.51ms
+[2026.01.18-22.43.53:221][471]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent
+[2026.01.18-22.43.53:294][471]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_TargettingComponent8F9701224D7E2AD7F202D6BD3143DE0F.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/BP_TargettingComponent.uasset'
+[2026.01.18-22.43.53:401][471]AssetCheck: New page: Asset Save: BP_TargettingComponent
+[2026.01.18-22.43.53:401][471]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/BP_TargettingComponent.BP_TargettingComponent
+[2026.01.18-22.44.36:155][990]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/CombatComponent.CombatComponent
+[2026.01.18-22.44.36:156][990]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.45.35:260][ 18]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Interfaces/AnimInstance_BPI.AnimInstance_BPI
+[2026.01.18-22.45.35:260][ 18]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.45.38:808][237]LogUObjectHash: Compacting FUObjectHashTables data took   8.37ms
+[2026.01.18-22.45.38:828][237]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto0
+[2026.01.18-22.45.38:844][237]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/9QRN1EQZUYWQ4DJW44FI1X_Auto0FBD9D12A41BC12CA121B84A685C9619D.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto0.uasset'
+[2026.01.18-22.45.38:876][237]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.284
+[2026.01.18-22.45.38:876][237]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.284
+[2026.01.18-22.45.48:499][ 42]LogSlate: Window 'Delete Function' being destroyed
+[2026.01.18-22.46.06:733][173]BlueprintLog: New page: Compile AnimInstance_BPI
+[2026.01.18-22.46.06:771][173]LogBlueprint: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\Characters\Mannequins\Animations\ABP_Manny.uasset: [Compiler] 'UpdateCombatEnabled' was removed from its interface - it has been replaced by a custom event, which won't trigger unless you call it manually.
+[2026.01.18-22.46.06:833][173]LogBlueprint: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\Characters\Mannequin_UE4\UE4_MannyAnims\ABP_UE4_Manny.uasset: [Compiler] 'UpdateCombatEnabled' was removed from its interface - it has been replaced by a custom event, which won't trigger unless you call it manually.
+[2026.01.18-22.46.06:900][173]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\CombatComponent.uasset: [Compiler] Unable to find function with name UpdateCombatEnabled for Message node  Invalid Message Node .
+[2026.01.18-22.46.06:900][173]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Components\CombatComponent.uasset: [Compiler] Could not find a function named "UpdateCombatEnabled" in 'AnimInstance_BPI_C'.
+Make sure 'AnimInstance_BPI_C' has been compiled for  Invalid Message Node
+[2026.01.18-22.46.07:413][173]LogUObjectHash: Compacting FUObjectHashTables data took   7.80ms
+[2026.01.18-22.46.08:349][213]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Interfaces/AnimInstance_BPI
+[2026.01.18-22.46.08:441][213]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/AnimInstance_BPI13A9E0CC459A95145E88938886BBEF41.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Interfaces/AnimInstance_BPI.uasset'
+[2026.01.18-22.46.08:525][213]AssetCheck: New page: Asset Save: AnimInstance_BPI
+[2026.01.18-22.46.08:525][213]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Interfaces/AnimInstance_BPI.AnimInstance_BPI
+[2026.01.18-22.46.29:650][858]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Interfaces/AnimInstance_BPI
+[2026.01.18-22.46.29:672][858]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/AnimInstance_BPI2501243346E45D0C4F3BBDB4B2833600.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Interfaces/AnimInstance_BPI.uasset'
+[2026.01.18-22.46.29:754][858]AssetCheck: New page: Asset Save: AnimInstance_BPI
+[2026.01.18-22.46.29:754][858]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Interfaces/AnimInstance_BPI.AnimInstance_BPI
+[2026.01.18-22.46.31:390][ 11]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-22.46.31:390][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-22.46.34:951][282]LogDerivedDataCache: C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.176 and deleted 0 file(s) with total size 0 MiB.
+[2026.01.18-22.47.52:963][811]BlueprintLog: New page: Compile CombatComponent
+[2026.01.18-22.47.53:431][811]LogUObjectHash: Compacting FUObjectHashTables data took   9.97ms
+[2026.01.18-22.47.54:250][859]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/CombatComponent
+[2026.01.18-22.47.54:274][859]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/CombatComponent98837ECD4B191E1D681D8B9BA701A323.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/Components/CombatComponent.uasset'
+[2026.01.18-22.47.54:362][859]AssetCheck: New page: Asset Save: CombatComponent
+[2026.01.18-22.47.54:362][859]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/Components/CombatComponent.CombatComponent
+[2026.01.18-22.48.26:488][853]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny
+[2026.01.18-22.48.26:490][853]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.48.26:545][853]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.48.26:574][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.01.18-22.48.28:220][853]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.18-22.48.28:908][853]LogViewport: Scene viewport resized to 396x319, mode Windowed.
+[2026.01.18-22.49.42:937][283]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.49.42:940][283]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_411 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.49.42:940][283]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_409 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.49.42:940][283]LogEditorClassViewer: Warning: Class /Engine/Transient.REINST_SKEL_BP_TestDummyCharacter_C_407 has parent /Game/CombatSystem/Blueprints/BP_CombatCharacter.SKEL_BP_CombatCharacter_C, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.18-22.52.40:712][834]BlueprintLog: New page: Compile ABP_Manny
+[2026.01.18-22.52.41:114][834]LogUObjectHash: Compacting FUObjectHashTables data took   8.49ms
+[2026.01.18-22.52.42:133][849]LogSavePackage: Moving output files for package: /Game/Characters/Mannequins/Animations/ABP_Manny
+[2026.01.18-22.52.42:169][849]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/ABP_Manny93DBA2E5419617AB4D43B6B6323D7B1E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/Characters/Mannequins/Animations/ABP_Manny.uasset'
+[2026.01.18-22.52.42:258][849]AssetCheck: New page: Asset Save: ABP_Manny
+[2026.01.18-22.52.42:259][849]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny
+[2026.01.18-22.55.38:890][ 74]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.18-22.55.39:124][ 74]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	ABP_Manny_C /Engine/Transient.World_5:PersistentLevel.BP_CombatCharacter_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0406
+[2026.01.18-22.55.39:128][ 74]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	ABP_Manny_C /Engine/Transient.World_5:PersistentLevel.BP_CombatCharacter_C_0.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0406
+[2026.01.18-22.55.39:129][ 74]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	ABP_Manny_C /Engine/Transient.World_3:PersistentLevel.BP_CombatCharacter_C_4.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0406
+[2026.01.18-22.55.39:133][ 74]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	ABP_Manny_C /Engine/Transient.World_3:PersistentLevel.BP_CombatCharacter_C_4.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0406
+[2026.01.18-22.55.39:135][ 74]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	ABP_Manny_C /Engine/Transient.World_37:PersistentLevel.BP_CombatCharacter_C_0.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0406
+[2026.01.18-22.55.39:139][ 74]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	ABP_Manny_C /Engine/Transient.World_37:PersistentLevel.BP_CombatCharacter_C_0.CharacterMesh0.ABP_Manny_C_1
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0406
+[2026.01.18-22.55.39:457][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   7.62ms
+[2026.01.18-22.55.39:477][ 74]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	ABP_Manny_C /Engine/Transient.World_3:PersistentLevel.BP_CombatCharacter_C_5.CharacterMesh0.ABP_Manny_C_0
+	Function /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny_C:ExecuteUbergraph_ABP_Manny:0406
+[2026.01.18-22.55.41:137][111]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.18-22.55.41:195][111]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter3CBB279B47BD96012C9D67AF48FE11FC.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.18-22.55.41:468][111]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.18-22.55.41:468][111]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.18-22.56.07:442][264]LogUObjectHash: Compacting FUObjectHashTables data took  10.12ms
+[2026.01.18-22.56.07:462][264]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto1
+[2026.01.18-22.56.07:492][264]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/9QRN1EQZUYWQ4DJW44FI1X_Auto1237A669C4CE748E47D101CB79E3E8A93.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto1.uasset'
+[2026.01.18-22.56.07:543][264]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.299
+[2026.01.18-22.56.07:543][264]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.299
+[2026.01.18-22.56.54:681][688]BlueprintLog: New page: Compile ABP_Manny
+[2026.01.18-22.56.55:063][688]LogUObjectHash: Compacting FUObjectHashTables data took   9.56ms
+[2026.01.18-22.56.56:208][704]LogSavePackage: Moving output files for package: /Game/Characters/Mannequins/Animations/ABP_Manny
+[2026.01.18-22.56.56:231][704]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/ABP_MannyABB70F654F3F4405C22235BF7DD91A21.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/Characters/Mannequins/Animations/ABP_Manny.uasset'
+[2026.01.18-22.56.56:325][704]AssetCheck: New page: Asset Save: ABP_Manny
+[2026.01.18-22.56.56:325][704]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Mannequins/Animations/ABP_Manny.ABP_Manny
+[2026.01.18-22.58.14:997][536]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.18-22.58.15:572][536]LogUObjectHash: Compacting FUObjectHashTables data took  10.01ms
+[2026.01.18-22.58.17:067][564]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.18-22.58.17:089][564]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterC990F6CB40B25486047634A7AE84A083.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.18-22.58.17:182][564]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.18-22.58.17:182][564]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.18-23.03.53:723][114]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.18-23.03.54:421][114]LogUObjectHash: Compacting FUObjectHashTables data took   9.34ms
+[2026.01.18-23.03.56:596][154]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.18-23.03.56:613][154]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter6D7DF9BE472A419F9C5025A6BD0A3345.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.18-23.03.56:695][154]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.18-23.03.56:695][154]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.18-23.06.29:514][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   7.41ms
+[2026.01.18-23.06.29:533][ 82]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto2
+[2026.01.18-23.06.29:559][ 82]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/9QRN1EQZUYWQ4DJW44FI1X_Auto2252EAC77491DB3F123FDA18825D518AE.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X_Auto2.uasset'
+[2026.01.18-23.06.29:608][ 82]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.275
+[2026.01.18-23.06.29:608][ 82]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.275
+[2026.01.18-23.06.29:611][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2026.01.18-23.06.29:662][ 82]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2026.01.18-23.06.29:662][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2026.01.18-23.06.30:131][ 82]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto2
+[2026.01.18-23.06.30:160][ 82]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacter_Auto212496D20477044A3A74B7E8045C17CD0.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto2.uasset'
+[2026.01.18-23.06.30:209][ 82]LogFileHelpers: Auto-saving content packages took 0.601
+[2026.01.18-23.07.26:647][768]BlueprintLog: New page: Compile BP_CombatCharacter
+[2026.01.18-23.07.27:260][768]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2026.01.18-23.07.28:997][775]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2026.01.18-23.07.29:022][775]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_CombatCharacterCED99CF84ED86FBE491C8B860D5B8425.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2026.01.18-23.07.29:101][775]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2026.01.18-23.07.29:101][775]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2026.01.18-23.08.24:725][161]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-23.08.24:725][161]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-23.08.27:175][228]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-23.08.27:175][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-23.08.28:540][293]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-23.08.28:540][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-23.08.29:483][339]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-23.08.29:483][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-23.08.30:452][377]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-23.08.30:452][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-23.08.30:542][377]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-23.08.30:542][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-23.08.31:267][377]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-23.08.31:267][377]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-23.08.32:057][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.01.18-23.08.32:057][416]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2026.01.18-23.08.32:057][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.18-23.08.35:577][560]LogUObjectHash: Compacting FUObjectHashTables data took   9.19ms
+[2026.01.18-23.08.37:348][560]LogSlate: Window 'Save Content' being destroyed
+[2026.01.18-23.08.37:461][560]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X
+[2026.01.18-23.08.37:482][560]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/9QRN1EQZUYWQ4DJW44FI1XDEFF3717436BC73DC0DF508238EF09C1.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/C/I8/9QRN1EQZUYWQ4DJW44FI1X.uasset'
+[2026.01.18-23.08.37:566][560]AssetCheck: New page: Asset Save: BP_TestDummyCharacter_C_UAID_7085C255BA7252B602_1897155120
+[2026.01.18-23.08.37:566][560]LogContentValidation: Display: Validating BP_TestDummyCharacter_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_TestDummyCharacter_C_UAID_7085C255BA7252B602_1897155120
+[2026.01.18-23.08.57:079][698]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-23.08.57:412][699]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-23.08.58:079][701]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-23.09.02:092][713]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-23.09.02:426][714]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-23.09.02:759][715]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
+[2026.01.18-23.09.03:427][717]LogRendererCore: Warning: Query 'EndOfFrameUpdates' not ready.
