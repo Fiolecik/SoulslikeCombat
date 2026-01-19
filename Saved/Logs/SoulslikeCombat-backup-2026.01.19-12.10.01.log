@@ -1,0 +1,1349 @@
+﻿Log file open, 01/19/26 12:50:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=7544)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SoulslikeCombat
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject"""
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.7623] "
+LogCsvProfiler: Warning: Metadata value sanitized due to invalid characters: cpu="AuthenticAMD|AMD A8-7600 Radeon R7, 10 Compute Cores 4C+6G"
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD A8-7600 Radeon R7&#44; 10 Compute Cores 4C+6G"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="b7e5a8374f3cd13f9e0e09b8b210d84d"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.985935
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-CC20527F456663B4A478B388D6BDA75A
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading Android ini files took 0.06 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.06 seconds
+LogConfig: Display: Loading IOS ini files took 0.06 seconds
+LogConfig: Display: Loading Linux ini files took 0.09 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.08 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogConfig: Display: Loading Mac ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogConfig: Display: Loading Unix ini files took 0.06 seconds
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogConfig: Display: Loading Windows ini files took 0.06 seconds
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GLTFImporter
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin MDLImporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin USDImporter
+LogPluginManager: Mounting Engine plugin FabLauncher
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin AnalyticsBlueprintLibrary
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/MDLImporter/Content/' mounted to '/MDLImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Importers/USDImporter/Content/' mounted to '/USDImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Marketplace/FabLauncher/Content/' mounted to '/FabLauncher/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 11 (24H2) [10.0.26100.7623] (), CPU: AMD A8-7600 Radeon R7, 10 Compute Cores 4C+6G  , GPU: AMD Radeon RX 580 2048SP
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogLinker: AddRedirectList(C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Config/WindowsEditor/MDLImporter.ini) has substring redirect /DatasmithContent/Materials/MDL/, these are very slow and should be resolved as soon as possible!
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2026.01.19-10.50.08:244][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2026.01.19-10.50.08:244][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2026.01.19-10.50.08:244][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2026.01.19-10.50.08:245][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2026.01.19-10.50.08:249][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2026.01.19-10.50.08:249][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2026.01.19-10.50.08:249][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2026.01.19-10.50.08:249][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2026.01.19-10.50.08:249][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2026.01.19-10.50.08:249][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2026.01.19-10.50.08:249][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2026.01.19-10.50.08:249][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2026.01.19-10.50.08:250][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2026.01.19-10.50.08:250][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2026.01.19-10.50.08:250][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2026.01.19-10.50.08:385][  0]LogD3D12RHI: Aftermath initialized
+[2026.01.19-10.50.08:385][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2026.01.19-10.50.09:711][  0]LogD3D12RHI: Found D3D12 adapter 0: AMD Radeon RX 580 2048SP (Max supported Feature Level 12_0, shader model 6.6)
+[2026.01.19-10.50.09:711][  0]LogD3D12RHI: Adapter has 8170MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 1 output[s]
+[2026.01.19-10.50.09:767][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.6)
+[2026.01.19-10.50.09:767][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 0 output[s]
+[2026.01.19-10.50.09:767][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2026.01.19-10.50.09:767][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.01.19-10.50.09:767][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2026.01.19-10.50.09:767][  0]LogHAL: Display: Platform has ~ 16 GB [17131569152 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2026.01.19-10.50.09:768][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2026.01.19-10.50.09:768][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2026.01.19-10.50.09:768][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2026.01.19-10.50.09:771][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2026.01.19-10.50.09:771][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Config/WindowsEditor/Editor.ini]
+[2026.01.19-10.50.09:771][  0]LogInit: Computer: DESKTOP-HC2H4LI
+[2026.01.19-10.50.09:771][  0]LogInit: User: dawid
+[2026.01.19-10.50.09:771][  0]LogInit: CPU Page size=4096, Cores=2
+[2026.01.19-10.50.09:771][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2026.01.19-10.50.09:771][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2026.01.19-10.50.09:771][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2026.01.19-10.50.09:771][  0]LogMemory: Process Physical Memory: 252.41 MB used, 312.55 MB peak
+[2026.01.19-10.50.09:771][  0]LogMemory: Process Virtual Memory: 178.50 MB used, 205.13 MB peak
+[2026.01.19-10.50.09:771][  0]LogMemory: Physical Memory: 4624.33 MB used,  11713.61 MB free, 16337.94 MB total
+[2026.01.19-10.50.09:771][  0]LogMemory: Virtual Memory: 6499.34 MB used,  18030.59 MB free, 24529.94 MB total
+[2026.01.19-10.50.09:771][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2026.01.19-10.50.09:789][  0]LogWindows: WindowsPlatformFeatures enabled
+[2026.01.19-10.50.09:863][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2026.01.19-10.50.09:869][  0]LogInit: Using OS detected language (pl-PL).
+[2026.01.19-10.50.09:869][  0]LogInit: Using OS detected locale (pl-PL).
+[2026.01.19-10.50.09:927][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so 'pl' will be used for the language.
+[2026.01.19-10.50.09:930][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2026.01.19-10.50.09:931][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2026.01.19-10.50.09:932][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2026.01.19-10.50.09:932][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2026.01.19-10.50.09:933][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2026.01.19-10.50.09:934][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2026.01.19-10.50.09:936][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2026.01.19-10.50.09:994][  0]LogInit: Setting process to per monitor DPI aware
+[2026.01.19-10.50.10:139][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2026.01.19-10.50.10:139][  0]LogWindowsTextInputMethodSystem:   - Polski (Polska) - (Keyboard).
+[2026.01.19-10.50.10:139][  0]LogWindowsTextInputMethodSystem: Activated input method: Polski (Polska) - (Keyboard).
+[2026.01.19-10.50.10:316][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2026.01.19-10.50.10:316][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2026.01.19-10.50.17:276][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2026.01.19-10.50.17:276][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2026.01.19-10.50.17:491][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2026.01.19-10.50.17:547][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2026.01.19-10.50.17:551][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2026.01.19-10.50.17:555][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2026.01.19-10.50.17:580][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2026.01.19-10.50.17:580][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2026.01.19-10.50.17:840][  0]LogD3D12RHI:     GPU DeviceId: 0x6fdf (for the marketing name, search the web for "GPU Device Id")
+[2026.01.19-10.50.17:840][  0]LogWindows: Attached monitors:
+[2026.01.19-10.50.17:840][  0]LogWindows:     resolution: 1600x900, work area: (0, 0) -> (1600, 852), device: '\\.\DISPLAY1' [PRIMARY]
+[2026.01.19-10.50.17:840][  0]LogWindows: Found 1 attached monitors.
+[2026.01.19-10.50.17:840][  0]LogWindows: EnumDisplayDevices:
+[2026.01.19-10.50.17:840][  0]LogWindows:    0. 'AMD Radeon RX 580 2048SP' (P:1 D:1), name: '\\.\DISPLAY1'
+[2026.01.19-10.50.17:841][  0]LogWindows:    1. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY2'
+[2026.01.19-10.50.17:842][  0]LogWindows:    2. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY3'
+[2026.01.19-10.50.17:842][  0]LogWindows:    3. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY4'
+[2026.01.19-10.50.17:843][  0]LogWindows:    4. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY5'
+[2026.01.19-10.50.17:843][  0]LogWindows:    5. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY6'
+[2026.01.19-10.50.17:844][  0]LogWindows:    6. 'AMD Radeon RX 580 2048SP' (P:0 D:0), name: '\\.\DISPLAY7'
+[2026.01.19-10.50.17:845][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2026.01.19-10.50.17:845][  0]LogD3D12RHI:     Adapter Name: AMD Radeon RX 580 2048SP
+[2026.01.19-10.50.17:845][  0]LogD3D12RHI:   Driver Version: AMD Software: Adrenalin Edition 25.8.1 (internal:31.0.21923.11000, unified:31.0.21923.11000)
+[2026.01.19-10.50.17:845][  0]LogD3D12RHI:      Driver Date: 7-1-2025
+[2026.01.19-10.50.17:845][  0]LogRHI: Texture pool is 4663 MB (70% of 6662 MB)
+[2026.01.19-10.50.17:845][  0]LogD3D12RHI: Async texture creation enabled
+[2026.01.19-10.50.17:845][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2026.01.19-10.50.17:903][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/TurnkeyReport_0.log" -log="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/TurnkeyLog_0.log" -project="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject"  -platform=all'
+[2026.01.19-10.50.17:903][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/TurnkeyReport_0.log" -log="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/TurnkeyLog_0.log" -project="C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/SoulslikeCombat.uproject"  -platform=all" ]
+[2026.01.19-10.50.18:066][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2026.01.19-10.50.18:171][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2026.01.19-10.50.18:171][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2026.01.19-10.50.18:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2026.01.19-10.50.18:267][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2026.01.19-10.50.18:268][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2026.01.19-10.50.18:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2026.01.19-10.50.18:285][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2026.01.19-10.50.18:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2026.01.19-10.50.18:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2026.01.19-10.50.18:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2026.01.19-10.50.18:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2026.01.19-10.50.18:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2026.01.19-10.50.18:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2026.01.19-10.50.18:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2026.01.19-10.50.18:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2026.01.19-10.50.18:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2026.01.19-10.50.18:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2026.01.19-10.50.18:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2026.01.19-10.50.18:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2026.01.19-10.50.18:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2026.01.19-10.50.18:355][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2026.01.19-10.50.18:603][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2026.01.19-10.50.18:603][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2026.01.19-10.50.18:610][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2026.01.19-10.50.18:611][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2026.01.19-10.50.18:611][  0]LogTargetPlatformManager:   ADPCM
+[2026.01.19-10.50.18:611][  0]LogTargetPlatformManager:   PCM
+[2026.01.19-10.50.18:620][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2026.01.19-10.50.18:620][  0]LogTargetPlatformManager:   BINKA
+[2026.01.19-10.50.18:620][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2026.01.19-10.50.18:620][  0]LogTargetPlatformManager:   OGG
+[2026.01.19-10.50.18:620][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2026.01.19-10.50.18:620][  0]LogTargetPlatformManager:   OPUS
+[2026.01.19-10.50.18:894][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2026.01.19-10.50.18:913][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   SF_METAL
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2026.01.19-10.50.18:914][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2026.01.19-10.50.18:923][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2026.01.19-10.50.18:923][  0]LogTargetPlatformManager:   VVM_1_0
+[2026.01.19-10.50.18:923][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2026.01.19-10.50.18:923][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2026.01.19-10.50.18:923][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2026.01.19-10.50.18:924][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2026.01.19-10.50.18:924][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2026.01.19-10.50.18:924][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2026.01.19-10.50.18:924][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2026.01.19-10.50.18:925][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.01.19-10.50.18:925][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2026.01.19-10.50.18:926][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2026.01.19-10.50.18:936][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2026.01.19-10.50.18:936][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2026.01.19-10.50.18:936][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.01.19-10.50.18:936][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2026.01.19-10.50.19:004][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2026.01.19-10.50.19:004][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2026.01.19-10.50.19:005][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2026.01.19-10.50.19:026][  0]LogDerivedDataCache: Speed tests for C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.02 seconds
+[2026.01.19-10.50.19:026][  0]LogDerivedDataCache: Display: Performance to C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.11ms. RandomReadSpeed=251.68MBs, RandomWriteSpeed=56.61MBs. Assigned SpeedClass 'Local'
+[2026.01.19-10.50.19:030][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2026.01.19-10.50.19:030][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2026.01.19-10.50.19:030][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2026.01.19-10.50.19:043][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2026.01.19-10.50.19:043][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2026.01.19-10.50.19:044][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Intermediate/Shaders/WorkingDirectory/2088/).
+[2026.01.19-10.50.19:046][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dawid/AppData/Local/Temp/UnrealShaderWorkingDir/9514788A4BD3E952D8CE68B47D876CCC/'.
+[2026.01.19-10.50.19:047][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2026.01.19-10.50.19:047][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 3 workers.
+[2026.01.19-10.50.35:690][  0]LogSlate: Using FreeType 2.10.0
+[2026.01.19-10.50.35:725][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2026.01.19-10.50.35:872][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
+[2026.01.19-10.50.35:890][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2026.01.19-10.50.36:364][  0]LogSerialization: UsePackageTrailer: 'false'
+[2026.01.19-10.50.36:366][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2026.01.19-10.50.37:308][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2026.01.19-10.50.37:308][  0]LogDeviceProfileManager: Active device profile: [000008EC4B25EE00][000008EC40735000 50] WindowsEditor
+[2026.01.19-10.50.37:308][  0]LogDeviceProfileManager: Profiles: [000008EC4B25E8C0][000008EC4073A000 50] Windows, [000008EC4B25EE00][000008EC40735000 50] WindowsEditor, [000008EC4B25E700][000008EC40732800 50] WindowsServer, [000008EC4B25E380][000008EC4060A000 50] WindowsClient, [000008EC4B259F40][000008EC40737800 50] IOS, [000008EC4B25E1C0][000008EC4B7E0000 50] iPadAir2, [000008EC4B25E000][000008EC4B7E7800 50] IPadPro, [000008EC4B25B0C0][000008EC4B7E5000 50] iPadAir3, [000008EC4B25EC40][000008EC4B7EA000 50] iPadAir4, [000008EC4B25AD40][000008EC4B7EC800 50] iPadMini4, [000008EC4B25C240][000008EC34725000 50] iPadMini5, [000008EC4B25DE40][000008EC4C010000 50] iPadMini6, [000008EC4C092140][000008EC4C01A000 50] iPhone6S, [000008EC4C0924C0][000008EC4C017800 50] iPhone7, [000008EC4C092840][000008EC4C015000 50] iPodTouch7, [000008EC4C091F80][000008EC4C01C800 50] iPhone6SPlus, [000008EC4C091DC0][000008EC4B7E2800 50] iPhone7Plus, [000008EC4C091C00][000008EC4C020000 50] iPhoneSE, [000008EC4C091A40][000008EC4C025000 50] iPhone8, [000008EC4C091880][000008EC4C027800 50] iPhone8Plus, [000008EC4C0908C0][000008EC4C02A000 50] iPhoneX, [000008EC4C092D80][000008EC4C02C800 50] iPhoneXS, [000008EC4C092A00][000008EC4C012800 50] iPhoneXSMax, [000008EC4C090FC0][000008EC4C040000 50] iPhoneXR, [000008EC4C091340][000008EC4C045000 50] iPhone11, [000008EC4C090700][000008EC4C047800 50] iPhone11Pro, [000008EC4C0916C0][000008EC4C04A000 50] iPhone11ProMax, [000008EC4C093480][000008EC4C04C800 50] iPhoneSE2, [000008EC4C093640][000008EC4C022800 50] iPhone12Mini, [000008EC4C0932C0][000008EC4C050000 50] iPhone12, [000008EC4C090A80][000008EC4C055000 50] iPhone12Pro, [000008EC4C090C40][000008EC4C057800 50] iPhone12ProMax, [000008EC4C092F40][000008EC4C05A000 50] iPhone13Mini, [000008EC4C091500][000008EC4C05C800 50] iPhone13, [000008EC4C094440][000008EC4C042800 50] iPhone13Pro, [000008EC4C0947C0][000008EC4C060000 50] iPhone13ProMax, [000008EC4C093800][000008EC4C065000 50] iPadPro105, [000008EC4C092300][000008EC4C067800 50] iPadPro129, [000008EC4C094280][000008EC4C06A000 50] iPadPro97, [000008EC4C090380][000008EC4C06C800 50] iPadPro2_129, [000008EC4C093F00][000008EC4C052800 50] iPad5, [000008EC4C093100][000008EC4C070000 50] iPad6, [000008EC4C094980][000008EC4C075000 50] iPad7, [000008EC4C095400][000008EC4C077800 50] iPad8, [000008EC4C0955C0][000008EC4C07A000 50] iPad9, [000008EC4C095780][000008EC4C07C800 50] iPadPro11, [000008EC4C0940C0][000008EC4C062800 50] iPadPro2_11, [000008EC4C090540][000008EC4C080000 50] iPadPro3_11, [000008EC4C090E00][000008EC4C085000 50] iPadPro3_129, [000008EC4C0939C0][000008EC4C087800 50] iPadPro4_129, [000008EC4C094600][000008EC4C08A000 50] iPadPro5_129, [000008EC4C095940][000008EC4C08C800 50] AppleTV, [000008EC4C092BC0][000008EC4C072800 50] AppleTV4K, [000008EC4C094B40][000008EC4B790000 50] TVOS, [000008EC4C098C00][000008EC4B797800 50] Mac, [000008EC4C098F80][000008EC4B795000 50] MacEditor, [000008EC4C098340][000008EC4B79A000 50] MacClient, [000008EC4C095240][000008EC4B79C800 50] MacServer, [000008EC4C099140][000008EC4C0D0000 50] Linux, [000008EC4C096200][000008EC4C0D2800 50] LinuxEditor, [000008EC4C097380][000008EC4C0D7800 50] LinuxArm64Editor, [000008EC4C096900][000008EC4C0DA000 50] LinuxArm64, [000008EC4C097000][000008EC4C0DC800 50] LinuxClient, [000008EC4C099BC0][000008EC4C082800 50] LinuxArm64Client, [000008EC4C095B00][000008EC4C0D5000 50] LinuxServer, [000008EC4C098180][000008EC4C0C0000 50] LinuxArm64Server, [000008EC4C097700][000008EC4C0C5000 50] Android, [000008EC4C0963C0][000008EC4C0C7800 50] Android_Preview_OpenGL, [000008EC4C098DC0][000008EC4C0CA000 50] Android_Preview_Vulkan, [000008EC4C098500][000008EC4C0CC800 50] Android_Low, [000008EC4C095E80][000008EC4B792800 50] Android_Mid, [000008EC4C099A00][000008EC4C0E0000 50] Android_High, [000008EC4C096C80][000008EC4C0E5000 50] Android_Default, [000008EC4C093D40][000008EC4C0E7800 50] Android_Adreno4xx, [000008EC4C098A40][000008EC4C0EA000 50] Android_Adreno5xx_Low, [000008EC4C094D00][000008EC4C0EC800 50] Android_Adreno5xx, [000008EC4C093B80][000008EC4C0C2800 50] Android_Adreno6xx, [000008EC4C096580][000008EC4C0F0000 50] Android_Adreno6xx_Vulkan, [000008EC4C0994C0][000008EC4C0F5000 50] Android_Adreno7xx, [000008EC4C097FC0][000008EC4C0F7800 50] Android_Adreno7xx_Vulkan, [000008EC4C099300][000008EC4C0FA000 50] Android_Mali_T6xx, [000008EC4C095080][000008EC4C0FC800 50] Android_Mali_T7xx, [000008EC4C0901C0][000008EC4C0E2800 50] Android_Mali_T8xx, [000008EC4C099D80][000008EC4C100000 50] Android_Mali_G71, [000008EC4C09A100][000008EC4C105000 50] Android_Mali_G72, [000008EC4C099F40][000008EC4C107800 50] Android_Mali_G72_Vulkan, [000008EC4C096AC0][000008EC4C10A000 50] Android_Mali_G76, [000008EC4C096040][000008EC4C10C800 50] Android_Mali_G76_Vulkan, [000008EC4C090000][000008EC4C0F2800 50] Android_Mali_G77, [000008EC4C094EC0][000008EC4C110000 50] Android_Mali_G77_Vulkan, [000008EC4C09A2C0][000008EC4C115000 50] Android_Mali_G78, [000008EC4C09A480][000008EC4C117800 50] Android_Mali_G78_Vulkan, [000008EC4C09AD40][000008EC4C11A000 50] Android_Mali_G710, [000008EC4C09B0C0][000008EC4C11C800 50] Android_Mali_G710_Vulkan, [000008EC4C09AF00][000008EC4C102800 50] Android_Xclipse_920, [000008EC4C098880][000008EC4C120000 50] Android_Xclipse_920_Vulkan, [000008EC4C095CC0][000008EC4C125000 50] Android_Vulkan_SM5, [000008EC4C097A80][000008EC4C127800 50] Android_PowerVR_G6xxx, [000008EC4C09A9C0][000008EC4C12A000 50] Android_PowerVR_GT7xxx, [000008EC4C0986C0][000008EC4C12C800 50] Android_PowerVR_GE8xxx, [000008EC4C09BD00][000008EC4C112800 50] Android_PowerVR_GM9xxx, [000008EC4C09C080][000008EC4C130000 50] Android_PowerVR_GM9xxx_Vulkan, [000008EC4C09BEC0][000008EC4C135000 50] Android_TegraK1, [000008EC4C09B980][000008EC4C137800 50] Android_Unknown_Vulkan, [000008EC4C091180][000008EC4C13A000 50] Oculus_Quest, [000008EC4C09A800][000008EC4C13C800 50] Oculus_Quest2, [000008EC4C09B7C0][000008EC4C122800 50] HoloLens, 
+[2026.01.19-10.50.37:308][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2026.01.19-10.50.37:737][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2026.01.19-10.50.38:187][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2026.01.19-10.50.38:187][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2026.01.19-10.50.38:187][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2026.01.19-10.50.38:187][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2026.01.19-10.50.38:187][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2026.01.19-10.50.38:295][  0]LogNetVersion: SoulslikeCombat 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 2242499598)
+[2026.01.19-10.50.39:527][  0]LogSlate: Border
+[2026.01.19-10.50.39:527][  0]LogSlate: BreadcrumbButton
+[2026.01.19-10.50.39:527][  0]LogSlate: Default
+[2026.01.19-10.50.39:527][  0]LogSlate: Icons.Save
+[2026.01.19-10.50.39:527][  0]LogSlate: Icons.Toolbar.Settings
+[2026.01.19-10.50.39:527][  0]LogSlate: ListView
+[2026.01.19-10.50.39:527][  0]LogSlate: SoftwareCursor_CardinalCross
+[2026.01.19-10.50.39:527][  0]LogSlate: SoftwareCursor_Grab
+[2026.01.19-10.50.39:527][  0]LogSlate: TableView.DarkRow
+[2026.01.19-10.50.39:527][  0]LogSlate: TableView.Row
+[2026.01.19-10.50.39:527][  0]LogSlate: TreeView
+[2026.01.19-10.50.40:828][  0]SourceControl: Source control is disabled
+[2026.01.19-10.50.41:048][  0]SourceControl: Source control is disabled
+[2026.01.19-10.50.41:048][  0]SourceControl: Source control is disabled
+[2026.01.19-10.50.41:487][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2026.01.19-10.50.41:487][  0]LogUObjectAllocator: 5584264 out of 0 bytes used by permanent object pool.
+[2026.01.19-10.50.41:487][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2026.01.19-10.50.43:819][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 1C1FF7934D1AAFE71FB9F0B81F4802AF | Instance: 844604034C2A9E2D074EA8BDCFBD2194 (DESKTOP-HC2H4LI-2088).
+[2026.01.19-10.50.43:917][  0]LogPython: Using Python 3.9.7
+[2026.01.19-10.50.47:606][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2026.01.19-10.50.47:619][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2026.01.19-10.50.47:867][  0]SourceControl: Source control is disabled
+[2026.01.19-10.50.47:875][  0]SourceControl: Source control is disabled
+[2026.01.19-10.50.47:923][  0]SourceControl: Source control is disabled
+[2026.01.19-10.50.47:949][  0]LogUProjectInfo: Found projects:
+[2026.01.19-10.50.49:256][  0]LogOpenImageDenoise: OIDN starting up
+[2026.01.19-10.50.49:519][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdf/resources/plugInfo.json'
+[2026.01.19-10.50.49:523][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ar/resources/plugInfo.json'
+[2026.01.19-10.50.49:540][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/plugInfo.json'
+[2026.01.19-10.50.49:557][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ndr/resources/plugInfo.json'
+[2026.01.19-10.50.49:575][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdGeom/resources/plugInfo.json'
+[2026.01.19-10.50.49:593][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdHydra/resources/plugInfo.json'
+[2026.01.19-10.50.49:597][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdLux/resources/plugInfo.json'
+[2026.01.19-10.50.49:600][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMedia/resources/plugInfo.json'
+[2026.01.19-10.50.49:604][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdPhysics/resources/plugInfo.json'
+[2026.01.19-10.50.49:608][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRi/resources/plugInfo.json'
+[2026.01.19-10.50.49:625][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRender/resources/plugInfo.json'
+[2026.01.19-10.50.49:643][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShade/resources/plugInfo.json'
+[2026.01.19-10.50.49:648][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkel/resources/plugInfo.json'
+[2026.01.19-10.50.49:652][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVol/resources/plugInfo.json'
+[2026.01.19-10.50.49:667][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdUI/resources/plugInfo.json'
+[2026.01.19-10.50.49:669][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/codegenTemplates/plugInfo.json'
+[2026.01.19-10.50.52:024][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2026.01.19-10.50.52:070][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.01.19-10.50.52:070][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2026.01.19-10.50.52:339][  0]LogCollectionManager: Loaded 0 collections in 0.004120 seconds
+[2026.01.19-10.50.53:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Collections/' took 0.00s
+[2026.01.19-10.50.53:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/Developers/dawid/Collections/' took 0.01s
+[2026.01.19-10.50.53:192][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/Collections/' took 0.01s
+[2026.01.19-10.50.55:333][  0]LogFabLauncher: Display: FabLauncher (version 0.4.2) active
+[2026.01.19-10.50.55:708][  0]LogEngine: Initializing Engine...
+[2026.01.19-10.50.55:749][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2026.01.19-10.50.55:951][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2026.01.19-10.50.58:772][  0]LogInit: Initializing FReadOnlyCVARCache
+[2026.01.19-10.50.58:773][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2026.01.19-10.50.58:822][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.19-10.50.58:935][  0]LogAIModule: Creating AISystem for world Untitled
+[2026.01.19-10.50.58:938][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2026.01.19-10.50.59:053][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2026.01.19-10.50.59:079][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2026.01.19-10.50.59:079][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2026.01.19-10.50.59:080][  0]LogAudio: Display: Audio Device Manager Initialized
+[2026.01.19-10.50.59:080][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2026.01.19-10.50.59:080][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.19-10.50.59:080][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.19-10.50.59:080][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.19-10.50.59:080][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.19-10.50.59:080][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.01.19-10.50.59:080][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.01.19-10.50.59:080][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.01.19-10.50.59:080][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.19-10.50.59:081][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.19-10.50.59:081][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.19-10.50.59:081][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.19-10.50.59:103][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.19-10.50.59:325][  0]LogAudioMixer: Display: Using Audio Hardware Device 6 - SyncMaster (AMD High Definition Audio Device)
+[2026.01.19-10.50.59:326][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.19-10.50.59:473][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.19-10.50.59:473][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.19-10.50.59:474][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.19-10.50.59:474][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.19-10.50.59:481][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.19-10.50.59:481][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2026.01.19-10.50.59:481][  0]LogInit: FAudioDevice initialized.
+[2026.01.19-10.50.59:482][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2026.01.19-10.50.59:482][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2026.01.19-10.50.59:482][  0]LogInit: Texture streaming: Enabled
+[2026.01.19-10.50.59:839][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2026.01.19-10.50.59:902][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2026.01.19-10.51.00:859][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2026.01.19-10.51.00:939][  0]LogLiveCoding: Display: Starting LiveCoding
+[2026.01.19-10.51.00:939][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2026.01.19-10.51.37:577][  0]LogLiveCoding: Display: First instance in process group "UE_SoulslikeCombat_0xa42007a3", spawning console
+[2026.01.19-10.51.37:577][  0]LogLiveCoding: Display: Waiting for server
+[2026.01.19-10.51.37:577][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2026.01.19-10.51.39:712][  0]LogInit: Transaction tracking system initialized
+[2026.01.19-10.51.39:917][  0]BlueprintLog: New page: Editor Load
+[2026.01.19-10.51.40:761][  0]LocalizationService: Localization service is disabled
+[2026.01.19-10.51.40:995][  0]TimingProfiler: Initialize
+[2026.01.19-10.51.40:995][  0]TimingProfiler: OnSessionChanged
+[2026.01.19-10.51.40:995][  0]LoadingProfiler: Initialize
+[2026.01.19-10.51.40:995][  0]LoadingProfiler: OnSessionChanged
+[2026.01.19-10.51.40:995][  0]NetworkingProfiler: Initialize
+[2026.01.19-10.51.40:995][  0]NetworkingProfiler: OnSessionChanged
+[2026.01.19-10.51.40:995][  0]MemoryProfiler: Initialize
+[2026.01.19-10.51.40:995][  0]MemoryProfiler: OnSessionChanged
+[2026.01.19-10.51.43:857][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/' took 0.08s
+[2026.01.19-10.51.43:857][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2026.01.19-10.51.44:057][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2026.01.19-10.51.44:063][  0]SourceControl: Source control is disabled
+[2026.01.19-10.51.44:063][  0]LogUnrealEdMisc: Loading editor; pre map load, took 106.376
+[2026.01.19-10.51.44:063][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Maps/ThirdPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2026.01.19-10.51.44:065][  0]LightingResults: New page: Lighting Build
+[2026.01.19-10.51.44:083][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2026.01.19-10.51.44:083][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.19-10.51.44:085][  0]MapCheck: New page: Map Check
+[2026.01.19-10.51.44:085][  0]LightingResults: New page: Lighting Build
+[2026.01.19-10.51.44:101][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.19-10.51.44:109][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.01.19-10.51.45:187][  0]LogGameplayTags: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Actors\BP_BaseWeapon.uasset: Invalid GameplayTag NewEnumerator0 found in object K2Node_CallFunction_2.
+[2026.01.19-10.51.45:187][  0]LogGameplayTags: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\Actors\BP_BaseWeapon.uasset: Invalid GameplayTag NewEnumerator0 found in object K2Node_CallFunction_0.
+[2026.01.19-10.51.46:475][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast': Can't find file.
+[2026.01.19-10.51.46:475][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast'
+[2026.01.19-10.51.46:475][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment': Can't find file.
+[2026.01.19-10.51.46:475][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment'
+[2026.01.19-10.51.46:477][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2026.01.19-10.51.46:477][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime'
+[2026.01.19-10.51.46:477][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_SolidValues': Can't find file.
+[2026.01.19-10.51.46:478][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_SolidValues'
+[2026.01.19-10.51.46:478][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2026.01.19-10.51.46:478][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard'
+[2026.01.19-10.51.46:478][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2026.01.19-10.51.46:478][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_BrightnessAdjust'
+[2026.01.19-10.51.46:479][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2026.01.19-10.51.46:479][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_CharacterEffects'
+[2026.01.19-10.51.46:479][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2026.01.19-10.51.46:479][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_DeathFade'
+[2026.01.19-10.51.46:480][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_Fuzz_Layer': Can't find file.
+[2026.01.19-10.51.46:480][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_Fuzz_Layer'
+[2026.01.19-10.51.46:480][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_HitFlash': Can't find file.
+[2026.01.19-10.51.46:480][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_HitFlash'
+[2026.01.19-10.51.46:481][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_MatLayerBlend_TenLayerBlend': Can't find file.
+[2026.01.19-10.51.46:481][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_MatLayerBlend_TenLayerBlend'
+[2026.01.19-10.51.46:481][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_OrionCharacterAO': Can't find file.
+[2026.01.19-10.51.46:481][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_OrionCharacterAO'
+[2026.01.19-10.51.46:482][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2026.01.19-10.51.46:482][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/MF_OrionRimlight'
+[2026.01.19-10.51.46:482][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Fabric/MF_ClothShading': Can't find file.
+[2026.01.19-10.51.46:482][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Fabric/MF_ClothShading'
+[2026.01.19-10.51.46:482][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Fabric/ML_Fabric_Dirty': Can't find file.
+[2026.01.19-10.51.46:482][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Fabric/ML_Fabric_Dirty'
+[2026.01.19-10.51.46:482][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Leather/ML_Dark_Leather02_Brown_3': Can't find file.
+[2026.01.19-10.51.46:482][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Leather/ML_Dark_Leather02_Brown_3'
+[2026.01.19-10.51.46:484][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_BladeMetal': Can't find file.
+[2026.01.19-10.51.46:484][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_BladeMetal'
+[2026.01.19-10.51.46:484][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2026.01.19-10.51.46:484][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_blue_Metal'
+[2026.01.19-10.51.46:484][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_LowContrastHardMetal': Can't find file.
+[2026.01.19-10.51.46:484][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_LowContrastHardMetal'
+[2026.01.19-10.51.46:485][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_WarmGold_desaturated': Can't find file.
+[2026.01.19-10.51.46:485][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/ML_WarmGold_desaturated'
+[2026.01.19-10.51.46:485][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2026.01.19-10.51.46:485][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/ML__Blank'
+[2026.01.19-10.51.46:485][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/ML_FlatBlack': Can't find file.
+[2026.01.19-10.51.46:485][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/ML_FlatBlack'
+[2026.01.19-10.51.46:487][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/MF_Amber': Can't find file.
+[2026.01.19-10.51.46:487][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/MF_Amber'
+[2026.01.19-10.51.46:496][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Materials\MF_GreystoneEffects.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/T_HadriansWall_RockFaceTiling_N': Can't find file.
+[2026.01.19-10.51.46:496][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/T_HadriansWall_RockFaceTiling_N'
+[2026.01.19-10.51.46:496][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Materials\MF_GreystoneEffects.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/T_TilingRock_A_D': Can't find file.
+[2026.01.19-10.51.46:496][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Rock/T_TilingRock_A_D'
+[2026.01.19-10.51.46:582][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialFunctions/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2026.01.19-10.51.46:582][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialFunctions/ParameterCollections/OrionGlobalGameplayCollection'
+[2026.01.19-10.51.46:588][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to load '/Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/T_gold_01': Can't find file.
+[2026.01.19-10.51.46:588][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonGreystone/Characters/Global/MaterialLayers/Metal/T_gold_01'
+[2026.01.19-10.51.53:465][  0]LogMaterial: Display: Missing cached shadermap for M_Greystone_ToughSword in PCD3D_SM5, Default, SM5 (DDC key hash: 1C953EF3109C0E0D2272E2CA69F5ED7CACC429A6), compiling. 
+[2026.01.19-10.51.53:468][  0]LogMaterial: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonGreystone\Characters\Heroes\Greystone\Skins\Tough\Materials\M_Greystone_ToughSword.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+
+[2026.01.19-10.51.54:214][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonMap'.
+[2026.01.19-10.51.54:235][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.19-10.51.54:236][  0]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2026.01.19-10.51.54:243][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.19-10.51.54:243][  0]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2026.01.19-10.51.54:615][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast': Can't find file.
+[2026.01.19-10.51.54:615][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast'
+[2026.01.19-10.51.54:617][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment': Can't find file.
+[2026.01.19-10.51.54:617][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment'
+[2026.01.19-10.51.54:617][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime': Can't find file.
+[2026.01.19-10.51.54:617][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime'
+[2026.01.19-10.51.54:617][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_SolidValues': Can't find file.
+[2026.01.19-10.51.54:617][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_SolidValues'
+[2026.01.19-10.51.54:618][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard': Can't find file.
+[2026.01.19-10.51.54:618][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard'
+[2026.01.19-10.51.54:618][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_BrightnessAdjust': Can't find file.
+[2026.01.19-10.51.54:618][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_BrightnessAdjust'
+[2026.01.19-10.51.54:619][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_CharacterEffects': Can't find file.
+[2026.01.19-10.51.54:619][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_CharacterEffects'
+[2026.01.19-10.51.54:619][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_DeathFade': Can't find file.
+[2026.01.19-10.51.54:619][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_DeathFade'
+[2026.01.19-10.51.54:620][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_HitFlash': Can't find file.
+[2026.01.19-10.51.54:620][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_HitFlash'
+[2026.01.19-10.51.54:620][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_OrionCharacterAO': Can't find file.
+[2026.01.19-10.51.54:620][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_OrionCharacterAO'
+[2026.01.19-10.51.54:621][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_OrionRimlight': Can't find file.
+[2026.01.19-10.51.54:621][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialFunctions/MF_OrionRimlight'
+[2026.01.19-10.51.54:621][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Leather/ML_Light_Leather01_Stained': Can't find file.
+[2026.01.19-10.51.54:621][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Leather/ML_Light_Leather01_Stained'
+[2026.01.19-10.51.54:622][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_BladeMetal': Can't find file.
+[2026.01.19-10.51.54:622][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_BladeMetal'
+[2026.01.19-10.51.54:622][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_blue_Metal': Can't find file.
+[2026.01.19-10.51.54:622][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_blue_Metal'
+[2026.01.19-10.51.54:622][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_Dark_Metal_03': Can't find file.
+[2026.01.19-10.51.54:622][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_Dark_Metal_03'
+[2026.01.19-10.51.54:622][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_SoftMetal01': Can't find file.
+[2026.01.19-10.51.54:622][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Metal/ML_SoftMetal01'
+[2026.01.19-10.51.54:624][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/ML__Blank': Can't find file.
+[2026.01.19-10.51.54:624][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/ML__Blank'
+[2026.01.19-10.51.54:624][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/ML_FlatBlack': Can't find file.
+[2026.01.19-10.51.54:624][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/ML_FlatBlack'
+[2026.01.19-10.51.54:626][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/MaterialLayers/Rock/ML_Gem_Translucent': Can't find file.
+[2026.01.19-10.51.54:626][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/MaterialLayers/Rock/ML_Gem_Translucent'
+[2026.01.19-10.51.54:644][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon_FX.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/FX/Textures/Tile/Noise/T_Voronoi_Cells_02': Can't find file.
+[2026.01.19-10.51.54:644][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/FX/Textures/Tile/Noise/T_Voronoi_Cells_02'
+[2026.01.19-10.51.54:645][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon_FX.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/FX/Textures/Tile/Organic/T_Tiling_Dust': Can't find file.
+[2026.01.19-10.51.54:645][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/FX/Textures/Tile/Organic/T_Tiling_Dust'
+[2026.01.19-10.51.54:664][  0]LogLinker: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to load '/Game/ParagonKwang/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection': Can't find file.
+[2026.01.19-10.51.54:664][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/ParagonKwang/Characters/Global/ParameterCollections/OrionGlobalGameplayCollection'
+[2026.01.19-10.51.54:873][  0]LogMaterial: Display: Missing cached shadermap for M_Kwang_Weapon in PCD3D_SM5, Default, SM5 (DDC key hash: 7E64586539CDF9F37C5614884D0AC2153BE37EF6), compiling. 
+[2026.01.19-10.51.54:874][  0]LogMaterial: Warning: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\ParagonKwang\Characters\Heroes\Kwang\Materials\M_Kwang_Weapon.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	Missing Material Function
+
+[2026.01.19-10.51.58:234][  0]LogWorldPartition: Display: WorldPartition initialize took 3.99 sec
+[2026.01.19-10.51.58:269][  0]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SK_Mannequin) ...
+[2026.01.19-10.51.58:392][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.01.19-10.51.58:425][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.01.19-10.51.58:426][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.01.19-10.51.58:427][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,581ms to complete.
+[2026.01.19-10.51.58:427][  0]LogFileHelpers: Loading map 'ThirdPersonMap' took 14.364
+[2026.01.19-10.51.58:465][  0]LogUnrealEdMisc: Total Editor Startup Time, took 120.777
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: ================================================
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2026.01.19-10.51.58:465][  0]LogShaderCompilers: Display: ================================================
+[2026.01.19-10.51.58:573][  0]LogSlate: The tab "HomeScreen" attempted to spawn in layout 'UnrealEd_Layout_v1.5' but failed for some reason. It will not be displayed.
+[2026.01.19-10.51.58:666][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2026.01.19-10.51.58:961][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2026.01.19-10.52.00:662][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.19-10.52.00:676][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.19-10.52.00:690][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.19-10.52.00:702][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.19-10.52.00:966][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2026.01.19-10.52.00:966][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:002][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:002][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:073][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:073][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:112][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:112][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:273][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:273][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:309][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:309][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:346][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:346][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:370][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:370][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:401][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:402][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:430][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2026.01.19-10.52.01:430][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2026.01.19-10.52.01:431][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2026.01.19-10.52.03:484][  0]LogSlate: Took 0.017634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.01.19-10.52.03:509][  0]LogSlate: Took 0.019754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.01.19-10.52.03:534][  0]LogSlate: Took 0.023317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.01.19-10.52.03:589][  0]LogViewport: Scene viewport resized to 1270x714, mode Windowed.
+[2026.01.19-10.52.04:482][  0]LogStall: Startup...
+[2026.01.19-10.52.04:486][  0]LogStall: Startup complete.
+[2026.01.19-10.52.04:544][  0]LogLoad: (Engine Initialization) Total time: 126.86 seconds
+[2026.01.19-10.52.04:544][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2026.01.19-10.52.05:033][  0]LogAssetRegistry: Asset discovery search completed in 89.1661 seconds
+[2026.01.19-10.52.05:113][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2026.01.19-10.52.05:118][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.01.19-10.52.05:297][  0]LogSlate: Took 0.015412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.01.19-10.52.20:258][ 46]LogDerivedDataCache: C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.037 and deleted 0 file(s) with total size 0 MiB.
+[2026.01.19-10.56.36:523][864]LogViewport: Scene viewport resized to 401x225, mode Windowed.
+[2026.01.19-10.56.36:575][864]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2026.01.19-10.56.38:100][907]Cmd: DELETE
+[2026.01.19-10.56.38:100][907]Cmd: ACTOR DELETE
+[2026.01.19-10.56.38:106][907]LogEditorActor: Deleted Actor: BP_TestDummyCharacter_C
+[2026.01.19-10.56.38:196][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.01.19-10.56.38:199][907]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2026.01.19-10.56.40:236][ 14]LogSlate: Took 0.022551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.01.19-10.56.40:273][ 14]LogSlate: Took 0.017441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.01.19-10.56.52:900][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2026.01.19-10.56.54:692][176]LogSlate: Window 'Delete Assets' being destroyed
+[2026.01.19-10.56.54:873][176]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/CombatSystem/Blueprints/BP_TestDummyCharacter.BP_TestDummyCharacter
+	Asset Type: Blueprint
+[2026.01.19-10.56.55:285][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.01.19-10.56.55:350][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.01.19-10.56.55:377][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.01.19-10.56.55:405][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.01.19-10.57.22:820][875]LogContentBrowser: Deferred new asset file creation: BP_CombatCharacter1
+[2026.01.19-10.57.22:954][875]LogContentBrowser: Creating deferred item: BP_CombatCharacter1
+[2026.01.19-10.57.23:013][876]LogContentBrowser: Renaming the item being created (Deferred Item: BP_CombatCharacter1).
+[2026.01.19-10.57.30:333][283]LogContentBrowser: Attempting asset rename: BP_CombatCharacter1 -> BP_MasterAI
+[2026.01.19-10.57.30:664][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2026.01.19-10.57.30:921][283]LogContentBrowser: End creating deferred item BP_CombatCharacter1
+[2026.01.19-10.57.43:408][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2026.01.19-10.57.44:967][490]LogSlate: Window 'Save Content' being destroyed
+[2026.01.19-10.57.45:139][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.01.19-10.57.45:185][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2026.01.19-10.57.45:220][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2026.01.19-10.57.45:457][490]LogPackageLocalizationCache: Processed 34 localized package path(s) for 1 prioritized culture(s) in 0.016282 seconds
+[2026.01.19-10.57.46:016][490]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_MasterAI
+[2026.01.19-10.57.46:016][490]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAID1CCDE364A8B56796C9779871C40AD76.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/BP_MasterAI.uasset'
+[2026.01.19-10.57.46:047][490]LogFileHelpers: No new changes to save!
+[2026.01.19-10.57.46:079][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.01.19-10.57.46:094][490]LogSavePackage: Moving output files for package: /Game/CombatSystem/Maps/ThirdPersonMap
+[2026.01.19-10.57.46:156][490]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/ThirdPersonMap0DCA862F4C160FD106ED30822C5DD157.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Maps/ThirdPersonMap.umap'
+[2026.01.19-10.57.46:568][490]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.521
+[2026.01.19-10.57.46:599][490]AssetCheck: New page: Asset Save: multiple assets
+[2026.01.19-10.57.46:599][490]LogContentValidation: Display: Validating World /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap
+[2026.01.19-10.57.46:599][490]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/BP_MasterAI.BP_MasterAI
+[2026.01.19-10.58.09:681][859]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.01.19-10.58.09:794][859]LogContentBrowser: Creating deferred item: NewFolder
+[2026.01.19-10.58.09:809][860]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.01.19-10.58.12:329][ 11]LogContentBrowser: Attempting asset rename: NewFolder -> AI
+[2026.01.19-10.58.12:330][ 11]LogContentBrowser: End creating deferred item NewFolder
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:InpAxisEvt_Move Forward / Backward_K2Node_InputAxisEvent_14' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:InpAxisEvt_Turn Right / Left Gamepad_K2Node_InputAxisEvent_15' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:InpAxisEvt_Turn Right / Left Mouse_K2Node_InputAxisEvent_16' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:InpAxisEvt_Look Up / Down Mouse_K2Node_InputAxisEvent_17' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:InpAxisEvt_Look Up / Down Gamepad_K2Node_InputAxisEvent_18' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:InpAxisEvt_Move Right / Left_K2Node_InputAxisEvent_19' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:ReceiveBeginPlay' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:ToggleCombat' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:AttackEvent' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:775][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:ReceivePointDamage' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:PerformDeath' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:BndEvt__BP_CombatCharacter_StateManagerComponent_K2Node_ComponentBoundEvent_0_OnStateBegin__DelegateSignature' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:BndEvt__BP_CombatCharacter_StateManagerComponent_K2Node_ComponentBoundEvent_1_OnStateEnd__DelegateSignature' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:BndEvt__BP_CombatCharacter_StateManagerComponent_K2Node_ComponentBoundEvent_2_OnCharacterActionBegin__DelegateSignature' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:BndEvt__BP_CombatCharacter_StateManagerComponent_K2Node_ComponentBoundEvent_3_OnCharacterActionEnd__DelegateSignature' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:TrackChargeAttack' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:ChargeAttackTimerEvent' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:ChargedAttackEvent' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:BndEvt__BP_CombatCharacter_StatsComponent_K2Node_ComponentBoundEvent_4_OnCurrentStatValueUpdated__DelegateSignature' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:DisableSprint' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:SetCanMove' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:BndEvt__BP_CombatCharacter_CombatComponent_K2Node_ComponentBoundEvent_5_OnCombatToggled__DelegateSignature' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:ApplyHitReaction' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:ApplyImpactEffect' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:UserConstructionScript' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:PerformAttack' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:PerformDodge' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:ApplyHitReactionsPhysicsVelocity' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:PerformAction' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.SKEL_BP_MasterAI_C:SetMovementSpeedMode' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:SetCanMove' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:ReceivePointDamage' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:ReceiveBeginPlay' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:ApplyImpactEffect' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:ApplyHitReaction' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:TrackChargeAttack' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:PerformAttack' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:PerformDodge' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:ApplyHitReactionsPhysicsVelocity' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:PerformAction' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.16:776][363]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI_C:SetMovementSpeedMode' ref from Metadata '/Game/CombatSystem/Blueprints/BP_MasterAI.PackageMetaData'
+[2026.01.19-10.58.17:311][363]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-10.58.17:311][363]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI5C34DCA3423E903AA0E3B18FC9BDE306.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-10.58.17:397][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.01.19-10.58.17:425][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.01.19-10.58.17:451][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.01.19-10.58.17:517][363]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-10.58.17:517][363]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-10.58.35:013][757]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-10.58.35:014][757]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.19-10.58.43:217][757]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2026.01.19-10.58.43:217][757]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5696ms] waiting for h/w. InstanceID=1
+[2026.01.19-10.58.43:217][757]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049913s
+[2026.01.19-10.58.50:020][757]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.004340s (6.724469s overbudget)
+[2026.01.19-10.58.50:151][757]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=1536
+[2026.01.19-10.58.50:151][757]LogSlate: Took 0.051551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.01.19-10.58.51:565][758]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{f322da78-77dc-40eb-8b2a-d449d50bd872}, Name=6 - SyncMaster (AMD High Definition Audio Device)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=109.29
+[2026.01.19-10.58.51:565][758]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.19-10.58.51:588][759]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.19-10.58.55:448][871]LogSlate: Window 'BP_MasterAI' being destroyed
+[2026.01.19-10.59.44:301][803]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-10.59.44:640][803]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2026.01.19-10.59.45:864][804]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-10.59.45:969][804]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAIBBF32985452B0F90B96D9FBAE9565074.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-10.59.46:065][804]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-10.59.46:065][804]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-10.59.50:757][  9]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2026.01.19-10.59.50:757][  9]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2026.01.19-10.59.51:921][ 48]LogContentBrowser: Deferred new asset file creation: BP_MasterAI_Child
+[2026.01.19-10.59.51:971][ 48]LogContentBrowser: Creating deferred item: BP_MasterAI_Child
+[2026.01.19-10.59.52:043][ 49]LogContentBrowser: Renaming the item being created (Deferred Item: BP_MasterAI_Child).
+[2026.01.19-10.59.54:037][152]LogContentBrowser: Attempting asset rename: BP_MasterAI_Child -> BP_MasterAI_Child
+[2026.01.19-10.59.54:045][152]LogContentBrowser: End creating deferred item BP_MasterAI_Child
+[2026.01.19-11.00.07:029][792]LogContentBrowser: Attempting asset rename: BP_MasterAI_Child -> BP_HumanoidEnemy
+[2026.01.19-11.00.07:077][792]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Child.PackageMetaData'
+[2026.01.19-11.00.07:077][792]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.SKEL_BP_HumanoidEnemy_C:UserConstructionScript' ref from Metadata '/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Child.PackageMetaData'
+[2026.01.19-11.00.07:077][792]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.SKEL_BP_HumanoidEnemy_C' ref from Metadata '/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Child.PackageMetaData'
+[2026.01.19-11.00.07:077][792]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy_C' ref from Metadata '/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Child.PackageMetaData'
+[2026.01.19-11.00.07:077][792]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Child.PackageMetaData'
+[2026.01.19-11.00.07:077][792]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Child.PackageMetaData'
+[2026.01.19-11.00.07:077][792]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Child.PackageMetaData'
+[2026.01.19-11.00.07:077][792]LogMetaData: Removing '/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Child.PackageMetaData'
+[2026.01.19-11.00.07:324][792]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy
+[2026.01.19-11.00.07:324][792]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_HumanoidEnemyC895F878456AA61EDA170D947A779548.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.uasset'
+[2026.01.19-11.00.07:502][792]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2026.01.19-11.00.07:592][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2026.01.19-11.00.07:681][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.01.19-11.00.07:696][792]AssetCheck: New page: Asset Save: BP_HumanoidEnemy
+[2026.01.19-11.00.07:696][792]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy
+[2026.01.19-11.00.49:759][159]LogViewport: Scene viewport resized to 844x501, mode Windowed.
+[2026.01.19-11.00.51:288][264]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2026.01.19-11.00.53:322][370]LogSlate: Took 0.019887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.01.19-11.00.57:145][531]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2026.01.19-11.00.57:209][531]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.19-11.01.13:865][835]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.01.14:319][835]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2026.01.19-11.01.15:410][882]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.01.15:434][882]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI5176D5A5411FAA4A038D5E95923D5484.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.01.15:505][882]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.01.15:505][882]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.01.39:956][623]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy
+[2026.01.19-11.01.39:957][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.19-11.01.41:142][623]LogViewport: Scene viewport resized to 844x501, mode Windowed.
+[2026.01.19-11.01.43:808][790]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2026.01.19-11.02.27:249][576]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.19-11.03.08:566][378]BlueprintLog: New page: Compile BP_HumanoidEnemy
+[2026.01.19-11.03.08:818][378]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2026.01.19-11.03.11:653][577]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy
+[2026.01.19-11.03.11:728][577]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_HumanoidEnemyEDB8F7134A8D36F117DBCDA3A3CEAE32.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.uasset'
+[2026.01.19-11.03.11:911][577]AssetCheck: New page: Asset Save: BP_HumanoidEnemy
+[2026.01.19-11.03.11:912][577]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy
+[2026.01.19-11.03.17:590][986]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.19-11.03.27:931][986]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.01.19-11.03.27:949][986]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.01.19-11.03.27:962][986]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.01.19-11.03.27:982][987]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.01.19-11.03.38:204][829]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_AIController
+[2026.01.19-11.03.38:220][829]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.01.19-11.04.02:016][343]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2026.01.19-11.04.03:632][343]LogSlate: Window 'Save Content' being destroyed
+[2026.01.19-11.04.03:736][343]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_AIController
+[2026.01.19-11.04.03:737][343]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_AIController0E7CDC1E4317CB2CDEDC9AADC7F77CC8.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_AIController.uasset'
+[2026.01.19-11.04.03:784][343]AssetCheck: New page: Asset Save: BP_AIController
+[2026.01.19-11.04.03:784][343]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_AIController.BP_AIController
+[2026.01.19-11.04.06:920][509]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2026.01.19-11.04.06:983][509]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2026.01.19-11.04.07:007][510]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2026.01.19-11.04.15:257][183]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> BP_ExampleEnemy
+[2026.01.19-11.04.15:267][183]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2026.01.19-11.04.36:382][553]LogContentBrowser: Deferred new asset file creation: NewBlackboardData
+[2026.01.19-11.04.36:420][553]LogContentBrowser: Creating deferred item: NewBlackboardData
+[2026.01.19-11.04.36:447][554]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlackboardData).
+[2026.01.19-11.04.40:375][853]LogContentBrowser: Attempting asset rename: NewBlackboardData -> BB_Base
+[2026.01.19-11.04.40:376][853]LogContentBrowser: End creating deferred item NewBlackboardData
+[2026.01.19-11.04.42:345][  3]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2026.01.19-11.04.43:946][  3]LogSlate: Window 'Save Content' being destroyed
+[2026.01.19-11.04.44:014][  3]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BB_Base
+[2026.01.19-11.04.44:014][  3]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BB_Base005588644D15EAB4702E44A4539C7EF7.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BB_Base.uasset'
+[2026.01.19-11.04.44:034][  3]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_ExampleEnemy
+[2026.01.19-11.04.44:035][  3]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_ExampleEnemyDC2D5EDB4A17C80AC2842E9E8092446E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_ExampleEnemy.uasset'
+[2026.01.19-11.04.44:090][  3]AssetCheck: New page: Asset Save: multiple assets
+[2026.01.19-11.04.44:090][  3]LogContentValidation: Display: Validating BlackboardData /Game/CombatSystem/Blueprints/AI/BB_Base.BB_Base
+[2026.01.19-11.04.44:090][  3]LogContentValidation: Display: Validating BehaviorTree /Game/CombatSystem/Blueprints/AI/BP_ExampleEnemy.BP_ExampleEnemy
+[2026.01.19-11.08.27:848][318]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2026.01.19-11.08.27:853][318]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.114
+[2026.01.19-11.08.27:856][318]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AI/BP_MasterAI] ([2] browsable assets)...
+[2026.01.19-11.08.27:856][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AI/BP_MasterAI]
+[2026.01.19-11.08.28:160][318]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Auto1
+[2026.01.19-11.08.28:160][318]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI_Auto1AB19D73247106FDE49DB369E44A3C25D.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Auto1.uasset'
+[2026.01.19-11.08.28:183][318]LogFileHelpers: Auto-saving content packages took 0.330
+[2026.01.19-11.16.40:896][870]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.16.41:325][870]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2026.01.19-11.16.42:643][893]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.16.42:670][893]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI44F945E640077ADABBC25C9D2766BC26.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.16.42:746][893]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.16.42:746][893]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.18.24:346][374]LogEditorTransaction: Undo Delete current selection
+[2026.01.19-11.18.25:628][430]LogEditorTransaction: Undo Move Nodes
+[2026.01.19-11.18.58:380][118]LogUObjectHash: Compacting FUObjectHashTables data took   7.76ms
+[2026.01.19-11.18.58:385][118]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.205
+[2026.01.19-11.18.58:391][118]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AI/BP_MasterAI] ([2] browsable assets)...
+[2026.01.19-11.18.58:391][118]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AI/BP_MasterAI]
+[2026.01.19-11.18.58:806][118]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Auto2
+[2026.01.19-11.18.58:806][118]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI_Auto2E4403CC841E4B16C6403FC8D108361E9.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Auto2.uasset'
+[2026.01.19-11.18.58:844][118]LogFileHelpers: Auto-saving content packages took 0.457
+[2026.01.19-11.19.42:995][503]LogEditorTransaction: Undo Move Node
+[2026.01.19-11.24.58:427][667]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.24.58:504][667]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\AI\BP_MasterAI.uasset: [Compiler] Could not find a function named "DisableSprint" in 'BP_MasterAI_C'.
+Make sure 'BP_MasterAI_C' has been compiled for  Disable Sprint
+[2026.01.19-11.24.58:505][667]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\AI\BP_MasterAI.uasset: [Compiler] Could not find a function named "DisableSprint" in 'BP_MasterAI_C'.
+Make sure 'BP_MasterAI_C' has been compiled for  Disable Sprint
+[2026.01.19-11.24.58:791][667]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2026.01.19-11.25.00:245][699]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.25.00:270][699]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI15ADA5E341C06C0505CB9EA17842FAB2.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.25.00:361][699]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.25.00:361][699]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.25.31:106][508]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.25.31:465][508]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2026.01.19-11.25.32:876][544]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.25.32:915][544]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAIB7A1A62443EBD40721CCEFAE2DC8455E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.25.33:001][544]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.25.33:001][544]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.26.02:150][961]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.26.02:233][961]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\AI\BP_MasterAI.uasset: [Compiler] This blueprint (self) is not a BP_TargettingComponent_C, therefore ' Target ' must have a connection.
+[2026.01.19-11.26.02:476][961]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2026.01.19-11.26.03:665][981]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.26.03:700][981]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI24B9030B42E5D58F2FFFCFBBD33B3383.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.26.03:766][981]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.26.03:766][981]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.26.31:175][274]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.26.31:529][274]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2026.01.19-11.26.32:537][308]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.26.32:558][308]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAIDBF4919D4F53EADD5E43F9BBF9ECAE4D.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.26.32:637][308]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.26.32:637][308]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.28.41:849][124]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.28.42:226][124]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2026.01.19-11.28.43:303][164]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.28.43:338][164]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI883A12614A1B905F535DA488FF6CFEFE.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.28.43:433][164]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.28.43:433][164]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.31.20:641][668]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2026.01.19-11.31.20:648][668]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.129
+[2026.01.19-11.31.20:652][668]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AI/BP_MasterAI] ([2] browsable assets)...
+[2026.01.19-11.31.20:652][668]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AI/BP_MasterAI]
+[2026.01.19-11.31.20:892][668]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Auto3
+[2026.01.19-11.31.20:892][668]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI_Auto3A8A4EED04B3C429E47D6C2B587C2D661.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/AI/BP_MasterAI_Auto3.uasset'
+[2026.01.19-11.31.20:917][668]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy] ([2] browsable assets)...
+[2026.01.19-11.31.20:961][668]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy]
+[2026.01.19-11.31.20:961][668]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy]
+[2026.01.19-11.31.20:984][668]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy_Auto3
+[2026.01.19-11.31.20:984][668]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_HumanoidEnemy_Auto3CDE690C0474069FD3F28EFAEFED7714A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy_Auto3.uasset'
+[2026.01.19-11.31.21:016][668]LogFileHelpers: Auto-saving content packages took 0.366
+[2026.01.19-11.31.32:114][338]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2026.01.19-11.31.32:115][338]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.19-11.39.34:095][583]LogStats: ConstructGameplayTagTree GameplayTag tables after adding new tag -  0.000 s
+[2026.01.19-11.40.05:198][834]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.40.06:969][834]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2026.01.19-11.40.19:408][836]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.40.19:820][836]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2026.01.19-11.40.20:058][839]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.40.20:485][839]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2026.01.19-11.40.26:589][217]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.40.26:986][217]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2026.01.19-11.40.28:480][261]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.40.28:507][261]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAID025C8F94D95891ECC8CC3B13E880158.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.40.28:587][261]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.40.28:587][261]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.40.59:077][620]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.40.59:550][620]LogUObjectHash: Compacting FUObjectHashTables data took   6.66ms
+[2026.01.19-11.41.00:759][643]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.41.00:798][643]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI2859B8A44701308BD0F167BC400BA0C4.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.41.00:885][643]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.41.00:885][643]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.41.28:864][944]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2026.01.19-11.41.28:868][944]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.113
+[2026.01.19-11.41.28:871][944]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy] ([2] browsable assets)...
+[2026.01.19-11.41.28:918][944]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy]
+[2026.01.19-11.41.28:918][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy]
+[2026.01.19-11.41.28:932][944]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy_Auto4
+[2026.01.19-11.41.28:932][944]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_HumanoidEnemy_Auto4C5A67347427C042293744084471F07B4.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy_Auto4.uasset'
+[2026.01.19-11.41.28:972][944]LogFileHelpers: Auto-saving content packages took 0.102
+[2026.01.19-11.42.11:763][455]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (SKM_Quinn_Simple) ...
+[2026.01.19-11.48.09:763][144]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.48.10:185][144]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2026.01.19-11.48.11:093][165]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.48.11:136][165]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI70494AF84BB4961188EBB298D7BE11FC.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.48.11:198][165]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.48.11:198][165]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.49.54:086][567]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.49.54:490][567]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2026.01.19-11.49.55:673][591]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.49.55:697][591]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAIDE52D141438BC4A688F9F78A0B114593.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.49.57:343][591]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.49.57:343][591]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.51.01:592][992]LogSlate: Window 'Delete Function' being destroyed
+[2026.01.19-11.51.03:401][ 90]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.51.03:427][ 90]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\AI\BP_MasterAI.uasset: [Compiler] Could not find a function named "PerformDodge" in 'BP_MasterAI_C'.
+Make sure 'BP_MasterAI_C' has been compiled for  Perform Dodge
+[2026.01.19-11.51.03:779][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2026.01.19-11.51.05:234][148]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.51.05:252][148]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI25D50CF24053FB1FC9B57A8FEA2E8DF5.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.51.05:323][148]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.51.05:323][148]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.51.31:616][ 19]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.51.32:013][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2026.01.19-11.51.33:247][ 59]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.51.33:275][ 59]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAIBF21585748C61215FB2AE1BE1895C7A0.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.51.33:344][ 59]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.51.33:345][ 59]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.51.49:579][360]BlueprintLog: New page: Compile BP_HumanoidEnemy
+[2026.01.19-11.51.49:824][360]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2026.01.19-11.51.50:512][404]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy
+[2026.01.19-11.51.50:534][404]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_HumanoidEnemy1C5BC3CB4417141A6817DEB4F5FF6DBB.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.uasset'
+[2026.01.19-11.51.50:593][404]AssetCheck: New page: Asset Save: BP_HumanoidEnemy
+[2026.01.19-11.51.50:593][404]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy
+[2026.01.19-11.51.52:208][516]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.01.19-11.51.52:208][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.19-11.51.53:091][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.01.19-11.51.53:091][574]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.01.19-11.51.53:091][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.19-11.51.57:052][864]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/AI/BP_AIController.BP_AIController
+[2026.01.19-11.51.57:052][864]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.19-11.51.58:230][864]LogViewport: Scene viewport resized to 844x501, mode Windowed.
+[2026.01.19-11.52.20:747][548]LogDerivedDataCache: C:/Users/dawid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.541 and deleted 0 file(s) with total size 0 MiB.
+[2026.01.19-11.52.57:312][250]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2026.01.19-11.52.57:316][250]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.112
+[2026.01.19-11.52.57:317][250]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AI/BP_AIController] ([2] browsable assets)...
+[2026.01.19-11.52.57:317][250]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AI/BP_AIController]
+[2026.01.19-11.52.57:328][250]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AI/BP_AIController_Auto5
+[2026.01.19-11.52.57:329][250]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_AIController_Auto535DC667D436755B723D7F1AB37E01FC7.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/AI/BP_AIController_Auto5.uasset'
+[2026.01.19-11.52.57:354][250]LogFileHelpers: Auto-saving content packages took 0.039
+[2026.01.19-11.54.22:503][825]BlueprintLog: New page: Compile BP_AIController
+[2026.01.19-11.54.22:690][825]LogUObjectHash: Compacting FUObjectHashTables data took   5.33ms
+[2026.01.19-11.54.23:356][870]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_AIController
+[2026.01.19-11.54.23:382][870]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_AIController9DDB346B483D82833EE62181C47CD282.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_AIController.uasset'
+[2026.01.19-11.54.23:464][870]AssetCheck: New page: Asset Save: BP_AIController
+[2026.01.19-11.54.23:464][870]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_AIController.BP_AIController
+[2026.01.19-11.54.30:477][357]LogSlate: Took 0.031741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.01.19-11.57.16:337][983]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.57.16:421][983]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\AI\BP_MasterAI.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2026.01.19-11.57.16:421][983]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\AI\BP_MasterAI.uasset: [Compiler] This blueprint (self) is not a SpringArmComponent, therefore ' Target ' must have a connection.
+[2026.01.19-11.57.16:432][983]LogBlueprint: Error: [AssetLog] C:\Users\dawid\Documents\Unreal Projects\SoulslikeCombat\SoulslikeCombat\Content\CombatSystem\Blueprints\AI\BP_MasterAI.uasset: [Compiler] Variable node  Set bDoCollisionTest  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2026.01.19-11.57.16:711][983]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2026.01.19-11.57.17:850][ 17]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.57.17:881][ 17]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI0E5381D241D9DDA7AA0E8591C36D7D26.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.57.17:943][ 17]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.57.17:943][ 17]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.58.00:680][936]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.58.01:024][936]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
+[2026.01.19-11.58.02:036][974]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.58.02:053][974]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI990A7E5040039B0A5A28C99025C091E2.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.58.02:113][974]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.58.02:113][974]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.58.48:452][603]BlueprintLog: New page: Compile BP_AIController
+[2026.01.19-11.58.48:651][603]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2026.01.19-11.58.49:317][649]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_AIController
+[2026.01.19-11.58.49:342][649]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_AIController4DF2AA8F4472CBCF231DADB05891381E.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_AIController.uasset'
+[2026.01.19-11.58.49:485][649]AssetCheck: New page: Asset Save: BP_AIController
+[2026.01.19-11.58.49:485][649]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_AIController.BP_AIController
+[2026.01.19-11.59.12:490][312]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-11.59.12:864][312]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2026.01.19-11.59.13:786][343]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-11.59.13:857][343]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAIBEA644B84095DCF35F01A68ACB6BCA92.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-11.59.13:944][343]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-11.59.13:944][343]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-11.59.42:065][717]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.19-12.00.00:260][132]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-12.00.00:598][132]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2026.01.19-12.00.01:619][156]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-12.00.01:713][156]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI7AD094A34388EAA0D60A5C8F5DF2F64A.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-12.00.01:798][156]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-12.00.01:798][156]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-12.01.19:836][622]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-12.01.20:161][622]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2026.01.19-12.01.20:997][658]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-12.01.21:017][658]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI64E92B7243A0F82D3731CB8F54D516BE.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-12.01.21:095][658]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-12.01.21:095][658]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-12.02.03:800][966]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2026.01.19-12.02.16:108][285]LogViewport: Scene viewport resized to 878x501, mode Windowed.
+[2026.01.19-12.03.25:200][315]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-12.03.25:564][315]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2026.01.19-12.03.26:504][335]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-12.03.26:526][335]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI728755B14E023E1C484A90977666CA92.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-12.03.26:598][335]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-12.03.26:598][335]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-12.04.48:034][ 42]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-12.04.48:393][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2026.01.19-12.04.49:630][ 64]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-12.04.49:648][ 64]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI7A6AD2094D48E0F54EBC0297424DF7FE.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-12.04.49:710][ 64]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-12.04.49:710][ 64]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-12.05.14:618][175]LogUObjectHash: Compacting FUObjectHashTables data took   6.12ms
+[2026.01.19-12.05.14:621][175]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CombatSystem/Maps/ThirdPersonMap' took 0.108
+[2026.01.19-12.05.14:626][175]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy] ([2] browsable assets)...
+[2026.01.19-12.05.14:679][175]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy]
+[2026.01.19-12.05.14:679][175]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy]
+[2026.01.19-12.05.14:692][175]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy_Auto6
+[2026.01.19-12.05.14:692][175]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_HumanoidEnemy_Auto62BEA66AD4733FABDF47D29837057A162.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/Autosaves/Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy_Auto6.uasset'
+[2026.01.19-12.05.14:714][175]LogFileHelpers: Auto-saving content packages took 0.090
+[2026.01.19-12.05.53:335][877]BlueprintLog: New page: Compile BP_MasterAI
+[2026.01.19-12.05.53:692][877]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2026.01.19-12.05.54:584][893]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_MasterAI
+[2026.01.19-12.05.54:611][893]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_MasterAI9156DC144CF3A5F67E95D18268A18C91.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_MasterAI.uasset'
+[2026.01.19-12.05.54:687][893]AssetCheck: New page: Asset Save: BP_MasterAI
+[2026.01.19-12.05.54:687][893]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_MasterAI.BP_MasterAI
+[2026.01.19-12.06.37:456][660]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2026.01.19-12.06.38:961][660]LogSlate: Window 'Save Content' being destroyed
+[2026.01.19-12.06.39:109][660]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy
+[2026.01.19-12.06.39:134][660]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/BP_HumanoidEnemy305EE1F4463EF8CE1CCCDF8D9A56143D.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.uasset'
+[2026.01.19-12.06.39:197][660]AssetCheck: New page: Asset Save: BP_HumanoidEnemy
+[2026.01.19-12.06.39:197][660]LogContentValidation: Display: Validating Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy
+[2026.01.19-12.07.10:574][750]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy_C
+[2026.01.19-12.07.10:574][750]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy_C
+[2026.01.19-12.07.10:584][750]LogActorFactory: Actor Factory spawned Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy as actor: BP_HumanoidEnemy_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_HumanoidEnemy_C_0
+[2026.01.19-12.07.10:591][750]LogActorFactory: Actor Factory spawned Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy as actor: BP_HumanoidEnemy_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_HumanoidEnemy_C_0
+[2026.01.19-12.07.11:908][839]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy_C
+[2026.01.19-12.07.11:908][839]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy_C
+[2026.01.19-12.07.11:925][839]LogActorFactory: Actor Factory spawned Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy as actor: BP_HumanoidEnemy_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_HumanoidEnemy_C_UAID_7085C255BA72D5B602_1931223175
+[2026.01.19-12.07.11:933][839]LogActorFactory: Actor Factory spawned Blueprint /Game/CombatSystem/Blueprints/AI/BP_HumanoidEnemy.BP_HumanoidEnemy as actor: BP_HumanoidEnemy_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_HumanoidEnemy_C_UAID_7085C255BA72D5B602_1931223175
+[2026.01.19-12.07.12:155][839]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2026.01.19-12.07.25:137][369]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.19-12.07.25:187][369]LogWorldPartition: Display: GenerateStreaming started...
+[2026.01.19-12.07.25:187][369]LogWorldPartition: Display: GetPartitionedActors started...
+[2026.01.19-12.07.25:188][369]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2026.01.19-12.07.25:188][369]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2026.01.19-12.07.25:188][369]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2026.01.19-12.07.25:188][369]LogWorldPartition: Display: GetPartitionedActors took 122 us
+[2026.01.19-12.07.25:188][369]LogWorldPartition: Display: GenerateStreaming took 851 us
+[2026.01.19-12.07.25:188][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.19-12.07.25:190][369]PIE: New page: PIE session: ThirdPersonMap (19 sty 2026, 16:07:25)
+[2026.01.19-12.07.25:200][369]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.01.19-12.07.25:200][369]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2026.01.19-12.07.25:201][369]LogPlayLevel: Creating play world package: /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap
+[2026.01.19-12.07.25:214][369]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2026.01.19-12.07.25:214][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013453s)
+[2026.01.19-12.07.25:214][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap to /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.013593s)
+[2026.01.19-12.07.25:214][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2026.01.19-12.07.25:215][369]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2026.01.19-12.07.25:216][369]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.01.19-12.07.25:216][369]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2026.01.19-12.07.25:220][369]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2026.01.19-12.07.25:220][369]LogPlayLevel: PIE: World Init took: (0.006315s)
+[2026.01.19-12.07.25:316][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2026.01.19-12.07.25:319][369]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.01.19-12.07.25:319][369]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.19-12.07.25:320][369]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.19-12.07.25:320][369]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.19-12.07.25:320][369]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.19-12.07.25:320][369]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2026.01.19-12.07.25:320][369]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2026.01.19-12.07.25:320][369]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2026.01.19-12.07.25:320][369]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.19-12.07.25:321][369]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.19-12.07.25:321][369]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.19-12.07.25:321][369]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.19-12.07.25:327][369]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.19-12.07.25:394][369]LogAudioMixer: Display: Using Audio Hardware Device 6 - SyncMaster (AMD High Definition Audio Device)
+[2026.01.19-12.07.25:395][369]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.19-12.07.25:395][369]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.19-12.07.25:395][369]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.19-12.07.25:398][369]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.01.19-12.07.25:398][369]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.01.19-12.07.25:404][369]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.01.19-12.07.25:404][369]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.01.19-12.07.25:404][369]LogInit: FAudioDevice initialized.
+[2026.01.19-12.07.25:404][369]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2026.01.19-12.07.25:430][369]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.01.19-12.07.25:437][369]LogWorld: Bringing World /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2026.01.19-14.07.25
+[2026.01.19-12.07.25:439][369]LogWorld: Bringing up level for play took: 0.007717
+[2026.01.19-12.07.25:443][369]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.01.19-12.07.25:511][369]LogWorldPartition: New Streaming Source: BP_PlayerController_C_0 -> Position: X=900.000 Y=1110.000 Z=92.013
+[2026.01.19-12.07.25:511][369]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2026.01.19-12.07.25:517][369]PIE: Server logged in
+[2026.01.19-12.07.25:519][369]PIE: Play in editor total start time 0,334 seconds.
+[2026.01.19-12.09.08:464][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.19-12.09.08:466][527]LogWorld: BeginTearingDown for /Game/CombatSystem/Maps/UEDPIE_0_ThirdPersonMap
+[2026.01.19-12.09.08:495][527]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2026.01.19-12.09.08:496][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.19-12.09.08:885][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.19-12.09.08:906][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.19-12.09.09:137][527]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.19-12.09.09:138][527]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2026.01.19-12.09.09:146][527]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2026.01.19-12.09.09:159][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.19-12.09.09:323][527]LogUObjectHash: Compacting FUObjectHashTables data took  10.49ms
+[2026.01.19-12.09.18:553][528]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.01.19-12.09.23:525][528]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2026.01.19-12.09.24:125][530]Cmd: SELECT NONE
+[2026.01.19-12.09.33:390][531]Cmd: SELECT NONE
+[2026.01.19-12.09.43:261][534]Cmd: SELECT NONE
+[2026.01.19-12.09.58:994][572]LogUObjectHash: Compacting FUObjectHashTables data took   6.33ms
+[2026.01.19-12.10.00:923][572]LogSlate: Window 'Save Content' being destroyed
+[2026.01.19-12.10.01:331][572]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/A/YP/037V3QQHL4GS5KHA1ANQ1I
+[2026.01.19-12.10.01:332][572]LogSavePackage: Moving '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Saved/037V3QQHL4GS5KHA1ANQ1IA4903C3D46A461CD834A58952053782B.tmp' to '../../../../../../Users/dawid/Documents/Unreal Projects/SoulslikeCombat/SoulslikeCombat/Content/__ExternalActors__/CombatSystem/Maps/ThirdPersonMap/A/YP/037V3QQHL4GS5KHA1ANQ1I.uasset'
+[2026.01.19-12.10.01:585][572]AssetCheck: New page: Asset Save: BP_HumanoidEnemy_C_UAID_7085C255BA72D5B602_1931223175
+[2026.01.19-12.10.01:585][572]LogContentValidation: Display: Validating BP_HumanoidEnemy_C /Game/CombatSystem/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_HumanoidEnemy_C_UAID_7085C255BA72D5B602_1931223175
