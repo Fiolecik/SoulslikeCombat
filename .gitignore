@@ -1,0 +1,53 @@
+# Unreal Engine 5 project - SoulslikeCombat
+
+# Root project files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+
+# IDE folders
+.vs/
+.vscode/
+
+# Build artifacts
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Config backups
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# Autosaves and developer folders
+Content/Autosaves/
+Content/Collections/
+Content/Developers/
+
+# Crash reports
+Saved/Crashes/
+
+# Plugin artifacts (if added)
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/Saved/
+
+# Script folder (custom logic, ignore temp files)
+Script/__pycache__/
+Script/*.log
+Script/*.tmp
+
+# Ignore local metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore LFS config conflicts
+*.lfsconfig
